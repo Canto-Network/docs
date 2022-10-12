@@ -19,7 +19,7 @@ To bridge assets from the Ethereum network to the Canto network, follow these st
 
 ![](<../../.gitbook/assets/Screen Shot 2022-08-11 at 8.45.08 PM.png>)
 
-Assets bridged to Canto will arrive on the native Canto blockchain. If you want to use the Canto Lending Market, Canto DEX, and other DApps, you must [convert your assets to the Canto EVM](../converting-assets.md).
+Assets bridged to Canto will arrive on the native Canto blockchain 96 ETH blocks (20 minutes) after the Ethereum transfer is confirmed. If you want to use the Canto Lending Market, Canto DEX, and other DApps, you must [convert your assets to the Canto EVM](../converting-assets.md).
 
 ## Canto -> Ethereum
 
@@ -54,7 +54,7 @@ Once you are ready to bridge from Canto to Ethereum, follow these steps:
 5\. Once the tokens are in your Keplr wallet, bridge from Gravity Bridge to Ethereum using the [Gravity Bridge portal](https://bridge.blockscape.network/).
 
 {% hint style="info" %}
-To bridge assets from Gravity Bridge to Ethereum, you no longer need $GRAV tokens to pay gas.
+To bridge assets from Gravity Bridge to Ethereum, you no longer need $GRAV tokens to pay gas. Fees are paid in whatever token you are bridging. Select your fee option in the Gravity Bridge portal carefully, the 24 hour fee level for example will take about 24 hours.
 {% endhint %}
 
 ![](<../../.gitbook/assets/Screen Shot 2022-08-17 at 3.59.58 AM.png>)
