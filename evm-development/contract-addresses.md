@@ -2,6 +2,12 @@
 
 This page contains contract addresses for ERC20 tokens and Free Public Infrastructure deployed on Canto mainnet.
 
+{% hint style="info" %}
+$CANTO is the native gas token on the Canto EVM and does not have a smart contract. An ERC20 wrapper for $CANTO exists, called $wCANTO.
+
+$ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
+{% endhint %}
+
 ## ERC20 Tokens
 
 | Contract | Address                                                                                                                        |
