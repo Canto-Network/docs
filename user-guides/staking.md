@@ -20,7 +20,7 @@ Follow these steps to stake your $CANTO:
 3.  After choosing a validator, click on the "manage" button next to that validator:\
 
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 4. Enter the amount of $CANTO you would like to stake and click "delegate".
 5. Confirm the transaction in your wallet.
 
