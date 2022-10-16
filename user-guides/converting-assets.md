@@ -13,7 +13,7 @@ If your assets are already on the Canto EVM but you would like to bridge them ba
 ## Native Canto -> Canto EVM <a href="#native-to-evm" id="native-to-evm"></a>
 
 {% hint style="info" %}
-**To convert assets from native Canto to Canto EVM, you must have at least 0.3 $CANTO in your MetaMask wallet.** You can request this from the #social-faucet channel in the [Canto Discord](https://discord.com/invite/canto).
+**To convert assets from native Canto to Canto EVM, you must have at least 0.3 $CANTO in your MetaMask wallet.** If necessary, you can request a drip from the #social-faucet channel in the [Canto Discord](https://discord.com/invite/canto).
 {% endhint %}
 
 To convert assets from native Canto to the Canto EVM, follow these steps:
