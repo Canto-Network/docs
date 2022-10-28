@@ -15,6 +15,7 @@
 * [Bridging Assets](user-guides/bridging-assets/README.md)
   * [Ethereum <-> Canto](user-guides/bridging-assets/ethereum.md)
   * [Cosmos Hub -> Canto](user-guides/bridging-assets/cosmos.md)
+  * [Gravity Bridge <-> Canto](user-guides/bridging-assets/gravity-bridge.md)
 * [Converting Assets](user-guides/converting-assets.md)
 * [Providing Liquidity](user-guides/providing-liquidity.md)
 * [Lending & Borrowing](user-guides/lending-and-borrowing/README.md)
