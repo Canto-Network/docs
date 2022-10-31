@@ -44,6 +44,7 @@
   * [Lending Market Governance](technical-reference/governance/lending-market-governance.md)
 * [Validators](technical-reference/validators/README.md)
   * [Quickstart Guide](technical-reference/validators/quickstart-guide.md)
+  * [Snapshots](technical-reference/validators/node-snapshots.md)
   * [FAQ & Troubleshooting](technical-reference/validators/faq-and-troubleshooting.md)
   * [Uptime](technical-reference/validators/uptime.md)
   * [Slashing](technical-reference/validators/slashing.md)
