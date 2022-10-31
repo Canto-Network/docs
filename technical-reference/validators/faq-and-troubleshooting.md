@@ -16,16 +16,25 @@ You need $CANTO to send the `create-validator` transaction, but you do not need 
 
 There is some delay before validators show up in the validator set.
 
+**What ports should I open?**
+
+Unless you intend to run a public seed node, you should **keep all ports closed**. If you leave all incoming ports closed, you will still be able to initiate a connection, but others will not be able to initiate a connection with you.
+
+**How do I run a public seed node?**
+
+For those looking to run a public seed node, we recommend a [sentry node architecture](https://forum.cosmos.network/t/sentry-node-architecture-overview/454). This involves closing all ports on the validator and only exposing it to three sentry nodes which are in turn exposed to the internet.
+
 ## Common Errors and Solutions
 
 Here are a list of common errors when launching a node and their recommended solutions:
 
-| Error Description                                                                                                     | Recommended Solution(s)                                                                  |
-| --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| Default gas fails when staking                                                                                        | Use `--gas auto`                                                                         |
-| `Error during handshake: error on replay: validator set is nil in genesis and still empty after InitChain`            | <p>Local: Remove <code>datadir</code> and restart<br><br>Cloud: Start a new instance</p> |
-| `Failed to execute message; message index: 0: failed to delegate; acanto is smaller than acanto: insufficient funds"` | Decrease the amount to less than your total $CANTO balance                               |
-| `Stopping peer for error`                                                                                             | No action required                                                                       |
+| Error Description                                                                                                     | Recommended Solution(s)                                                                                                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Default gas fails when staking                                                                                        | Use `--gas auto`                                                                                                                                                                                            |
+| `Error: couldn't read GenesisDoc file: open /root/.cantod/config/genesis.json: no such file or directory`             | <p>Put the <code>genesis.json</code> file in the specified location, such as:</p><p><code>sudo wget https://github.com/Canto-Network/Canto/raw/main/Mainnet/genesis.json -P/root/.cantod/config/</code></p> |
+| `Error during handshake: error on replay: validator set is nil in genesis and still empty after InitChain`            | <p>Local: Remove <code>datadir</code> and restart<br><br>Cloud: Start a new instance</p>                                                                                                                    |
+| `Failed to execute message; message index: 0: failed to delegate; acanto is smaller than acanto: insufficient funds"` | Decrease the amount to less than your total $CANTO balance                                                                                                                                                  |
+| `Stopping peer for error`                                                                                             | No action required                                                                                                                                                                                          |
 
 ## Tip: Rebuild from Scratch
 
