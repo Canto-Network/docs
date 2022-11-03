@@ -8,7 +8,7 @@ Canto implements the [Cosmos SDK slashing module](https://docs.cosmos.network/ma
 
 ## Downtime Slashing
 
-Downtime slashing occurs when a validator fails to sign 2160 consecutive blocks, which corresponds to approximately three hours of downtime.
+Downtime slashing occurs when a validator fails to sign 3000 consecutive blocks, which corresponds to approximately three hours of downtime.
 
 As a penalty for downtime, validators are:
 
@@ -21,7 +21,7 @@ Consensus fault slashing occurs when a validator commits any kind of consensus f
 
 As a penalty for consensus faults, validators are:
 
-* slashed by **4%**
+* slashed by **5%**
 * **tombstoned** (infinitely jailed)
 
 {% hint style="danger" %}
