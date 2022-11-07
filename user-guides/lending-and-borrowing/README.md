@@ -1,6 +1,6 @@
 # Lending & Borrowing
 
-The Canto Lending Market allows your to supply and borrow assets, including LP tokens received from the Canto LP Interface. You can access the Canto Lending Market [here](https://lending-canto-testnet.netlify.app/).&#x20;
+The Canto Lending Market allows you to supply and borrow assets, including LP tokens received from the Canto LP Interface. You can access the Canto Lending Market [here](https://lending-canto-testnet.netlify.app/).&#x20;
 
 ## Supplying Tokens
 
