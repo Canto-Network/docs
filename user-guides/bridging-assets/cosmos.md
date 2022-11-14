@@ -13,7 +13,7 @@ To bridge $ATOM from the Cosmos Hub network to the Canto Network, follow these s
 1. Navigate to [**bridge.canto.io**](https://bridge.canto.io) **** and connect your MetaMask wallet, making sure you are on the Ethereum network.
 2. **Before bridging assets to Canto, you will be asked to generate a Canto public key, which is associated with your Ethereum address. You will only need to do this once per wallet. This is so you can sign Cosmos transactions from that Ethereum address. There is no interaction with private keys.**&#x20;
 
-![](<../../.gitbook/assets/image (30).png>)
+![](<../../.gitbook/assets/image (31).png>)
 
 3\. Add the Canto network to your Keplr wallet.
 
@@ -29,7 +29,7 @@ To bridge $ATOM from the Cosmos Hub network to the Canto Network, follow these s
 
 6\. In Keplr, switch to the Cosmos Hub. Then click IBC Transfer.
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
 
 

@@ -4,11 +4,13 @@ Building smart contracts for the Canto EVM is the same as doing so for Ethereum 
 
 Smart contracts can be deployed using your Ethereum tooling of choice, including [Hardhat](https://hardhat.org/), [Truffle](https://trufflesuite.com/), [Foundry](https://getfoundry.sh/), [Remix](https://remix.ethereum.org/), and others. To get started, simply configure your environment to use Canto's RPC and chain ID.
 
-### **Mainnet**
+## **Mainnet**
 
 **RPC URL**: **** `https://canto.evm.chandrastation.com/`
 
 **Chain ID: 7700**
+
+_Explorer:_ [_https://evm.explorer.canto.io/_](https://evm.explorer.canto.io/)__
 
 <details>
 
@@ -19,11 +21,13 @@ Smart contracts can be deployed using your Ethereum tooling of choice, including
 
 </details>
 
-### Testnet
+## Testnet
 
 **RPC URL**: `https://eth.plexnode.wtf/`
 
 **Chain ID**: 740
+
+_Explorer:_ [_http://testnet-explorer.canto.neobase.one/_](http://testnet-explorer.canto.neobase.one/)__
 
 ## Libraries
 
@@ -51,7 +55,7 @@ In case you're new to Solidity development, here are step-by-step instructions o
 
 The first step in deploying a smart contract on Canto is writing the contract's source code in Solidity. To do this, create a new file in your Remix workspace:
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 Name the file as desired with the `.sol` extension and begin writing your code. You can also use source code from contracts that are already deployed on Ethereum.
 
