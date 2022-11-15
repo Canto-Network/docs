@@ -6,7 +6,7 @@ Smart contracts can be deployed using your Ethereum tooling of choice, including
 
 ## **Mainnet**
 
-**RPC URL**: **** `https://canto.evm.chandrastation.com/`
+**RPC URL**: `https://canto.slingshot.finance/`
 
 **Chain ID: 7700**
 
@@ -16,8 +16,9 @@ _Explorer:_ [_https://evm.explorer.canto.io/_](https://evm.explorer.canto.io/)__
 
 <summary><strong>Alternative RPC URLs</strong></summary>
 
-* `https://jsonrpc.canto.nodestake.top/`
-* `https://canto.slingshot.finance/`
+* `https://canto.neobase.one/`
+* `https://canto.evm.chandrastation.com/`
+* `https://jsonrpc.canto.nodestake.top`
 
 </details>
 
