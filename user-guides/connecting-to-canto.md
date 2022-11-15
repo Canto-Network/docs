@@ -10,33 +10,35 @@ As an EVM compatible chain, you can connect to the Canto network using MetaMask.
 4. Enter the following RPC settings:\
    \
    **Network Name:** CANTO\
-   **New RPC URL:** [https://canto.evm.chandrastation.com](https://canto.evm.chandrastation.com)\
-   **Chain ID:** 7700\
-   **Currency Symbol:** CANTO\
-   **Block Explorer URL:** [https://evm.explorer.canto.io/](https://evm.explorer.canto.io/)\
-   \
-   Alternatively, you can connect to the Canto network with the following RPC settings:\
-   \
-   **Network Name:** CANTO\
    **New RPC URL:** [https://canto.slingshot.finance](https://canto.slingshot.finance)\
    **Chain ID:** 7700\
    **Currency Symbol:** CANTO\
-   **Block Explorer URL:** [https://evm.explorer.canto.io/](https://evm.explorer.canto.io/)\
-   \
-   **Network Name:** CANTO\
-   **New RPC URL:** [https://jsonrpc.canto.nodestake.top/](https://jsonrpc.canto.nodestake.top/)\
-   **Chain ID:** 7700\
-   **Currency Symbol:** CANTO\
-   **Block Explorer URL:** [https://explorer.nodestake.top/canto](https://explorer.nodestake.top/canto)\
-   \
-   If using the Canto Testnet, connect with the following RPC settings: \
-   \
-   **Network Name**: Canto Testnet\
-   **RPC URL**: [eth.plexnode.wtf/](https://eth.plexnode.wtf/)\
-   **Chain ID**: 740\
-   **Currency Symbol**: CANTO\
+   **Block Explorer URL:** [https://evm.explorer.canto.io/](https://evm.explorer.canto.io/)
 
-5. After saving the network, you will be able to connect to it at any time using the dropdown menu.
+<details>
+
+<summary>Alternative RPC URLs</summary>
+
+**Network Name:** CANTO\
+**New RPC URL:** [https://canto.neobase.one](https://canto.neobase.one)\
+**Chain ID:** 7700\
+**Currency Symbol:** CANTO\
+**Block Explorer URL:** [https://evm.explorer.canto.io/](https://evm.explorer.canto.io/)\
+\
+**Network Name:** CANTO\
+**New RPC URL:** [https://canto.evm.chandrastation.com](https://canto.evm.chandrastation.com)\
+**Chain ID:** 7700\
+**Currency Symbol:** CANTO\
+**Block Explorer URL:** [https://evm.explorer.canto.io/](https://evm.explorer.canto.io/)\
+\
+**Network Name:** CANTO\
+**New RPC URL:** [https://jsonrpc.canto.nodestake.top/](https://jsonrpc.canto.nodestake.top/)\
+**Chain ID:** 7700\
+**Currency Symbol:** CANTO\
+**Block Explorer URL:** [https://explorer.nodestake.top/canto](https://explorer.nodestake.top/canto)
+
+</details>
+
+After saving the network, you will be able to connect to it at any time using the dropdown menu.
 
 If you skip this step and attempt to connect to applications on [https://canto.io/](https://canto.io/), a MetaMask prompt will appear allowing you to add the network with a single click.
-
