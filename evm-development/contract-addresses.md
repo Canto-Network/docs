@@ -13,7 +13,7 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | Contract | Address                                                                                                                        |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | NOTE     | [0x4e71A2E537B7f9D9413D3991D37958c0b5e1e503](https://evm.explorer.canto.io/address/0x4e71A2E537B7f9D9413D3991D37958c0b5e1e503) |
-| WCANTO   | 0x826551890Dc65655a0Aceca109aB11AbDbD7a07B                                                                                     |
+| WCANTO   | [0x826551890Dc65655a0Aceca109aB11AbDbD7a07B](https://evm.explorer.canto.io/address/0x826551890Dc65655a0Aceca109aB11AbDbD7a07B) |
 | ETH      | 0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687                                                                                     |
 | USDC     | 0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd                                                                                     |
 | USDT     | 0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75                                                                                     |
@@ -46,8 +46,8 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | Comptroller  | [0xD5DbF5cd90f158597f916591dBaDDe27E4A4d4Cf](https://evm.explorer.canto.io/address/0xD5DbF5cd90f158597f916591dBaDDe27E4A4d4Cf) |
 | PriceFeed    | 0xa252eEE9BDe830Ca4793F054B506587027825a8e                                                                                     |
 | cNOTE        | [0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C](https://evm.explorer.canto.io/address/0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C) |
-| cCANTO       | 0xB65Ec550ff356EcA6150F733bA9B954b2e0Ca488                                                                                     |
-| cETH         | 0x830b9849e7d79b92408a86a557e7baaacbec6030                                                                                     |
+| cCANTO       | [0xB65Ec550ff356EcA6150F733bA9B954b2e0Ca488](https://evm.explorer.canto.io/address/0xB65Ec550ff356EcA6150F733bA9B954b2e0Ca488) |
+| cETH         | [0x830b9849e7d79b92408a86a557e7baaacbec6030](https://evm.explorer.canto.io/address/0x830b9849E7D79B92408a86A557e7baAACBeC6030) |
 | cUSDC        | [0xdE59F060D7ee2b612E7360E6C1B97c4d8289Ca2e](https://evm.explorer.canto.io/address/0xdE59F060D7ee2b612E7360E6C1B97c4d8289Ca2e) |
 | cUSDT        | [0x6b46ba92d7e94FfA658698764f5b8dfD537315A9](https://evm.explorer.canto.io/address/0x6b46ba92d7e94FfA658698764f5b8dfD537315A9) |
 | cATOM        | [0x617383F201076e7cE0f6E625D1a983b3D1bd277A](https://evm.explorer.canto.io/address/0x617383F201076e7cE0f6E625D1a983b3D1bd277A) |
