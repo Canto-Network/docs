@@ -5,7 +5,7 @@
 
 ## Overview
 
-* [Canto Unit of Account ($NOTE)](overview/note.md)
+* [Canto Unit of Account ($NOTE)](overview/canto-unit-of-account-usdnote.md)
 * [Canto Lending Market (CLM)](overview/canto-lending-market-clm.md)
 * [Canto DEX & LP Interface](overview/canto-dex-and-lp-interface.md)
 
@@ -16,7 +16,7 @@
   * [Ethereum <-> Canto](user-guides/bridging-assets/ethereum.md)
   * [Cosmos Hub -> Canto](user-guides/bridging-assets/cosmos.md)
   * [Gravity Bridge <-> Canto](user-guides/bridging-assets/gravity-bridge.md)
-  * [Synapse Bridge (Multichain)](user-guides/bridging-assets/synapse-bridge-multichain.md)
+  * [Synapse Bridge (Multichain)](user-guides/bridging-assets/synapse.md)
 * [Converting Assets](user-guides/converting-assets.md)
 * [Providing Liquidity](user-guides/providing-liquidity.md)
 * [Lending & Borrowing](user-guides/lending-and-borrowing/README.md)
