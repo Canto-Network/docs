@@ -6,7 +6,7 @@ At launch, Canto provides [Tendermint consensus](https://docs.tendermint.com/mas
 
 * [Canto DEX](overview/canto-dex-and-lp-interface.md) — a zero-fee DEX for liquidity providers
 * [Canto Lending Market (CLM)](overview/canto-lending-market-clm.md) — a pooled lending Compound v2 fork
-* [$NOTE](overview/canto-unit-of-account-usdnote.md) — a fully collateralized unit of account token issued by the CLM which also serves the ecosystem as a USDC/USDT soft-pegged stablecoin
+* [$NOTE](overview/note.md) — a fully collateralized unit of account token issued by the CLM which also serves the ecosystem as a USDC/USDT soft-pegged stablecoin
 
 **Over time we expect this stack to change significantly and new financial primitives to be added to best fulfil the Canto mission.**
 
