@@ -24,4 +24,4 @@ Users can bridge to and from stablecoins $USDC, $USDT, and $DAI on other chains,
 
 ### Sponsored Liquidity Pool
 
-The Canto DAO sponsors a $nUSD <> $NOTE liquidity pool, enabling deep liquidity between traditional stablecoins on other chains and Canto's native unit of account. For more information, see the [Canto Stableswap Pool](https://synapseprotocol.com/pools/canto2pool) on Synapse.
+Early contributors propose the Canto DAO sponsor a $nUSD <> $NOTE liquidity pool, enabling deep liquidity between traditional stablecoins on other chains and Canto's native unit of account. For more information, see the [Canto Stableswap Pool](https://synapseprotocol.com/pools/canto2pool) on Synapse.
