@@ -28,15 +28,15 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 
 ## Canto DEX
 
-| Contract       | Address                                    |
-| -------------- | ------------------------------------------ |
-| BaseV1Factory  | 0xE387067f12561e579C5f7d4294f51867E0c1cFba |
-| BaseV1Router01 | 0xa252eEE9BDe830Ca4793F054B506587027825a8e |
-| CantoNoteLP    | 0x1D20635535307208919f0b67c3B2065965A85aA9 |
-| CantoAtomLP    | 0x30838619C55B787BafC3A4cD9aEa851C1cfB7b19 |
-| NoteUSDTLP     | 0x35DB1f3a6A6F07f82C76fCC415dB6cFB1a7df833 |
-| NoteUSDCLP     | 0x9571997a66D63958e1B3De9647C22bD6b9e7228c |
-| CantoETHLP     | 0x216400ba362d8FCE640085755e47075109718C8B |
+| Contract       | Address                                                                                                                        |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| BaseV1Factory  | 0xE387067f12561e579C5f7d4294f51867E0c1cFba                                                                                     |
+| BaseV1Router01 | [0xa252eEE9BDe830Ca4793F054B506587027825a8e](https://evm.explorer.canto.io/address/0xa252eEE9BDe830Ca4793F054B506587027825a8e) |
+| CantoNoteLP    | 0x1D20635535307208919f0b67c3B2065965A85aA9                                                                                     |
+| CantoAtomLP    | 0x30838619C55B787BafC3A4cD9aEa851C1cfB7b19                                                                                     |
+| NoteUSDTLP     | 0x35DB1f3a6A6F07f82C76fCC415dB6cFB1a7df833                                                                                     |
+| NoteUSDCLP     | 0x9571997a66D63958e1B3De9647C22bD6b9e7228c                                                                                     |
+| CantoETHLP     | 0x216400ba362d8FCE640085755e47075109718C8B                                                                                     |
 
 ## Canto Lending Market
 
