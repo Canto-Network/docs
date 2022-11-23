@@ -7,6 +7,7 @@ The following pages contain step-by-step instructions for bridging:
 * [Ethereum <-> Canto](ethereum.md)
 * [Cosmos Hub -> Canto](cosmos.md)
 * [Gravity Bridge <-> Canto](gravity-bridge.md)
+* [Synapse Bridge (Multichain)](synapse.md)
 
 {% hint style="info" %}
 The Canto Bridge transfers assets to and from the native Canto chain, not the Canto EVM. To move assets between them, see [Converting Assets](../converting-assets.md).
