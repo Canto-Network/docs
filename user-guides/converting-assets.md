@@ -32,7 +32,7 @@ To convert assets from the Canto EVM to native Canto, follow these steps:
 1. Navigate to [**convert.canto.io**](https://convert.canto.io/) and connect your MetaMask wallet, making sure you are on the Canto network.
 2. **Click on the arrow to toggle the flow of assets from Canto EVM to Canto Native.**
 3. Select the token you would like to convert and input the quantity. Quantities less than 1 must include a 0 in the ones place value (e.g. `0.99`).
-4. Make sure the arrow is pointing **right to left**, showing the flow of assets from Canto Native to Canto EVM.
+4. Make sure the arrow is pointing **right to left**, showing the flow of assets from Canto EVM to Canto native.
 5. Click `transfer` and sign the message in your wallet.
 
 ![](../.gitbook/assets/right-to-left.JPG)
