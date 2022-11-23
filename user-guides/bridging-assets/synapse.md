@@ -10,7 +10,9 @@ The Synapse bridging process is identical regardless of whether you are bridging
 2. Under the _Origin_ section, select the network you would like to bridge from, as well as the asset you would like to send and its amount.
 3. Under the _Dest._ section, select the network you would like to bridge to (e.g. Canto) and the asset you would like to receive.
 4. If necessary, click the _Approve_ button and confirm the transaction in your wallet to approve the outgoing asset.
-5. Finally, click the _Bridge_ button and confirm the transaction in your wallet to initiate the bridging process.
+5. Finally, click the _Bridge your funds_ button and confirm the transaction in your wallet to initiate the bridging process:
+
+<figure><img src="../../.gitbook/assets/canto-bridge.png" alt=""><figcaption></figcaption></figure>
 
 ## Supported Assets
 

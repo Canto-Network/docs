@@ -6,7 +6,7 @@ At present, the Ethereum <-> Canto bridge supports ETH, USDC, and USDT transfers
 
 To bridge assets from the Ethereum network to the Canto network, follow these steps:
 
-1. Navigate to [**bridge.canto.io**](https://bridge.canto.io) \*\*\*\* and connect your MetaMask wallet, making sure you are on the Ethereum network.
+1. Navigate to [**bridge.canto.io**](https://bridge.canto.io) and connect your MetaMask wallet, making sure you are on the Ethereum network.
 2. **Before bridging assets to Canto, you will be asked to generate a Canto public key, which is associated with your Ethereum address. You will only need to do this once per wallet. This is so you can sign Canto transactions from that Ethereum address. There is no interaction with private keys.**
 
 ![](<../../.gitbook/assets/image (30).png>)
@@ -32,7 +32,7 @@ You can only bridge assets on the native Canto blockchain back to Ethereum. If y
 
 Once you are ready to bridge from Canto to Ethereum, follow these steps:
 
-1. Navigate to [**bridge.canto.io**](https://bridge.canto.io) \*\*\*\* and connect your MetaMask wallet, making sure you are on the Canto network.
+1. Navigate to [**bridge.canto.io**](https://bridge.canto.io) and connect your MetaMask wallet, making sure you are on the Canto network.
 2. Select Canto as the _from_ network and Gravity Bridge as the _to_ network.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-08-17 at 3.44.23 AM.png>)
