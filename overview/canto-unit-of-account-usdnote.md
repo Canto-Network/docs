@@ -13,7 +13,7 @@ All interest charged by the Accountant is earmarked for funding public goods. It
 
 ### Over-collateralization
 
-$NOTE is a fully immutable ERC-20 token backed by collateral lent to the CLM. It can can only be borrowed by users who post select collateral assets such as $USDC, $USDT, $CANTO, $ETH, $ATOM, or Canto LP tokens.
+$NOTE is a fully immutable ERC-20 token backed by collateral lent to the CLM. It can can only be borrowed by users who post select collateral assets. At this time, eligible collateral assets are $USDC and $USDT.
 
 As a result, for every $NOTE in circulation, there is more than 1 USD worth of collateral held by the CLM.
 
@@ -35,13 +35,18 @@ For launch, each interest epoch will be 6 hours and the rate will adjust by 0.25
 
 **The Formula:**
 
-newInterestRate = max(0,(1 - price of $NOTE)\*Adjuster Coefficient+ priorInterestRate)
+$$
+newInterestRate = max(0,(1 - price ($NOTE))*Adjuster Coefficient+ priorInterestRate)
+$$
 
 **Example:**
 
-Current Interest Rate: 4%. $NOTE average price over the last 6 hours: 1.04.
+* Current Interest Rate: 4%
+* $NOTE average price over the last 6 hours: 1.04
 
-New Interest Rate: 3% = max (0, (1 - 1.04)\* 0.25 + 4%)
+$$
+newInterestRate = max(0,(1-1.04)*0.25+4\%)
+$$
 
 If $NOTE is trading above $1, the interest rate is lowered to weaken the $NOTE price. If $NOTE is trading below $1, the interest rate is raised to strengthen the $NOTE price.
 
