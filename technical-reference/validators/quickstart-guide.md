@@ -138,7 +138,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable cantod.service
 
 # Start the node
-sudo systemtl start
+sudo systemctl start cantod
 
 # Show logs
 journalctl -u cantod -f
