@@ -19,6 +19,16 @@ To bridge $ATOM from the Cosmos Hub network to the Canto Network, follow these s
 
 ![](<../../.gitbook/assets/image (26).png>)
 
+{% hint style="danger" %}
+Due to degradation of the default Canto native RPC, you will need to manually change the Canto network's RPC URL in Keplr before completing the next steps.
+
+To do so, do the following in Keplr:
+
+1. Switch to Canto Mainnet
+2. Open Settings > Endpoints
+3. Change the RPC to http://chainripper-2.althea.net:20878/ and the LPC to http://chainripper-2.althea.net:1317/
+{% endhint %}
+
 4\. Copy your Canto native address.
 
 ![](<../../.gitbook/assets/image (8).png>)
