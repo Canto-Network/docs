@@ -39,6 +39,20 @@ As an EVM compatible chain, you can connect to the Canto network using MetaMask.
 
 </details>
 
+<details>
+
+<summary>Testnet RPC URL</summary>
+
+**Network Name:** CANTO Testnet\
+**New RPC URL:** [https://eth.plexnode.wtf/](https://eth.plexnode.wtf/)  ****  \
+**Chain ID:** 740\
+**Currency Symbol:** CANTO\
+**Block Explorer URL:** [https://testnet-explorer.canto.neobase.one/](https://testnet-explorer.canto.neobase.one/)
+
+_For more information about the Canto testnet, see_ [_EVM Development_](broken-reference)_._
+
+</details>
+
 After saving the network, you will be able to connect to it at any time using the dropdown menu.
 
 If you skip this step and attempt to connect to applications on [https://canto.io/](https://canto.io/), a MetaMask prompt will appear allowing you to add the network with a single click.
