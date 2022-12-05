@@ -44,7 +44,6 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
 | Unitroller   | [0x5E23dC409Fc2F832f83CEc191E245A191a4bCc5C](https://evm.explorer.canto.io/address/0x5E23dC409Fc2F832f83CEc191E245A191a4bCc5C) |
 | Comptroller  | [0xD5DbF5cd90f158597f916591dBaDDe27E4A4d4Cf](https://evm.explorer.canto.io/address/0xD5DbF5cd90f158597f916591dBaDDe27E4A4d4Cf) |
-| PriceFeed    | 0xa252eEE9BDe830Ca4793F054B506587027825a8e                                                                                     |
 | cNOTE        | [0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C](https://evm.explorer.canto.io/address/0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C) |
 | cCANTO       | [0xB65Ec550ff356EcA6150F733bA9B954b2e0Ca488](https://evm.explorer.canto.io/address/0xB65Ec550ff356EcA6150F733bA9B954b2e0Ca488) |
 | cETH         | [0x830b9849e7d79b92408a86a557e7baaacbec6030](https://evm.explorer.canto.io/address/0x830b9849E7D79B92408a86A557e7baAACBeC6030) |
