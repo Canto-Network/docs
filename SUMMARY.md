@@ -7,7 +7,7 @@
 
 * [Canto Unit of Account ($NOTE)](overview/canto-unit-of-account-usdnote.md)
 * [Canto Lending Market (CLM)](overview/canto-lending-market-clm.md)
-* [Canto DEX & LP Interface](overview/canto-dex-and-lp-interface.md)
+* [Canto DEX](overview/canto-dex.md)
 
 ## User Guides
 

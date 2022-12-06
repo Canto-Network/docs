@@ -16,14 +16,25 @@ The Synapse bridging process is identical regardless of whether you are bridging
 
 ## Supported Assets
 
-Synapse supports bridging to and from the following assets on Canto:
+The Synapse Bridge supports the following assets on Canto:
 
-* [$NOTE](https://app.gitbook.com/o/UXyuOCE75UxaFcpPBpJt/s/K4o1JDSaOKhM0C8tixAv/\~/changes/OSEXXP2u9colSeWeYDu1/overview/note) – Canto's native unit of account
+* $USDC
+* $USDT
+* $NOTE
+* $nUSD
+* $SYN
+
+### Swap Routing
+
+To ensure deep liquidity when bridging to and from Canto, the Synapse Bridge performs direct cross-chain swaps for just two assets:
+
 * [$nUSD](https://docs.synapseprotocol.com/reference/faq#synapse-bridge) – Synapse's stablecoin bridge asset
 * [$SYN](https://docs.synapseprotocol.com/reference/faq#the-syn-token) – Synapse's governance and incentive token
 
-Users can bridge to and from stablecoins $USDC, $USDT, and $DAI on other chains, but they are automatically converted to/from $nUSD or $NOTE on Canto.
+To send and receive other stablecoins on Canto, the Synapse Bridge swaps to and from $nUSD using chain-specific stableswap pools on the origin and destination chains.
 
-### Sponsored Liquidity Pool
+Synapse's [Canto Stableswap Pool](https://synapseprotocol.com/pools/canto2pool) consists of $nUSD and $NOTE, enabling users to bridge stablecoins across chains and swap to and from Canto's native unit of account in a single interaction.
 
-Early contributors propose the Canto DAO sponsor a $nUSD <> $NOTE liquidity pool, enabling deep liquidity between traditional stablecoins on other chains and Canto's native unit of account. For more information, see the [Canto Stableswap Pool](https://synapseprotocol.com/pools/canto2pool) on Synapse.
+Additionally, the Synapse Bridge integrates the [Canto DEX](../../overview/canto-dex.md) for its feeless $USDC <> $NOTE and $USDT <> $NOTE liquidity. This means that users can bridge to $USDC and $USDT on Canto in a single interaction, via $nUSD and $NOTE.
+
+For more information about the Synapse Bridge, see the [Synapse Protocol documentation](https://docs.synapseprotocol.com/).

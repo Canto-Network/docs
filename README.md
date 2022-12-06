@@ -4,7 +4,7 @@
 
 At launch, Canto provides [Tendermint consensus](https://docs.tendermint.com/master/introduction/what-is-tendermint.html) secured by [Canto validator nodes](technical-reference/validators/) and an EVM execution layer via [Cosmos SDK](https://v1.cosmos.network/sdk) in addition to core financial primitives designed to support the [Free Public Infrastructure (FPI)](https://canto.gitbook.io/canto/welcome/how-does-canto-work/free-public-infrastructure-fpi). These primitives include:&#x20;
 
-* [Canto DEX](overview/canto-dex-and-lp-interface.md) — a zero-fee DEX for liquidity providers
+* [Canto DEX](overview/canto-dex.md) — a zero-fee DEX for liquidity providers
 * [Canto Lending Market (CLM)](overview/canto-lending-market-clm.md) — a pooled lending Compound v2 fork
 * [$NOTE](overview/canto-unit-of-account-usdnote.md) — a fully collateralized unit of account token issued by the CLM which also serves the ecosystem as a USDC/USDT soft-pegged stablecoin
 
