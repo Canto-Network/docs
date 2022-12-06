@@ -35,6 +35,6 @@ To send and receive other stablecoins on Canto, the Synapse Bridge swaps to and 
 
 Synapse's [Canto Stableswap Pool](https://synapseprotocol.com/pools/canto2pool) consists of $nUSD and $NOTE, enabling users to bridge stablecoins across chains and swap to and from Canto's native unit of account in a single interaction.
 
-Additionally, the Synapse Bridge integrates the [Canto DEX](../../overview/canto-dex.md) for its feeless $USDC <> $NOTE and $USDT <> $NOTE liquidity. This means that users can bridge to $USDC and $USDT on Canto in a single interaction, via $nUSD and $NOTE.
+Additionally, the Synapse Bridge integrates the [Canto DEX](../../overview/canto-dex.md) for its feeless $USDC <> $NOTE and $USDT <> $NOTE liquidity. This means that users can bridge to and from $USDC and $USDT on Canto in a single interaction, via $nUSD and $NOTE.
 
-For more information about the Synapse Bridge, see the [Synapse Protocol documentation](https://docs.synapseprotocol.com/).
+For more information about how the Synapse Bridge works, see the [Synapse Protocol documentation](https://docs.synapseprotocol.com/).
