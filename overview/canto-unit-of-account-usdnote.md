@@ -7,7 +7,7 @@ $NOTE is the unit of account on Canto. $NOTE is an over-collateralized currency 
 * Fully decentralized
 * Automated
 
-$NOTE cannot be created – it must be borrowed from the Accountant, a smart contract that implements the algorithmic interest rate policy, via the [Canto Lending Market](../user-guides/lending-and-borrowing/) (CLM).
+$NOTE cannot be created – it must be borrowed from the Accountant, a smart contract that implements the algorithmic interest rate policy, via the [Canto Lending Market](../user-guides/lending-and-borrowing.md) (CLM).
 
 All interest charged by the Accountant is earmarked for funding public goods. It is held in the Community Treasury and ultimately governed by the Canto DAO.
 
@@ -31,9 +31,9 @@ Aiming to provide a public utility, the algorithm responsible for adjusting this
 
 If $NOTE is trading under $1, the interest rate is raised to strengthen the incentive for buying $NOTE on secondary markets and lending it to the CLM. If $NOTE is trading over a dollar, the interest rate is lowered to make borrowing $NOTE from the CLM and selling it on secondary markets more attractive.
 
-For launch, each interest epoch will be 6 hours and the rate will adjust by 0.25 (one-quarter) of the difference between the price of $NOTE and $1.00.
+For launch, each interest epoch will be 6 hours and the rate will adjust by 0.25 (the _adjustor coefficient_) of the difference between the price of $NOTE and $1.00.
 
-**The Formula:**
+**$NOTE Interest Rate Formula:**
 
 $$
 newInterestRate = max(0,(1 - price ($NOTE))*Adjuster Coefficient+ priorInterestRate)
@@ -45,7 +45,7 @@ $$
 * $NOTE average price over the last 6 hours: 1.04
 
 $$
-newInterestRate = max(0,(1-1.04)*0.25+4\%)
+newInterestRate = max(0,(1-1.04)*0.25+4\%) = 3\%
 $$
 
 If $NOTE is trading above $1, the interest rate is lowered to weaken the $NOTE price. If $NOTE is trading below $1, the interest rate is raised to strengthen the $NOTE price.
@@ -63,6 +63,3 @@ No. For most people, stablecoin means a token that is pegged to a fiat currency.
 ### Are there risks?
 
 Yes! To our knowledge, no one has tried this yet, and there may be unknown problems with the design. Please limit your financial risk to Canto with only money you can afford to lose. Canto is trying many things for the first time, and risk of loss is high.
-
-
-

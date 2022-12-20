@@ -1,14 +1,14 @@
 # Bridging Assets
 
-The [Canto Bridge](https://bridge.canto.io/) allows you to bridge assets to Canto from Ethereum or Cosmos Hub. It also supports bridging back to Ethereum.
+The [Canto Bridge](https://canto.io/bridge) allows you to bridge assets to Canto from Ethereum or Cosmos Hub. It also supports bridging back to Ethereum.
 
 The following pages contain step-by-step instructions for bridging:
 
-* [Ethereum <-> Canto](ethereum.md)
-* [Cosmos Hub -> Canto](cosmos.md)
-* [Gravity Bridge <-> Canto](gravity-bridge.md)
+* [Ethereum <-> Canto](broken-reference)
+* [Cosmos Hub -> Canto](broken-reference)
+* [Gravity Bridge <-> Canto](broken-reference)
 * [Synapse Bridge (Multichain)](synapse.md)
 
 {% hint style="info" %}
-The Canto Bridge transfers assets to and from the native Canto chain, not the Canto EVM. To move assets between them, see [Converting Assets](../converting-assets.md).
+The Canto Bridge transfers assets to and from the native Canto chain, not the Canto EVM. To move assets between them, see [Converting Assets](broken-reference).
 {% endhint %}

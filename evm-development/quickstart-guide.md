@@ -86,7 +86,7 @@ To deploy your smart contract, start by making sure you have MetaMask installed 
 
 Returning to Remix, navigate to the deployment tab, which is the fifth icon down on the vertical menu. Click on the environment drop-down box and select _Injected Provider - Metamask_:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 A MetaMask prompt will appear asking you to connect your wallet to Remix. As always, make sure you are comfortable with the permissions that are being requested and click _Connect_.
 

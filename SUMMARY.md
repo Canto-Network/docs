@@ -13,14 +13,12 @@
 
 * [Connecting to Canto](user-guides/connecting-to-canto.md)
 * [Bridging Assets](user-guides/bridging-assets/README.md)
-  * [Ethereum <-> Canto](user-guides/bridging-assets/ethereum.md)
-  * [Cosmos Hub -> Canto](user-guides/bridging-assets/cosmos.md)
-  * [Gravity Bridge <-> Canto](user-guides/bridging-assets/gravity-bridge.md)
+  * [Bridging to Canto](user-guides/bridging-assets/to-canto.md)
+  * [Bridge and EVM](user-guides/bridging-assets/bridge-vs-evm.md)
+  * [Bridging From Canto](user-guides/bridging-assets/from-canto.md)
   * [Synapse Bridge (Multichain)](user-guides/bridging-assets/synapse.md)
-* [Converting Assets](user-guides/converting-assets.md)
 * [Providing Liquidity](user-guides/providing-liquidity.md)
-* [Lending & Borrowing](user-guides/lending-and-borrowing/README.md)
-  * [Metrics](user-guides/lending-and-borrowing/metrics.md)
+* [Lending & Borrowing](user-guides/lending-and-borrowing.md)
 * [Staking](user-guides/staking.md)
 * [Governance](user-guides/governance.md)
 
