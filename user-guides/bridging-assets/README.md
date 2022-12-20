@@ -4,9 +4,9 @@ The [Canto Bridge](https://canto.io/bridge) allows you to bridge assets to Canto
 
 The following pages contain step-by-step instructions for bridging:
 
-* [Ethereum <-> Canto](broken-reference)
-* [Cosmos Hub -> Canto](broken-reference)
-* [Gravity Bridge <-> Canto](broken-reference)
+* [Bridging to Canto](to-canto.md)
+* [Bridge and EVM](bridge-vs-evm.md)
+* [Bridging from Canto](from-canto.md)
 * [Synapse Bridge (Multichain)](synapse.md)
 
 {% hint style="info" %}
