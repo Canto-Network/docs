@@ -1,4 +1,4 @@
-# Canto DEX & LP Interface
+# Canto DEX
 
 In order to prevent the possibility of a predatory evolution toward rent-seeking behaviors, Canto’s decentralized exchange protocol:
 
@@ -19,7 +19,7 @@ At launch, Canto supports two types of liquidity pools:&#x20;
 
 ## **Providing Liquidity**
 
-In order to participate in Canto liquidity mining, users are able to provide liquidity to the Canto DEX at [lp.canto.io](http://lp.canto.io).&#x20;
+In order to participate in Canto liquidity mining, users are able to provide liquidity to the Canto DEX at [canto.io/lp](https://canto.io/lp).&#x20;
 
 Users providing liquidity receive LP tokens that can be supplied in the [Canto Lending Market](canto-lending-market-clm.md). These tokens can be collateralized and borrowed against.
 
