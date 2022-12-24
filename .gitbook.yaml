@@ -1,2 +1,3 @@
 redirects:  
     user-guides/bridging-assets/ethereum: user-guides/bridging-assets/to-canto/page.md
+    user-guides/converting-assets: user-guides/bridging-assets/bridge-vs-evm.md
