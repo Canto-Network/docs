@@ -40,7 +40,7 @@ To bridge $ATOM from the Cosmos Hub network to the Canto Network, follow these s
 
 6\. In Keplr, switch to the Cosmos Hub. Then click IBC Transfer.
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (13).png>)
 
 7\. Select “Canto Mainnet” as the destination chain. If bridging for the first time, add Canto by clicking "New IBC Transfer Channel", selecting Canto Mainnet and entering `channel-358.`
 
