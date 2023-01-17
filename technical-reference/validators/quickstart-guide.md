@@ -198,6 +198,9 @@ To do so, checkout the correct branch and re-install the binary. For example:
 ```
 git checkout v4.0.0
 make install
+
+# Don't forget to move the installed binary to your path
+sudo mv $HOME/go/bin/cantod /usr/bin/
 ```
 
 Then, restart the node:
