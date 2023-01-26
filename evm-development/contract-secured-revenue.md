@@ -4,13 +4,13 @@ Canto implements a fee split model called Contract Secured Revenue, or CSR, by m
 
 An initial percentage split of 20% is proposed, to be voted on by the Canto DAO.
 
-To earn CSR fees, you must register your contracts with the CSR _Turnstile_ smart contract. Upon registering a contract, a transferrable NFT representing the right to claim that contract's revenue is minted to an address of your choice. Alternatively, you can assign a contract's revenue to an existing CSR NFT.
+To earn CSR fees, you must register your contracts with the CSR _Turnstile_ smart contract (0xEcf044C5B4b867CFda001101c617eCd347095B44). Upon registering a contract, a transferrable NFT representing the right to claim that contract's revenue is minted to an address of your choice. Alternatively, you can assign a contract's revenue to an existing CSR NFT.
 
 CSR fees for all registered contracts accrue in the Turnstile contract. To withdraw fees from the Turnstile contract, you must specify the token ID of a CSR NFT you hold.
 
 ## Registering a Contract <a href="#registering-a-contract" id="registering-a-contract"></a>
 
-To register a smart contract for CSR, call the `register` method on the Turnstile contract **from the contract you wish to register.**&#x20;
+To register a smart contract for CSR, call the `register` method on the Turnstile contract **from the contract you wish to register.**
 
 This method takes one parameter: the `address` to which the CSR NFT should be minted. This can be an address that does not exist (i.e. an address that has never transacted before).
 
