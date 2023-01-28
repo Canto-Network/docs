@@ -76,3 +76,9 @@ To withdraw CSR fees, call the `withdraw` method on the Turnstile contract **fro
 ## Factory Contracts
 
 You can implement the `register` and `assign` methods in factory contracts, such that child contracts are automatically registered for CSR when they are created.
+
+
+## CSR Turnstile on testnet
+
+CSR **Turnstile** smart contract deployed on Canto testnet at [0x9da47c56d1814453DEE2EaDB0dc0cE297Dc2CD76](https://testnet-explorer.canto.neobase.one/address/0x9da47c56d1814453DEE2EaDB0dc0cE297Dc2CD76).
+
