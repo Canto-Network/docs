@@ -1,14 +1,12 @@
 # Contract Secured Revenue (CSR)
 
-Canto implements a fee split model called Contract Secured Revenue, or CSR, by means of the [`x/CSR`](https://github.com/Canto-Network/Canto/tree/csr/x/csr) module. CSR allows you to claim a percentage of any transaction fees paid to the network when users interact with your smart contracts.
+Canto implements a fee split model called Contract Secured Revenue, or CSR, by means of the [`x/CSR`](https://github.com/Canto-Network/Canto/tree/csr/x/csr) module. CSR allows you to claim a percentage of all transaction fees paid by users when interacting with your smart contracts.
 
-An initial percentage split of 20% is proposed, to be voted on by Canto governance.
+CSR was added in the Canto v5.0.0 chain upgrade with an initial fee split of 20%, following a successful [governance proposal](https://canto.io/governance/proposal/41).
 
 ## Overview
 
-To earn CSR fees, you must register your contracts with the CSR **Turnstile** smart contract deployed on Canto mainnet at [0xEcf044C5B4b867CFda001101c617eCd347095B44](https://evm.explorer.canto.io/address/0xEcf044C5B4b867CFda001101c617eCd347095B44).
-
-The source code for Turnstile can be found [here](https://github.com/Canto-Network/Canto/blob/csr/contracts/turnstile.sol).
+To earn CSR fees, you must register your contracts with the CSR **Turnstile** smart contract deployed on Canto mainnet at [0xEcf044C5B4b867CFda001101c617eCd347095B44](https://evm.explorer.canto.io/address/0xEcf044C5B4b867CFda001101c617eCd347095B44). The source code for Turnstile can be found [here](https://github.com/Canto-Network/Canto/blob/csr/contracts/turnstile.sol).
 
 Upon registering a contract, a transferrable NFT representing the right to claim that contract's revenue is minted to an address of your choice. Alternatively, you can assign a contract's revenue to an existing CSR NFT.
 

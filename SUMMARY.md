@@ -27,7 +27,7 @@
 * [Overview](evm-development/overview.md)
 * [Quickstart Guide](evm-development/quickstart-guide.md)
 * [DEX and Lending Market](evm-development/dex-and-lending-market.md)
-* [Contract Secured Revenue (CSR)](evm-development/contract-secured-revenue-csr.md)
+* [Contract Secured Revenue (CSR)](evm-development/contract-secured-revenue.md)
 * [Verifying Contracts](evm-development/verifying-contracts.md)
 * [Contract Addresses](evm-development/contract-addresses.md)
 
