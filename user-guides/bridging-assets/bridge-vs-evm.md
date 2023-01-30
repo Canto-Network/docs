@@ -7,7 +7,7 @@ If you have just bridged from Ethereum or Cosmos, your assets are on the Canto B
 If your assets are already on the Canto EVM but you would like to bridge them back to Ethereum or Cosmos, you must first bridge them to the Canto Bridge blockchain.
 
 {% hint style="info" %}
-**To bridge assets between the Canto Bridge and Canto EVM, you must have at least 0.3 $CANTO in your MetaMask wallet.** If necessary, you can request a drip from the #social-faucet channel in the [Canto Discord](https://discord.com/invite/canto).
+**To bridge assets between the Canto Bridge and Canto EVM, you must have at least 2.3 $CANTO in your MetaMask wallet.** If necessary, you can request a drip from the #social-faucet channel in the [Canto Discord](https://discord.com/invite/canto).
 {% endhint %}
 
 ## Canto Bridge to EVM
