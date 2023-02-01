@@ -31,7 +31,7 @@ contract Example {
     constructor() {
         //Registers the smart contract with Turnstile
         //Mints the CSR NFT to the contract creator
-        turnstile.register(msg.sender);
+        turnstile.register(tx.origin);
     }
 }
 ```
