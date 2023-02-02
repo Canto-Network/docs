@@ -8,7 +8,7 @@ The Canto governance page at [**canto.io/governance**](https://canto.io/governan
 
 When entering the governance page, a list of all completed and ongoing proposals are shown. The title of the proposal, start time, end time, and a bar representing the current votes is shown in each block. For more information on each proposal, click on the proposal and a modal will open.&#x20;
 
-<figure><img src="../.gitbook/assets/governance-proposal-v2.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/governance-proposal-v2 (1).JPG" alt=""><figcaption></figcaption></figure>
 
 In the proposal modal, you can see more in depth information about the proposal including the description, individual vote count, and thresholds for the proposal. If the vote has ended, the modal will show `voting has ended` and you will not be able to vote.
 

@@ -14,6 +14,10 @@ CSR fees for all registered contracts accrue in the Turnstile contract. To withd
 
 ## Registering a Contract <a href="#registering-a-contract" id="registering-a-contract"></a>
 
+{% hint style="danger" %}
+Calling the `register` method from an EOA does not revert and will mint a CSR NFT. However, no fees will be distributed to this NFT when the EOA transacts. **Additionally, any contracts later assigned to this NFT will **_**not**_** generate CSR fees.**
+{% endhint %}
+
 To register a smart contract for CSR, call the `register` method on the [Turnstile contract](https://evm.explorer.canto.io/address/0xEcf044C5B4b867CFda001101c617eCd347095B44) **from the contract you wish to register.**
 
 This method takes one parameter: the `address` to which the CSR NFT should be minted. This can be an address that does not exist (i.e. an address that has never transacted before).
