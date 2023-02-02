@@ -10,7 +10,7 @@ As an EVM compatible chain, you can connect to the Canto network using MetaMask.
 4. Enter the following RPC settings:\
    \
    **Network Name:** CANTO\
-   **New RPC URL:** [https://canto.slingshot.finance](https://canto.slingshot.finance)\
+   **New RPC URL:** [https://canto.gravitychain.io](https://canto.gravitychain.io)\
    **Chain ID:** 7700\
    **Currency Symbol:** CANTO\
    **Block Explorer URL:** [https://evm.explorer.canto.io/](https://evm.explorer.canto.io/)
@@ -19,23 +19,10 @@ As an EVM compatible chain, you can connect to the Canto network using MetaMask.
 
 <summary>Alternative RPC URLs</summary>
 
-**Network Name:** CANTO\
-**New RPC URL:** [https://canto.neobase.one](https://canto.neobase.one)\
-**Chain ID:** 7700\
-**Currency Symbol:** CANTO\
-**Block Explorer URL:** [https://evm.explorer.canto.io/](https://evm.explorer.canto.io/)\
-\
-**Network Name:** CANTO\
-**New RPC URL:** [https://canto.evm.chandrastation.com](https://canto.evm.chandrastation.com)\
-**Chain ID:** 7700\
-**Currency Symbol:** CANTO\
-**Block Explorer URL:** [https://evm.explorer.canto.io/](https://evm.explorer.canto.io/)\
-\
-**Network Name:** CANTO\
-**New RPC URL:** [https://jsonrpc.canto.nodestake.top/](https://jsonrpc.canto.nodestake.top/)\
-**Chain ID:** 7700\
-**Currency Symbol:** CANTO\
-**Block Explorer URL:** [https://explorer.nodestake.top/canto](https://explorer.nodestake.top/canto)
+* ****[https://canto.slingshot.finance](https://canto.slingshot.finance)
+* ****[https://canto.neobase.one](https://canto.neobase.one)
+* [https://canto.evm.chandrastation.com](https://canto.evm.chandrastation.com)
+* ****[https://jsonrpc.canto.nodestake.top/](https://jsonrpc.canto.nodestake.top/)
 
 </details>
 
