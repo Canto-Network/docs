@@ -54,26 +54,7 @@ Generate and store keys:
 cantod keys add <key_name>
 ```
 
-To generate keys using a Ledger hardware wallet, use the `--ledger` flag. To recover keys from an existing mnemonic, use the `--recover` flag.
-
-Store a backup of your keys and mnemonic securely offline.
-
-Save the generated public key config in the main Canto directory as `<key_name>.info`:
-
-```
-sudo nano <key_name>.info
-```
-
-It should look like this:
-
-```
-pubkey: {
-  "@type":" ethermint.crypto.v1.ethsecp256k1.PubKey",
-  "key":"############################################"
-}
-```
-
-You'll use this file later when creating your validator transaction.
+To recover keys from an existing mnemonic, use the `--recover` flag.
 
 ## 3. Initialize Validator
 
