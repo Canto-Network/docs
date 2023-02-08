@@ -31,6 +31,19 @@
 * [Verifying Contracts](evm-development/verifying-contracts.md)
 * [Contract Addresses](evm-development/contract-addresses.md)
 
+## Running a Node <a href="#canto-node" id="canto-node"></a>
+
+* [Validators](canto-node/validators/README.md)
+  * [Quickstart Guide](canto-node/validators/quickstart-guide.md)
+  * [Useful Commands](canto-node/validators/useful-commands.md)
+  * [Snapshots](canto-node/validators/node-snapshots.md)
+  * [FAQ](canto-node/validators/faq.md)
+  * [Troubleshooting](canto-node/validators/troubleshooting.md)
+  * [Uptime](canto-node/validators/uptime.md)
+  * [Slashing](canto-node/validators/slashing.md)
+* [Archive Node](canto-node/archive-node.md)
+* [Graph Node (Subgraphs)](canto-node/graph-node-subgraphs.md)
+
 ## Technical Reference
 
 * [Token Economics](technical-reference/token-economics.md)
@@ -42,12 +55,4 @@
   * [Governance Module](technical-reference/governance/governance-module.md)
   * [GovShuttle Module](technical-reference/governance/govshuttle-module.md)
   * [Lending Market Governance](technical-reference/governance/lending-market-governance.md)
-* [Validators](technical-reference/validators/README.md)
-  * [Quickstart](technical-reference/validators/quickstart-guide.md)
-  * [Useful Commands](technical-reference/validators/useful-commands.md)
-  * [Snapshots](technical-reference/validators/node-snapshots.md)
-  * [FAQ](technical-reference/validators/faq.md)
-  * [Troubleshooting](technical-reference/validators/troubleshooting.md)
-  * [Uptime](technical-reference/validators/uptime.md)
-  * [Slashing](technical-reference/validators/slashing.md)
 * [Audits](technical-reference/audits.md)

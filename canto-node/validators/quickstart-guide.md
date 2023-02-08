@@ -1,6 +1,8 @@
-# Quickstart
+# Quickstart Guide
 
 This page contains step-by-step instructions for launching a Canto validator node.
+
+Once you've set up your node, join the [Canto Network Validator Announcements channel](https://discord.com/channels/993968517906960445/995469213080752159/1071089114503462982) on Telegram to stay up-to-date with chain upgrades and other governance proposals.
 
 <details>
 
@@ -16,41 +18,30 @@ This page contains step-by-step instructions for launching a Canto validator nod
 
 ## 1. Install Dependencies
 
-Follow these steps to install dependencies, depending on your operating system:
+Install dependencies (Ubuntu):
 
-#### **Ubuntu**
-
-```
+```sh
 sudo snap install go --classic
 sudo apt-get install git
 sudo apt-get install gcc
 sudo apt-get install make
 ```
 
-#### **Arch Linux**
-
-```
-pacman -S go
-pacman -S git
-pacman -S gcc
-pacman -S make
-```
-
 ## 2. Install `cantod`
 
-Clone the official repo and install:
+Clone the official repo and install the current binary:
 
-```
+```sh
 git clone https://github.com/Canto-Network/Canto.git
 cd Canto
-git checkout genesis
+git checkout v5.0.0
 make install
 sudo mv $HOME/go/bin/cantod /usr/bin/
 ```
 
 Generate and store keys:
 
-```
+```sh
 cantod keys add <key_name>
 ```
 
@@ -60,7 +51,7 @@ To recover keys from an existing mnemonic, use the `--recover` flag.
 
 Initialize the node and download the genesis file:
 
-```
+```sh
 cantod init <MONIKER> --chain-id canto_7700-1
 cd ~/.cantod/config
 rm genesis.json
@@ -71,9 +62,9 @@ Replace `<moniker>` with whatever you'd like to name your validator.
 
 ## 4. Edit Config
 
-```
-# Add persistent peers to config.toml
-sed -i 's/persistent_peers = ""/persistent_peers = "ec770ae4fd0fb4871b9a7c09f61764a0b010b293@164.90.134.106:26656"/g' $HOME/.cantod/config/config.toml
+```sh
+# Add seed peer to config.toml
+sed -i 's/seeds = ""/seeds = "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@seeds.polkachu.com:15556"/g' $HOME/.cantod/config/config.toml
 
 # Set minimum gas price in app.toml
 sed -i 's/minimum-gas-prices = "0acanto"/minimum-gas-prices = "0.0001acanto"/g' $HOME/.cantod/config/app.toml
@@ -83,13 +74,13 @@ sed -i 's/minimum-gas-prices = "0acanto"/minimum-gas-prices = "0.0001acanto"/g' 
 
 Create the systemd service file:
 
-```
+```sh
 sudo nano /etc/systemd/system/cantod.service
 ```
 
 Copy and paste the following configuration and save:
 
-```
+```sh
 [Unit]
 Description=Canto Node
 After=network.target
@@ -109,9 +100,9 @@ LimitMEMLOCK=209715200
 WantedBy=multi-user.target
 ```
 
-## 6. Start the Node
+## 6. Start Node
 
-```
+```sh
 # Reload service files
 sudo systemctl daemon-reload
 
@@ -125,11 +116,38 @@ sudo systemctl start cantod
 journalctl -u cantod -f
 ```
 
-You should then get several lines of log files and then see: `No addresses to dial. Falling back to seeds module=pex server=node`
+You should then get several lines of log files. This is an indicator things thus far are working and now you need to create your validator txn. `^c` out and follow the next steps.
 
-This is an indicator things thus far are working and now you need to create your validator txn. `^c` out and follow the next steps.
+## 7. Sync Node
 
-## 7. Create Validator Transaction
+Unless you wish to run an [archive node](../archive-node.md), you should sync your node to the current block using [manual snapshots](node-snapshots.md) or state-sync snapshots.
+
+To use state-sync:
+
+<pre class="language-sh"><code class="lang-sh"><strong># Set vars
+</strong><strong>SNAP_RPC="https://canto-rpc.polkachu.com:443"
+</strong>LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height)
+BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000))
+TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
+echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
+
+# Stop node
+sudo systemctl stop cantod
+
+# Reset cantod
+cantod tendermint unsafe-reset-all --home $CANTO_HOME --keep-addr-book
+
+# Add state-sync settings
+sed -i -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
+s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
+s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $CANTO_HOME/config/config.toml
+
+# Restart
+sudo systemctl start cantod
+</code></pre>
+
+## 8. Create Validator Transaction
 
 Modify the following items below, removing the `<>`
 
@@ -140,7 +158,7 @@ Modify the following items below, removing the `<>`
 * `<YOUR_WEBSITE>` the website you want associated with your node
 * `<TOKEN_DELEGATION>` is the amount of tokens staked by your node (minimum `1acanto`)
 
-```
+```sh
 cantod tx staking create-validator \
 --from <KEY_NAME> \
 --chain-id canto_7700-1 \
@@ -164,31 +182,22 @@ Your validator wallet must contain a non-zero amount of native $CANTO in order t
 2. Send funds from a Canto EVM wallet to the 0x address shown, or request funds to that address from a faucet such as the #social-faucet in the [Canto Discord](https://discord.gg/canto).
 3. Alternatively, ask a validator who already has native $CANTO to send funds to the Bech32 Acc address.
 
-## 8. Update Binary
+## 9. Update Binary
 
-State breaking software upgrades took place at blocks:
+Once your validating node is up-and-running, join the [Canto Network Validator Announcements channel](https://discord.com/channels/993968517906960445/995469213080752159/1071089114503462982) on Telegram to stay up-to-date with chain upgrades and other governance proposals.
 
-* 218225 (v2.0.0)
-* 1231500 (v3.0.0)
-* 1274863 (v4.0.0)
+In case of a binary upgrade, you will need to re-fetch the Canto repository and install the new binary before restarting your node:
 
-Upon reaching these blocks while syncing a validator node, you will need to update the `cantod` binary.
+```sh
+git pull
 
-To do so, checkout the correct branch and re-install the binary. For example:
-
-```
-git checkout v4.0.0
+git checkout v5.0.0
 make install
 
 # Don't forget to move the installed binary to your path
 sudo mv $HOME/go/bin/cantod /usr/bin/
-```
 
-Then, restart the node:
-
-```
+# Restart
 sudo systemctl stop cantod.service
 sudo systemctl start cantod.service
 ```
-
-For future binary upgrades, you will need to `git pull` to fetch the updated binary before you attempt to install it.

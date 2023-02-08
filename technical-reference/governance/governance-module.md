@@ -11,7 +11,7 @@ The module supports the following basic features:
 
 ## Proposal submission <a href="#proposal-submission" id="proposal-submission"></a>
 
-Every account can submit proposals by sending a `MsgSubmitProposal` transaction through a [Canto node](../validators/). Once a proposal is submitted, it is identified by its unique `proposalID`.
+Every account can submit proposals by sending a `MsgSubmitProposal` transaction through a [Canto node](../../canto-node/validators/). Once a proposal is submitted, it is identified by its unique `proposalID`.
 
 ### Proposal Messages <a href="#proposal-messages" id="proposal-messages"></a>
 

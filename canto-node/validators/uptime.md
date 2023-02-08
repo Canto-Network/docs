@@ -18,4 +18,3 @@ A popular uptime monitoring tool for Tendermint chains like Canto is [TenderDuty
 
 An alternative monitoring tool is [PANIC](https://github.com/SimplyVC/panic).
 
-###

@@ -34,5 +34,4 @@ Validators who commit a consensus fault are put in a tombstone state, which mean
 
 In this case, the only resolution for the validator and its delegators is to unbond and delegate anew pursuant to the 21-day unbonding period.
 
-A tombstoned validator operator may relaunch under a different key, but will have to build up their delegations from ~~~~ scratch.
-
+A tombstoned validator operator may relaunch under a different key, but will have to build up their delegations from scratch.
