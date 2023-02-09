@@ -116,7 +116,7 @@ sudo systemctl start cantod
 journalctl -u cantod -f
 ```
 
-You should then get several lines of log files. This is an indicator things thus far are working and now you need to create your validator txn. `^c` out and follow the next steps.
+You should then get several lines of log files, which may include an `INVALIDARGUMENT` error causing the service to exit. This is expected; `Ctrl + C` out and follow the next steps.
 
 ## 7. Sync Node
 
@@ -141,7 +141,7 @@ cantod tendermint unsafe-reset-all --home $CANTO_HOME --keep-addr-book
 sed -i -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
 s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
-s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $CANTO_HOME/config/config.toml
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.cantod/config/config.toml
 
 # Restart
 sudo systemctl start cantod
