@@ -13,7 +13,7 @@ As an EVM compatible chain, you can connect to the Canto network using MetaMask.
    **New RPC URL:** [https://canto.gravitychain.io](https://canto.gravitychain.io)\
    **Chain ID:** 7700\
    **Currency Symbol:** CANTO\
-   **Block Explorer URL:** [https://evm.explorer.canto.io/](https://evm.explorer.canto.io/)
+   **Block Explorer URL:** [https://tuber.build/](https://tuber.build/)
 
 <details>
 
