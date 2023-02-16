@@ -1,6 +1,14 @@
 # Connecting to Canto
 
-As an EVM compatible chain, you can connect to the Canto network using MetaMask. Assuming you have already installed and configured [MetaMask](https://metamask.io/) in your browser of choice, start by adding the Canto network:
+**As an EVM-compatible chain, you can connect to the Canto network using any Ethereum wallet.**
+
+{% hint style="info" %}
+While Canto itself is compatible with all Ethereum wallets, the [**canto.io**](https://canto.io/) interface is only compatible with injected wallets such as MetaMask and others listed on this page.
+{% endhint %}
+
+## With MetaMask
+
+Assuming you have already installed and configured [MetaMask](https://metamask.io/) in your browser of choice, follow these steps to add the Canto network:
 
 1. Open the MetaMask extension.
 2. At the top of the interface, click on the network you are connected to e.g. "Ethereum Mainnet".
@@ -36,10 +44,22 @@ As an EVM compatible chain, you can connect to the Canto network using MetaMask.
 **Currency Symbol:** CANTO\
 **Block Explorer URL:** [https://testnet-explorer.canto.neobase.one/](https://testnet-explorer.canto.neobase.one/)
 
-_For more information about the Canto testnet, see_ [_EVM Development_](broken-reference)_._
+_For more information about the Canto testnet, see_ [_EVM Development_](../evm-development/overview.md)_._
 
 </details>
 
 After saving the network, you will be able to connect to it at any time using the dropdown menu.
 
-If you skip this step and attempt to connect to applications on [https://canto.io/](https://canto.io/), a MetaMask prompt will appear allowing you to add the network with a single click.
+If you skip this step and attempt to connect to applications on [**canto.io**](https://canto.io/), a MetaMask prompt will appear allowing you to add the network with a single click.
+
+## Other Wallets
+
+The Canto network and [**canto.io**](https://canto.io/) **** interface are compatible with other injected wallets, such as the following:
+
+### Enkrypt
+
+On [Enkrypt](https://www.enkrypt.com/?mtm\_campaign=Canto%20Wiki%20Connecting%20to%20Cant), Canto is a default network which can be added using the _Manage Networks_ button at the bottom-left of the wallet interface.
+
+{% hint style="info" %}
+Request other supported wallets be added to this list by making a Pull Request to the [Canto docs repository](https://github.com/Canto-Network/docs).
+{% endhint %}
