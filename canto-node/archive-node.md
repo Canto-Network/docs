@@ -1,9 +1,5 @@
 # Archive Node
 
-{% hint style="info" %}
-This page is a work in progress. Contributions are welcome on the [GitHub repo](https://github.com/Canto-Network/docs).
-{% endhint %}
-
 You may wish to archive the entire history of the Canto blockchain in order to index it with a Graph node or to roll your own block explorer. This means spinning up an **archive node**.
 
 Complete step-by-step instructions for launching an archive node are provided below. If you're already comfortable installing and upgrading `cantod`, see step four for archive-specific config details.
@@ -63,13 +59,6 @@ sed -i 's/minimum-gas-prices = "0acanto"/minimum-gas-prices = "0.0001acanto"/g' 
 sed -i 's/pruning = "default"/pruning = "nothing"/g' $HOME/.cantod/config/app.toml
 ```
 
-You may also wish to turn off fast sync, especially if initial attempts at setting up an archive node are unsuccessful (e.g. due to the AppHash error at block 804212):
-
-```shell
-# Turn off fast sync in config.toml
-sed -i 's/fast_sync = true/fast_sync = false/g' $HOME/.cantod/config/config.toml
-```
-
 ## 5. Create `systemd` Service <a href="#create-systemd-service" id="create-systemd-service"></a>
 
 Create the `systemd` service file:
@@ -126,6 +115,10 @@ State breaking software upgrades took place at blocks:
 * 1231500 (v3.0.0)
 * 1274863 (v4.0.0)
 * 2669495 (v5.0.0)
+
+{% hint style="warning" %}
+**Important**: v2.0.0 may cause AppHash errors at blocks that contained governance proposals (e.g. 804212). To avoid this, build the patched v2.0.2 binary instead.
+{% endhint %}
 
 Upon reaching these blocks while syncing an archive node, the node will halt and throw an error every time it restarts until you update the binary. To do so, follow these steps:
 
