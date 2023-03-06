@@ -8,7 +8,9 @@ $CANTO is the native gas token on the Canto EVM and does not have a smart contra
 $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 {% endhint %}
 
-## ERC20 Tokens
+## Mainnet (7700)
+
+### ERC20 Tokens
 
 | Contract | Address                                                                                                                        |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -19,14 +21,14 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | USDT     | 0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75                                                                                     |
 | ATOM     | 0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265                                                                                     |
 
-## Accountant
+### Accountant
 
 | Contract            | Address                                                                                                                        |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | AccountantDelegate  | [0xC0ce8477c81A9F6C972976440C7b3305C37432f3](https://evm.explorer.canto.io/address/0xC0ce8477c81A9F6C972976440C7b3305C37432f3) |
 | AccountantDelegator | [0x4F6DCfa2F69AF7350AAc48D3a3d5B8D03b5378AA](https://evm.explorer.canto.io/address/0x4F6DCfa2F69AF7350AAc48D3a3d5B8D03b5378AA) |
 
-## Canto DEX
+### Canto DEX
 
 | Contract       | Address                                                                                                                        |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -38,7 +40,7 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | NoteUSDCLP     | 0x9571997a66D63958e1B3De9647C22bD6b9e7228c                                                                                     |
 | CantoETHLP     | 0x216400ba362d8FCE640085755e47075109718C8B                                                                                     |
 
-## Canto Lending Market
+### Canto Lending Market
 
 | Contract     | Address                                                                                                                        |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -56,8 +58,68 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | cNoteUSDCLP  | [0xD6a97e43FC885A83E97d599796458A331E580800](https://evm.explorer.canto.io/address/0xD6a97e43FC885A83E97d599796458A331E580800) |
 | cCantoETHLP  | [0xb49A395B39A0b410675406bEE7bD06330CB503E3](https://evm.explorer.canto.io/address/0xb49A395B39A0b410675406bEE7bD06330CB503E3) |
 
-## Contract Secured Revenue (CSR)
+### Contract Secured Revenue (CSR)
 
-| Contract     | Address                                                                                                                        |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| Turnstile   | [0xEcf044C5B4b867CFda001101c617eCd347095B44](https://evm.explorer.canto.io/address/0xEcf044C5B4b867CFda001101c617eCd347095B44) |
+| Contract  | Address                                                                                                                        |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Turnstile | [0xEcf044C5B4b867CFda001101c617eCd347095B44](https://evm.explorer.canto.io/address/0xEcf044C5B4b867CFda001101c617eCd347095B44) |
+
+## Testnet (7701)
+
+{% hint style="info" %}
+These contract addresses are for contracts deployed to the [new Canto testnet](testnet.md).
+{% endhint %}
+
+### ERC20 Tokens
+
+| Contract | Address                                    |
+| -------- | ------------------------------------------ |
+| NOTE     | 0x03F734Bd9847575fDbE9bEaDDf9C166F880B5E5f |
+| WCANTO   | 0x04a72466De69109889Db059Cb1A4460Ca0648d9D |
+| ETH      | 0xCa03230E7FB13456326a234443aAd111AC96410A |
+| USDC     | 0xc51534568489f47949A828C8e3BF68463bdF3566 |
+| USDT     | 0x4fC30060226c45D8948718C95a78dFB237e88b40 |
+| ATOM     | 0x40E41DC5845619E7Ba73957449b31DFbfB9678b2 |
+
+### Accountant
+
+| Contract            | Address                                    |
+| ------------------- | ------------------------------------------ |
+| AccountantDelegate  | 0x63c8FEb024D7aAf02c2DC21708f0E17EB0b03F67 |
+| AccountantDelegator | 0xdb91f7127Aa66855845696db77c37d1b6bEAd2db |
+
+### Canto DEX
+
+| Contract       | Address                                    |
+| -------------- | ------------------------------------------ |
+| BaseV1Factory  | 0x760a17e00173339907505B38F95755d28810570C |
+| BaseV1Router01 | 0x463e7d4DF8fE5fb42D024cb57c77b76e6e74417a |
+| CantoNoteLP    | 0x395E6ce7891f32278375Ff551B8ed61dF5579fE3 |
+| CantoAtomLP    | 0x2bDF6c1302efc3c03D9C95f6fb5a4826A6bD964b |
+| NoteUSDTLP     | 0x252631e22e1ECc2fc0E811562605ed624B7E31d5 |
+| NoteUSDCLP     | 0x2db30A39Ec88247da8906506DB8E9dd933A5C775 |
+| CantoETHLP     | 0x905D3d7F4C892d535160f1E2BA55f23Cd306718b |
+
+### Canto Lending Market
+
+| Contract     | Address                                    |
+| ------------ | ------------------------------------------ |
+| Unitroller   | 0x9514c07bC6e80B652e4264E64f589C59065C231f |
+| Comptroller  | 0xA51436eF5D46EE56B0906DeC620466153f7fb77e |
+| cNOTE        | 0x11909E7EF7b7F7c15862dB4D4c44a9438bc802Bf |
+| cCANTO       | 0x477eaF5DECf6299EE937954084f0d53EFc57346F |
+| cETH         | 0x3B3353674FE1f9034ee266c26019Dea171A83042 |
+| cUSDC        | 0x18F0CE76bfd2416F57049D2222f980e6062a8531 |
+| cUSDT        | 0xB70Df40aA96b0dab65534FC296255Fdf69705A18 |
+| cATOM        | 0x6718f29DD55F67F4D755be31025237739237187b |
+| cCantoNoteLP | 0x946c5e62be8852BC8d7843AfDEE4BDB73881E256 |
+| cCantoAtomLP | 0xaa12d8cbdC354A4c622F34D9B929A8157F439469 |
+| cNoteUSDTLP  | 0xea34b7E3691845c7B4c9b3C5E6f8838d5023cE42 |
+| cNoteUSDCLP  | 0x20cF7d264793587AD94934b4140413bFf3FF6596 |
+| cCantoETHLP  | 0xB93e08FD2a92231b722E7E7dE297d947df8e15a1 |
+
+### Contract Secured Revenue (CSR)
+
+| Contract  | Address                                    |
+| --------- | ------------------------------------------ |
+| Turnstile | 0xEcf044C5B4b867CFda001101c617eCd347095B44 |

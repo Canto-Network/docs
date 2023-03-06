@@ -30,6 +30,7 @@
 * [Contract Secured Revenue (CSR)](evm-development/contract-secured-revenue.md)
 * [Verifying Contracts](evm-development/verifying-contracts.md)
 * [Contract Addresses](evm-development/contract-addresses.md)
+* [New Testnet](evm-development/testnet.md)
 
 ## Running a Node <a href="#canto-node" id="canto-node"></a>
 
