@@ -26,7 +26,7 @@ To use the faucet, locate the `#canto-testnet-faucet` channel in the Canto Disco
 
 ## Free Public Infrastructure
 
-Canto's Free Public Infrastructure primitives, including the Canto DEX and Lending Market, are deployed to Canto testnet.
+Canto's Free Public Infrastructure primitives, including the Canto DEX and Lending Market, are deployed to Canto testnet. Contract addresses can be found [here](https://docs.canto.io/evm-development/contract-addresses#testnet-7701).
 
 ## Contract Secured Revenue
 
