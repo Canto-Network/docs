@@ -38,13 +38,11 @@ Assuming you have already installed and configured [MetaMask](https://metamask.i
 
 <summary>Testnet RPC URL</summary>
 
-**Network Name:** CANTO Testnet\
-**New RPC URL:** [https://eth.plexnode.wtf/](https://eth.plexnode.wtf/)  ****  \
-**Chain ID:** 740\
+**Network Name:** Canto Testnet\
+**New RPC URL:** `https://canto-testnet.plexnode.wtf`\
+**Chain ID:** 7701\
 **Currency Symbol:** CANTO\
-**Block Explorer URL:** [https://testnet-explorer.canto.neobase.one/](https://testnet-explorer.canto.neobase.one/)
-
-_For more information about the Canto testnet, see_ [_EVM Development_](../evm-development/overview.md)_._
+**Block Explorer URL:** [https://testnet.tuber.build/](https://testnet.tuber.build/)
 
 </details>
 

@@ -24,11 +24,11 @@ _Explorer:_ [_https://evm.explorer.canto.io/_](https://evm.explorer.canto.io/)__
 
 ## Testnet
 
-**RPC URL**: `https://eth.plexnode.wtf/`
+**RPC URL**: `https://canto-testnet.plexnode.wtf`
 
-**Chain ID**: 740
+**Chain ID**: **7701**
 
-_Explorer:_ [_http://testnet-explorer.canto.neobase.one/_](http://testnet-explorer.canto.neobase.one/)__
+_Explorer:_ [_https://testnet.tuber.build/_](https://testnet.tuber.build/)__
 
 ## Libraries
 
