@@ -31,6 +31,7 @@ Assuming you have already installed and configured [MetaMask](https://metamask.i
 * ****[https://canto.neobase.one](https://canto.neobase.one)
 * [https://canto.evm.chandrastation.com](https://canto.evm.chandrastation.com)
 * ****[https://jsonrpc.canto.nodestake.top/](https://jsonrpc.canto.nodestake.top/)
+* [https://canto.dexvaults.com/](https://canto.dexvaults.com/)
 
 </details>
 
