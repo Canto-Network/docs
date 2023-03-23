@@ -21,7 +21,7 @@ Assuming you have already installed and configured [MetaMask](https://metamask.i
    **New RPC URL:** [https://canto.gravitychain.io](https://canto.gravitychain.io)\
    **Chain ID:** 7700\
    **Currency Symbol:** CANTO\
-   **Block Explorer URL:** [https://tuber.build/](https://tuber.build/)
+   **Block Explorer URL:** [https://tuber.build/](https://tuber.build/) or [https://cantoscan.xyz/](https://cantoscan.xyz/)
 
 <details>
 
