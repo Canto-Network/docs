@@ -1,0 +1,25 @@
+# Celer Bridge
+
+[Celer Bridge](https://cbridge.celer.network/) supports bridging of $WBTC, $BNB, and $BUSD between Canto and numerous other blockchains, including Ethereum, Bitcoin, Polygon, Optimism, and others.
+
+## Using Celer Bridge
+
+The Celer bridging process is identical regardless of whether you are bridging to or from Canto. To use the bridge, follow these steps:
+
+1. Navigate to [**https://cbridge.celer.network/**](https://cbridge.celer.network/) **** and connect your wallet.
+2. Under the _From_ section, select the network you would like to bridge from, as well as the asset you would like to send and its amount.
+3. Under the _To_ section, select the network you would like to bridge to (e.g. Canto).
+4. Click the _Transfer_ button. If necessary, approve the outgoing asset.
+5. On the modal that appears, click the _Confirm Transfer_ button.
+
+<figure><img src="../../.gitbook/assets/celer-bridge.JPG" alt=""><figcaption></figcaption></figure>
+
+## Supported Assets
+
+Celer supports the following assets on Canto:
+
+* [$BNB](https://tuber.build/address/0xFb7F77faaA3b69ef4C15d6305C79AD92B387C89F)
+* [$BUSD](https://tuber.build/address/0x381Ea7A7EE6a1e2982e01E7b6837f775a1a4B07F)
+* [$WBTC](https://tuber.build/address/0x08638a74A8134c747Dce29B57472cc2B57F35653)
+
+Liquidity for these tokens can be found within third-party DApps such as [Velocimeter](https://canto.velocimeter.xyz/).
