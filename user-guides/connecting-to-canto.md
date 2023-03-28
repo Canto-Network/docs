@@ -21,7 +21,7 @@ Assuming you have already installed and configured [MetaMask](https://metamask.i
    **New RPC URL:** [https://canto.gravitychain.io](https://canto.gravitychain.io)\
    **Chain ID:** 7700\
    **Currency Symbol:** CANTO\
-   **Block Explorer URL:** [https://tuber.build/](https://tuber.build/) or [https://cantoscan.xyz/](https://cantoscan.xyz/)
+   **Block Explorer URL:** [https://tuber.build/](https://tuber.build/)
 
 <details>
 
@@ -32,6 +32,21 @@ Assuming you have already installed and configured [MetaMask](https://metamask.i
 * [https://canto.evm.chandrastation.com](https://canto.evm.chandrastation.com)
 * ****[https://jsonrpc.canto.nodestake.top/](https://jsonrpc.canto.nodestake.top/)
 * [https://canto.dexvaults.com/](https://canto.dexvaults.com/)
+
+</details>
+
+<details>
+
+<summary>Alternative Block Explorers</summary>
+
+Canto EVM:
+
+* [https://cantoscan.xyz/](https://cantoscan.xyz/)
+* [https://www.gacanto.com/](https://www.gacanto.com/)
+
+Canto EVM and Native:
+
+* [https://www.mintscan.io/canto](https://www.mintscan.io/canto)
 
 </details>
 
