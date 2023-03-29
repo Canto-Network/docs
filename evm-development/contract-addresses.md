@@ -64,6 +64,13 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | Turnstile | [0xEcf044C5B4b867CFda001101c617eCd347095B44](https://evm.explorer.canto.io/address/0xEcf044C5B4b867CFda001101c617eCd347095B44) |
 
+### Multicall
+
+| Contract   | Address                                                                                                              |
+| ---------- | -------------------------------------------------------------------------------------------------------------------- |
+| Multicall1 | [0x210b88d5Ad4BEbc8FAC4383cC7F84Cd4F03d18c6](https://tuber.build/address/0x210b88d5Ad4BEbc8FAC4383cC7F84Cd4F03d18c6) |
+| Multicall2 | [0x637490E68AA50Ea810688a52D7464E10c25A77c1](https://tuber.build/address/0x637490E68AA50Ea810688a52D7464E10c25A77c1) |
+
 ## Testnet (7701)
 
 {% hint style="info" %}
@@ -123,3 +130,10 @@ These contract addresses are for contracts deployed to the [new Canto testnet](t
 | Contract  | Address                                    |
 | --------- | ------------------------------------------ |
 | Turnstile | 0xEcf044C5B4b867CFda001101c617eCd347095B44 |
+
+### Multicall
+
+| Contract   | Address                                                                                                                      |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Multicall1 | [0xe536cF7B00069894da25faC787d7aD9D211a2C1A](https://testnet.tuber.build/address/0xe536cF7B00069894da25faC787d7aD9D211a2C1A) |
+| Multicall2 | [0x0e356B86FA2aE1bEB93174C18AD373207a40F2A3](https://testnet.tuber.build/address/0x0e356B86FA2aE1bEB93174C18AD373207a40F2A3) |
