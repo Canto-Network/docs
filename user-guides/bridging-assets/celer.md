@@ -1,8 +1,8 @@
-# Celer Bridge
+# Celer cBridge
 
-[Celer Bridge](https://cbridge.celer.network/) supports bridging of $WBTC, $BNB, and $BUSD between Canto and numerous other blockchains, including Ethereum, Bitcoin, Polygon, Optimism, and others.
+[Celer cBridge](https://cbridge.celer.network/) supports bridging of $WBTC, $BNB, and $BUSD between Canto and numerous other blockchains, including Ethereum, Bitcoin, Polygon, Optimism, and others.
 
-## Using Celer Bridge
+## Using Celer cBridge
 
 The Celer bridging process is identical regardless of whether you are bridging to or from Canto. To use the bridge, follow these steps:
 

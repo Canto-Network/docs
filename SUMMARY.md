@@ -18,7 +18,7 @@
   * [Bridging From Canto](user-guides/bridging-assets/from-canto.md)
   * [Synapse Bridge](user-guides/bridging-assets/synapse.md)
   * [Multichain](user-guides/bridging-assets/multichain.md)
-  * [Celer Bridge](user-guides/bridging-assets/celer.md)
+  * [Celer cBridge](user-guides/bridging-assets/celer.md)
 * [Providing Liquidity](user-guides/providing-liquidity.md)
 * [Lending & Borrowing](user-guides/lending-and-borrowing.md)
 * [Staking](user-guides/staking.md)
