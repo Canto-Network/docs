@@ -22,4 +22,4 @@ Celer supports the following assets on Canto:
 * [$BUSD](https://tuber.build/address/0x381Ea7A7EE6a1e2982e01E7b6837f775a1a4B07F)
 * [$WBTC](https://tuber.build/address/0x08638a74A8134c747Dce29B57472cc2B57F35653)
 
-Liquidity for these tokens can be found within third-party DApps such as [Velocimeter](https://canto.velocimeter.xyz/).
+Liquidity for these tokens can be found within third-party DApps such as [Velocimeter](https://www.velocimeter.xyz/).
