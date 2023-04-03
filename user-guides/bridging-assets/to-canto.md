@@ -16,21 +16,17 @@ At present, the Ethereum <-> Canto bridge supports ETH, USDC, and USDT transfers
 
 Assets bridged to Canto will arrive on the native Canto blockchain 96 ETH blocks (20 minutes) after the Ethereum transfer is confirmed. If you want to use the Canto Lending Market, Canto DEX, and other DApps, you must [bridge your assets to the Canto EVM](bridge-vs-evm.md).
 
-## From Cosmos Hub or other IBC enabled chain
+## From Cosmos Hub (and Other IBC Chains)
+
+This section covers bridging to Canto from Cosmos Hub and other IBC-enabled chains using Keplr.
+
+The instructions below use $ATOM from Cosmos Hub as an example, but also work for supported tokens from other chains: $SOMM, $GRAV, $AKT, $OSMO, $INJ, $CMDX, $KAVA, and $CRE.
 
 {% hint style="danger" %}
-**Do not attempt to transfer $ATOM or any other token to the Canto address in your Keplr wallet. Follow the instructions below.**
+**Do not attempt to transfer tokens other than those listed above. Additionally, do not attempt to IBC transfer tokens to the Canto address in your Keplr wallet. Follow the instructions below.**
 {% endhint %}
 
-This section covers bridging to Canto using Keplr, while $ATOM from the Cosmos Hub is used as an example this guide will also work for SOMM, GRAV, AKT, OSMO, INJ, CMDX, KAVA, and CRE
-
-{% hint style="danger" %}
-**Do not attempt to transfer any token that is not on the above list to Canto via IBC**
-{% endhint %}
-
-To bridge $ATOM from the Cosmos Hub network to the Canto Network, follow these steps:
-
-1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) **** and connect your MetaMask wallet, making sure you are on the Ethereum network.
+1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) and connect your MetaMask wallet, making sure you are on the Ethereum network.
 2. Before bridging to Canto, **generate a Canto public key** by clicking on the red banner at the top of the page and signing the transaction in your wallet.
 3. In the sidebar, click the `add to keplr` button:
 
@@ -42,13 +38,13 @@ To bridge $ATOM from the Cosmos Hub network to the Canto Network, follow these s
 
 5\. Make sure "Show Advanced IBC Transfers" option is toggled on in Keplr wallet settings.
 
-![](<../../.gitbook/assets/Screen Shot 2022-08-19 at 1.34.54 PM.png>)
-
-6\. In Keplr, switch to the Cosmos Hub, or the chain you are trying to bridge from. Then click IBC Transfer.
+6\. Switch to the chain you are trying to bridge from and click _IBC Transfer_:
 
 ![](<../../.gitbook/assets/image (13).png>)
 
-7\. Select “Canto Mainnet” as the destination chain. If bridging for the first time, add Canto by clicking "New IBC Transfer Channel", selecting Canto Mainnet. Then enter the correct channel depending on the chain you are bridging from.
+7\. Select “Canto Mainnet” as the destination chain.
+
+**If bridging for the first time, add Canto by clicking "New IBC Transfer Channel", selecting Canto Mainnet. Then enter the correct channel depending on the chain you are bridging from:**
 
 | Source Chain   | Channel     |
 | -------------- | ----------- |
@@ -62,10 +58,8 @@ To bridge $ATOM from the Cosmos Hub network to the Canto Network, follow these s
 | Crescent       | channel-34  |
 | Sommelier      | channel-2   |
 
-![](<../../.gitbook/assets/image (19).png>)![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (19).png>) ![](<../../.gitbook/assets/image (2).png>)
 
-8\. Enter the amount you want to transfer and complete the transaction. Your $ATOM should arrive after a few minutes.
-
-![](<../../.gitbook/assets/image (4).png>)
+8\. Enter the amount you want to transfer and complete the transaction. Your tokens should arrive after a few minutes.
 
 Assets bridged to Canto will arrive on the Canto Bridge blockchain. If you want to use the Canto Lending Market, Canto DEX, and other DApps, you must [bridge your assets to the Canto EVM](bridge-vs-evm.md).
