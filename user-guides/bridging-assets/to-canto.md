@@ -28,7 +28,7 @@ The instructions below use $ATOM from Cosmos Hub as an example, but also work fo
 
 1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) and connect your MetaMask wallet, making sure you are on the Ethereum network.
 2. Before bridging to Canto, **generate a Canto public key** by clicking on the red banner at the top of the page and signing the transaction in your wallet.
-3. In the sidebar, click the `add to keplr` button:
+3. Open the sidebar by clicking the burger icon in the top-left corner of the screen and select the `add to keplr` button:
 
 <figure><img src="../../.gitbook/assets/add-to-keplr-new (1).png" alt=""><figcaption></figcaption></figure>
 
