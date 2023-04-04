@@ -117,7 +117,7 @@ State breaking software upgrades took place at blocks:
 * 2669495 (v5.0.0)
 
 {% hint style="warning" %}
-**Important**: v2.0.0 may cause AppHash errors at blocks that contained governance proposals (e.g. 804212). To avoid this, build the patched v2.0.2 binary instead.
+**Important**: v2.0.0 may cause AppHash errors at blocks that contained governance proposals (e.g. 804212). To avoid this, build the patched v2.0.2 binary from the `thomas/archive-patch` branch instead.
 {% endhint %}
 
 Upon reaching these blocks while syncing an archive node, the node will halt and throw an error every time it restarts until you update the binary. To do so, follow these steps:
