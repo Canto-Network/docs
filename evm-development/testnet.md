@@ -14,11 +14,13 @@ Canto has a testnet network for development and testing purposes. To connect to 
 
 ## Faucet
 
-To get testnet $CANTO, use the faucet in the [Canto Discord](https://discord.gg/canto). The faucet disperses 50 tokens every 24 hours, per unique address/user.
+A testnet faucet at [https://www.cantofaucet.com/](https://www.cantofaucet.com/) disperses 50 tokens per address per 24 hours.
+
+Alternatively, use the `/driptestnet {address}` command in the #canto-testnet-faucet channel of the [Canto Discord](https://discord.gg/canto).
 
 <details>
 
-<summary>Faucet Instructions</summary>
+<summary>Discord Faucet Instructions</summary>
 
 To use the faucet, locate the `#canto-testnet-faucet` channel in the Canto Discord. In this channel, begin typing `/driptestnet` into the chat bar. When you see the command appear above the chat bar, hit enter and paste in your wallet address. Finally, hit enter once more to send the command.
 
