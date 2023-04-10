@@ -8,7 +8,7 @@ At present, the Ethereum <-> Canto bridge supports ETH, USDC, and USDT transfers
 
 1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) and connect your MetaMask wallet, making sure you are on the Ethereum network.
 2. Before bridging to Canto, **generate a Canto public key** by clicking on the red banner at the top of the page and signing the transaction in your wallet.
-3. 3\. Select the token you would like to bridge and input the quantity. Quantities less than 1 must include a 0 in the ones place value (e.g. `0.99`).
+3. Select the token you would like to bridge and input the quantity. Quantities less than 1 must include a 0 in the ones place value (e.g. `0.99`).
 4. Confirm the approval transaction in your wallet to approve transfer of the asset to the bridge.
 5. Sign the message in your wallet to confirm the transfer.
 
