@@ -27,10 +27,10 @@ Assuming you have already installed and configured [MetaMask](https://metamask.i
 
 <summary>Alternative RPC URLs</summary>
 
-* ****[https://canto.slingshot.finance](https://canto.slingshot.finance)
-* ****[https://canto.neobase.one](https://canto.neobase.one)
+* [https://canto.slingshot.finance](https://canto.slingshot.finance)
+* [https://canto.neobase.one](https://canto.neobase.one)
 * [https://canto.evm.chandrastation.com](https://canto.evm.chandrastation.com)
-* ****[https://jsonrpc.canto.nodestake.top/](https://jsonrpc.canto.nodestake.top/)
+* [https://jsonrpc.canto.nodestake.top/](https://jsonrpc.canto.nodestake.top/)
 * [https://canto.dexvaults.com/](https://canto.dexvaults.com/)
 
 </details>
@@ -68,7 +68,7 @@ If you skip this step and attempt to connect to applications on [**canto.io**](h
 
 ## Other Wallets
 
-The Canto network and [**canto.io**](https://canto.io/) **** interface are compatible with other injected wallets, such as the following:
+The Canto network and [**canto.io**](https://canto.io/) interface are compatible with other injected wallets, such as the following:
 
 ### Enkrypt
 

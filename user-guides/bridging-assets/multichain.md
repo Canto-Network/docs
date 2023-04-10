@@ -6,7 +6,7 @@
 
 The Multichain bridging process is identical regardless of whether you are bridging to or from Canto. To use the bridge, follow these steps:
 
-1. Navigate to [**https://app.multichain.org**](https://app.multichain.org/#/router) **** and connect your wallet.
+1. Navigate to [**https://app.multichain.org**](https://app.multichain.org/#/router) and connect your wallet.
 2. Under the _From_ section, select the network you would like to bridge from, as well as the asset you would like to send and its amount.
 3. Under the _To_ section, select the network you would like to bridge to (e.g. Canto) and the asset you would like to receive.
 4. Finally, click the _Swap_ button. If necessary, approve the outgoing asset before confirming the bridge transaction in your wallet to initiate the bridging process:

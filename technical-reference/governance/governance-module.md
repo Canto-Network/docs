@@ -30,7 +30,7 @@ The deposit is kept in escrow and held by the governance `ModuleAccount` until t
 When a proposal is finalized, the coins from the deposit are either refunded or burned according to the final tally of the proposal:
 
 * If the proposal is approved or rejected but _not_ vetoed, each deposit will be automatically refunded to its respective depositor (transferred from the governance `ModuleAccount`).
-* When the proposal is vetoed with greater than 33% of the votes, deposits will be burned from the governance `ModuleAccount` and the proposal information along with its deposit information will be removed from state.
+* When the proposal is vetoed with greater than 33.4% of the votes, deposits will be burned from the governance `ModuleAccount` and the proposal information along with its deposit information will be removed from state.
 * All refunded or burned deposits are removed from the state. Events are issued when burning or refunding a deposit.
 
 ## Voting <a href="#vote" id="vote"></a>
@@ -65,26 +65,26 @@ The initial option set includes the following options:
 
 ### Quorum <a href="#quorum" id="quorum"></a>
 
-Quorum is defined as the minimum percentage of voting power that needs to be cast on a proposal for the result to be valid. At launch, quorum is set to 40%.
+Quorum is defined as the minimum percentage of voting power that needs to be cast on a proposal for the result to be valid. At launch, quorum is set to 33.4%.
 
 ### Threshold <a href="#threshold" id="threshold"></a>
 
-Threshold is defined as the minimum proportion of `Yes` votes (excluding `Abstain` votes) required for the proposal to be accepted.
+Threshold is the minimum proportion of `Yes` votes to total votes (excluding `Abstain` votes) required for a proposal to be accepted.
 
-Initially, the threshold is set at 50% of `Yes` votes, excluding `Abstain` votes. A possibility to veto exists if more than 33% of all votes are `NoWithVeto` votes. Note, both of these values are derived from the `TallyParams` on-chain parameter, which is modifiable by governance. This means that proposals are accepted if:
+Initially, the threshold is set at 50%. A possibility to veto exists if more than 33.4% of all votes are `NoWithVeto` votes. Both of these values are derived from the `TallyParams` on-chain parameter, which is modifiable by governance. This means that proposals are accepted if:
 
 * There exist bonded tokens.
 * Quorum has been achieved.
-* The proportion of `Abstain` votes is inferior to 60%.
-* The proportion of `NoWithVeto` votes is inferior to 33%, including `Abstain` votes.
-* The proportion of `Yes` votes, excluding `Abstain` votes, at the end of the voting period is superior to 50%.
+* The proportion of `Abstain` votes is inferior to 100%, i.e. at least one `Yes`, `No`, or `NoWithVeto` vote was submitted one.
+* The proportion of `NoWithVeto` votes to total votes (including`Abstain` votes) is inferior to 33.4%.
+* The threshold is met.
 
 ### Inheritance <a href="#inheritance" id="inheritance"></a>
 
 If a delegator does not vote, they will inherit their validator's vote.
 
 * If a delegator votes before their validator, they will not inherit their validator's vote.
-* If a delegator votes after thei validator, they will override their validator's vote with their own. If the proposal is urgent, it is possible that the vote will close before delegators have a chance to react and override their validator's vote. This is not a problem, as proposals require more than 66% of the total voting power to pass before the end of the voting period. Because as little as 33% + 1 validation power could collude to censor transactions, non-collusion is already assumed for ranges exceeding this threshold.
+* If a delegator votes after thei validator, they will override their validator's vote with their own. If the proposal is urgent, it is possible that the vote will close before delegators have a chance to react and override their validator's vote. This is not a problem, as proposals require more than 66.6% of the total voting power to pass before the end of the voting period. Because as little as 33.4% + 1 validation power could collude to censor transactions, non-collusion is already assumed for ranges exceeding this threshold.
 
 ### Validator’s punishment for non-voting <a href="#validator-s-punishment-for-non-voting" id="validator-s-punishment-for-non-voting"></a>
 
@@ -96,7 +96,7 @@ Later, the Canto network may introduce permissioned keys that can only sign txs 
 
 ## Software Upgrades <a href="#software-upgrade" id="software-upgrade"></a>
 
-If proposals are of type `SoftwareUpgradeProposal`, then nodes need to upgrade their software to the new version that was voted for. This process is divided into two steps, signal and switch. 
+If proposals are of type `SoftwareUpgradeProposal`, then nodes need to upgrade their software to the new version that was voted for. This process is divided into two steps, signal and switch.
 
 ### Signal <a href="#signal" id="signal"></a>
 
@@ -106,6 +106,6 @@ Note: There is only one signal slot per _precommit_. If several `SoftwareUpgrade
 
 ### Switch <a href="#switch" id="switch"></a>
 
-Once a block contains more than 66% _precommits_ where a common `SoftwareUpgradeProposal` is signaled, all the nodes (including validator nodes, non-validating full nodes and light-nodes) are expected to switch to the new version of the software.
+Once a block contains more than 66.6% _precommits_ where a common `SoftwareUpgradeProposal` is signaled, all the nodes (including validator nodes, non-validating full nodes and light-nodes) are expected to switch to the new version of the software.
 
-More information can be found in the [Cosmos SDK documentation. ](https://docs.cosmos.network/master/modules/gov/)
+More information can be found in the [Cosmos SDK documentation.](https://docs.cosmos.network/master/modules/gov/)

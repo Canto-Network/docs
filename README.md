@@ -39,6 +39,6 @@ Canto is designed to support free public infrastructure, while eliminating centr
 
 Canto is a distributed community of DeFi advocates for a free public infrastructure.
 
-Though the initial Canto contributors have created the following resources for Canto announcements and details, **** there are no official Canto channels or branding assets, as any Canto community member can create resources, channels, imagery and discussion on Canto.&#x20;
+Though the initial Canto contributors have created the following resources for Canto announcements and details, there are no official Canto channels or branding assets, as any Canto community member can create resources, channels, imagery and discussion on Canto.&#x20;
 
 [Discord](https://discord.com/invite/canto) | [Telegram](https://t.me/+AhOzqMpej0ZiN2Ux) | [Twitter](https://twitter.com/cantopublic) | [Mirror/Blog ](https://mirror.xyz/0x4CeD9817cAD891aEFfbF5Fb7DcB6f3c6aEBd4228)| [Website](https://canto.io)

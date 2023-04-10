@@ -31,7 +31,7 @@ Follow these steps to stake your $CANTO:
 
 Note: You must claim rewards separately for every validator you have delegated to.
 
-<figure><img src="../.gitbook/assets/staking-claim-v2 (1).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/staking-claim-v2.JPG" alt=""><figcaption></figcaption></figure>
 
 ## Re-Delegating
 

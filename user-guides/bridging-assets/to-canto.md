@@ -40,7 +40,7 @@ The instructions below use $ATOM from Cosmos Hub as an example, but also work fo
 
 6\. Switch to the chain you are trying to bridge from and click _IBC Transfer_:
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
 7\. Select “Canto Mainnet” as the destination chain.
 

@@ -20,7 +20,7 @@ Once the transaction has been mined, asset-specific cTokens will be minted to yo
 
 To withdraw a supplied asset from the Canto Lending Market, follow these steps:
 
-1. On the [**canto.io/lending**](https://canto.io/lending) **** homepage, click on the asset in the _Supply_ column.
+1. On the [**canto.io/lending**](https://canto.io/lending) homepage, click on the asset in the _Supply_ column.
 2. Switch to the `withdraw` tab and enter the quantity of the asset you wish to withdraw.
 3. Click "Withdraw" and confirm the transaction in your wallet.
 
@@ -34,7 +34,7 @@ In order to borrow an asset from the Canto Lending Market, you must collateraliz
 
 To collateralize an asset, follow these steps:
 
-1. On the [**canto.io/lending**](https://canto.io/lending) **** homepage, locate the asset in the _Supply_ column.
+1. On the [**canto.io/lending**](https://canto.io/lending) homepage, locate the asset in the _Supply_ column.
 2. Click on the collateral switch for that asset.
 3. In the modal that opens, click "enable asset collateral" and confirm the transaction in your wallet.
 
@@ -44,7 +44,7 @@ To collateralize an asset, follow these steps:
 
 To decollateralize an asset, follow these steps:
 
-1. On the [**canto.io/lending**](https://canto.io/lending) **** homepage, locate the asset in the _Supply_ column.
+1. On the [**canto.io/lending**](https://canto.io/lending) homepage, locate the asset in the _Supply_ column.
 2. Click on the collateral switch for that asset.
 3. In the modal that opens, click "disable asset collateral" and confirm the transaction in your wallet.
 
@@ -56,7 +56,7 @@ This button is disabled if decollateralizing the asset would put you above 80% o
 
 In order to borrow an asset, there must be enough supply in the Canto Lending Market to borrow against. To do so, follow these steps:
 
-1. On the [**canto.io/lending**](https://canto.io/lending) **** homepage, click on an asset in the _Borrow_ column.
+1. On the [**canto.io/lending**](https://canto.io/lending) homepage, click on an asset in the _Borrow_ column.
 2. Enter the quantity of the asset you wish to borrow.
 3. Click "Borrow" and confirm the transaction in your wallet.
 
@@ -68,7 +68,7 @@ Note that it is possible to manually enter a borrow amount whereby the `borrow l
 
 To repay a borrowed asset, follow these steps:
 
-1. On the [**canto.io/lending**](https://canto.io/lending) **** homepage, click on an asset in the _Borrow_ column.
+1. On the [**canto.io/lending**](https://canto.io/lending) homepage, click on an asset in the _Borrow_ column.
 2. Switch to the `repay` tab and enter the quantity of the asset you wish to repay. If necessary, approve the token's transfer.
 3. Click "Repay" and confirm the transaction in your wallet.
 
@@ -76,7 +76,7 @@ To repay a borrowed asset, follow these steps:
 
 ## Claiming LM Rewards
 
-To claim liquidity mining rewards, click on `claim LM rewards` on the [**canto.io/lending**](https://canto.io/lending) **** homepage. Then, click "Claim" and confirm the transaction in your wallet.
+To claim liquidity mining rewards, click on `claim LM rewards` on the [**canto.io/lending**](https://canto.io/lending) homepage. Then, click "Claim" and confirm the transaction in your wallet.
 
 {% hint style="info" %}
 Liquidity mining rewards are paid out in $WCANTO, the wrapped ERC20 equivalent of $CANTO. You can unwrap $WCANTO or trade with it directly on third-party DEX interfaces such as [Slingshot](https://app.slingshot.finance/swap/CANTO).

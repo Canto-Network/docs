@@ -12,7 +12,7 @@ If your assets are already on the Canto EVM but you would like to bridge them ba
 
 ## Canto Bridge to EVM
 
-1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) **** and toggle the selector to show the flow of assets from the Canto Bridge to the Canto EVM.
+1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) and toggle the selector to show the flow of assets from the Canto Bridge to the Canto EVM.
 2. Select the token you would like to bridge and input the quantity. Quantities less than 1 must include a 0 in the ones place value (e.g. `0.99`).
 3. Click `bridge in` and sign the message in your wallet:
 

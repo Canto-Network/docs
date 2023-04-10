@@ -1,4 +1,4 @@
-# Synapse Bridge (Multichain)
+# Synapse Bridge
 
 [Synapse Bridge](https://synapseprotocol.com/) is a multichain bridge that enables on-chain asset swaps between Canto and 10+ other blockchains, including Ethereum, Polygon, Optimism, Arbitrum, Avalanche, BNB Chain, and others.
 
@@ -6,7 +6,7 @@
 
 The Synapse bridging process is identical regardless of whether you are bridging to or from Canto. To use the bridge, follow these steps:
 
-1. Navigate to [**https://synapseprotocol.com/**](https://synapseprotocol.com/) **** and connect your wallet.
+1. Navigate to [**https://synapseprotocol.com/**](https://synapseprotocol.com/) and connect your wallet.
 2. Under the _Origin_ section, select the network you would like to bridge from, as well as the asset you would like to send and its amount.
 3. Under the _Dest._ section, select the network you would like to bridge to (e.g. Canto) and the asset you would like to receive.
 4. If necessary, click the _Approve_ button and confirm the transaction in your wallet to approve the outgoing asset.
