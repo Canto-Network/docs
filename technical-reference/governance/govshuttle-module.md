@@ -4,7 +4,7 @@ The GovShuttle module is a custom-built governance module that enables network-l
 
 ## How GovShuttle Works
 
-The GovShuttle module is a Cosmos SDK module that unifies network and DApp governance. The module allows stakers of Canto to create and vote on governance proposals that can be transported to a proposal store contract called Port on Canto’s EVM. On initialization, GovShuttle’s keeper checks to see if the Port exists. If it hasn’t been deployed, the keeper will use the `DeployMapContract` function to deploy the Port.
+The GovShuttle module is a Cosmos SDK module that unifies network and DApp governance. The module allows stakers of $Canto to create and vote on governance proposals that can be transported to a proposal store contract called the Port on Canto’s EVM. On initialization, GovShuttle’s keeper checks to see if the Port exists. If it hasn’t been deployed, the keeper will use the `DeployMapContract` function to deploy the Port.
 
 ```go
 if nonce == 0 {
@@ -42,4 +42,4 @@ Reading a proposal written to the Port is as simple as querying the contract usi
 
 ![](<../../.gitbook/assets/Blank diagram (1).png>)
 
-By using GovShuttle and generalizing it further for additional data types, Canto stakeholders can govern an arbitrary number and type of applications on the EVM
+By using GovShuttle and generalizing it further for additional data types, Canto stakeholders can govern an arbitrary number of applications on the EVM.
