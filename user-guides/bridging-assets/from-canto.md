@@ -1,42 +1,51 @@
 # Bridging From Canto
 
-To bridge from Canto to Ethereum, Cosmos Hub, or Gravity Bridge, make sure you have [moved your assets from the Canto EVM to the Canto Bridge](bridge-vs-evm.md). Then, follow the steps below.
+With the [**canto.io**](https://canto.io/bridge) frontend, you can bridge from Canto to Ethereum (via Gravity Bridge) or to Cosmos Hub and other IBC-enabled chains. To ensure smooth bridging, assets can only be bridged to their native chains.
 
-## To Ethereum/Gravity Bridge <a href="#to-ethereum" id="to-ethereum"></a>
+## To Ethereum via Gravity Bridge <a href="#to-ethereum" id="to-ethereum"></a>
 
-Bridging from Canto to Ethereum is possible via Gravity Bridge. To bridge assets on Canto back to Ethereum, you must have:
+Bridging from Canto to Ethereum is possible via Gravity Bridge. To bridge assets on Canto back to Ethereum, you must have an IBC wallet such as Keplr in addition to your Ethereum wallet.
 
-* An IBC wallet (such as Keplr Wallet)
-* An Ethereum wallet such as MetaMask
+To bridge from Canto to Ethereum, you'll need to move your assets to the Canto Bridge first:
 
-Once you are ready to bridge from Canto to Ethereum, follow these steps:
+1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) and select the `bridge out` tab.
+2. Select an Ethereum-native token you would like to bridge and input the quantity.
+3. Click `bridge out` and sign the message in your Ethereum wallet:
 
-1. Navigate to [**canto.io/bridge**](https://canto.io/bridge), select the `bridge out` tab, and toggle the selector to show the flow of assets from the Canto Bridge to Gravity Bridge:
+<figure><img src="../../.gitbook/assets/bridge-out-modal.JPG" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/bridge-out-old.JPG" alt=""><figcaption></figcaption></figure>
+### Bridge Queue <a href="#bridge-queue-gb" id="bridge-queue-gb"></a>
 
-2\. Open your Keplr wallet and change the network to Gravity Bridge. Copy your Gravity Bridge address and paste it into the bridge interface.
+After moving your assets to the Canto Bridge, finish the bridging process by clicking the `complete` button next to your bridge transaction under the _Bridge Queue_ section:
 
-3\. Select a token and enter the amount.
+<figure><img src="../../.gitbook/assets/bridge-queue-out.JPG" alt=""><figcaption></figcaption></figure>
 
-4\. Click `bridge out` and sign the transaction in MetaMask. After a few minutes, you should see the tokens in your Keplr wallet at the address you provided.
+A modal will appear prompting you to input a Gravity Bridge address. Now, follow these steps:
 
-<img src="../../.gitbook/assets/Screen Shot 2022-08-17 at 4.09.04 AM.png" alt="" data-size="original">
+1. Open your Keplr wallet and change the network to Gravity Bridge.
+2. Copy your Gravity Bridge address and paste it into the bridge interface.
+3. Click `confirm` and sign the message in your Ethereum wallet.
+4. After a few minutes, the assets will arrive in your Keplr wallet. If desired, you can now bridge from Gravity Bridge to Ethereum using the [Gravity Bridge portal](https://bridge.blockscape.network/).
 
-5\. Once the tokens are in your Keplr wallet, bridge from Gravity Bridge to Ethereum using the [Gravity Bridge portal](https://bridge.blockscape.network/).
+## To Cosmos Hub and Other IBC Chains
 
-![](<../../.gitbook/assets/Screen Shot 2022-08-17 at 3.59.58 AM.png>)
+To bridge from Canto to Cosmos Hub or other IBC chains, you'll need to move your assets to the Canto Bridge first:
 
-## To Cosmos Hub
+1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) and select the `bridge out` tab.
+2. Select the token you would like to bridge and input the quantity.
+3. Click `bridge out` and sign the message in your Ethereum wallet:
 
-To bridge from Canto to Cosmos Hub, follow these steps:
+<figure><img src="../../.gitbook/assets/bridge-out-ibc.JPG" alt=""><figcaption></figcaption></figure>
 
-1. Navigate to [**canto.io/bridge**](https://canto.io/bridge), select the `bridge out` tab, and toggle the selector to show the flow of assets from the Canto Bridge to Cosmos Hub:
+### Bridge Queue <a href="#bridge-queue-gb" id="bridge-queue-gb"></a>
 
-<figure><img src="../../.gitbook/assets/new-bridge-to-cosmos.JPG" alt=""><figcaption></figcaption></figure>
+After moving your assets to the Canto Bridge, finish the bridging process by clicking the `complete` button next to your bridge transaction under the _Bridge Queue_ section:
 
-2\. Open your Keplr wallet, copy your Cosmos Hub address, and paste it into the bridge interface.
+<figure><img src="../../.gitbook/assets/bridge-queue-out-ibc.JPG" alt=""><figcaption></figcaption></figure>
 
-3\. Enter the amount of $ATOM you would like to bridge. Only bridging of $ATOM from Canto to Cosmos Hub is supported at this time.
+A modal will appear prompting you to input an address for the asset's native chain. Now, follow these steps:
 
-4\. Click `bridge out` and sign the transaction in MetaMask. After a few minutes, you should see the tokens in your Keplr wallet at the address you provided.
+1. Open your Keplr wallet and change the network to the asset's native chain.
+2. Copy your address for that chain and paste it into the bridge interface.
+3. Click `confirm` and sign the message in your Ethereum wallet.
+4. After a few minutes, the assets will arrive in your Keplr wallet.

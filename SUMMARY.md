@@ -14,7 +14,6 @@
 * [Connecting to Canto](user-guides/connecting-to-canto.md)
 * [Bridging Assets](user-guides/bridging-assets/README.md)
   * [Bridging to Canto](user-guides/bridging-assets/to-canto.md)
-  * [Bridge and EVM](user-guides/bridging-assets/bridge-vs-evm.md)
   * [Bridging From Canto](user-guides/bridging-assets/from-canto.md)
   * [Synapse Bridge](user-guides/bridging-assets/synapse.md)
   * [Multichain](user-guides/bridging-assets/multichain.md)
