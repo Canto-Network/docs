@@ -1,3 +1,4 @@
 redirects:  
     user-guides/bridging-assets/ethereum: user-guides/bridging-assets/to-canto.md
-    user-guides/converting-assets: user-guides/bridging-assets/bridge-vs-evm.md
+    user-guides/converting-assets: user-guides/bridging-assets/to-canto.md#bridge-queue-eth
+    user-guides/bridging-assets/bridge-vs-evm: user-guides/bridging-assets/to-canto.md#bridge-queue-eth
