@@ -51,7 +51,8 @@ To finish bridging to the Canto EVM, click the `complete` button next to your br
 * GRAV
 * AKT
 * OSMO
-* CREKAVA
+* CRE
+* KAVA
 * INJ\*
 * CMDX
 * DVPN

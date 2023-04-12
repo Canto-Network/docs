@@ -56,7 +56,7 @@ In case you're new to Solidity development, here are step-by-step instructions o
 
 The first step in deploying a smart contract on Canto is writing the contract's source code in Solidity. To do this, create a new file in your Remix workspace:
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 Name the file as desired with the `.sol` extension and begin writing your code. You can also use source code from contracts that are already deployed on Ethereum.
 
