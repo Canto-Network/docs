@@ -2,7 +2,7 @@
 
 [Canto](https://canto.io/) is a permissionless general-purpose blockchain running the Ethereum Virtual Machine (EVM). It was built to deliver on the promise of DeFi – that through a post-traditional financial movement, new systems will be made accessible, transparent, decentralized, and free.
 
-At launch, Canto provides [Tendermint consensus](https://docs.tendermint.com/master/introduction/what-is-tendermint.html) secured by [Canto validator nodes](canto-node/validators/) and an EVM execution layer via [Cosmos SDK](https://v1.cosmos.network/sdk) in addition to core financial primitives designed to support the [Free Public Infrastructure (FPI)](https://canto.gitbook.io/canto/welcome/how-does-canto-work/free-public-infrastructure-fpi). These primitives include:&#x20;
+At launch, Canto provides [Tendermint consensus](https://docs.tendermint.com/v0.34/introduction/what-is-tendermint.html) secured by [Canto validator nodes](canto-node/validators/) and an EVM execution layer via [Cosmos SDK](https://v1.cosmos.network/sdk) in addition to core financial primitives designed to support the [Free Public Infrastructure (FPI)](https://canto.gitbook.io/canto/welcome/how-does-canto-work/free-public-infrastructure-fpi). These primitives include:&#x20;
 
 * [Canto DEX](overview/canto-dex.md) — a zero-fee DEX for liquidity providers
 * [Canto Lending Market (CLM)](overview/canto-lending-market-clm.md) — a pooled lending Compound v2 fork
