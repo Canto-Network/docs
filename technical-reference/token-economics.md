@@ -24,6 +24,6 @@ In order to maintain the security of the Canto network, the total max supply of 
 Early Canto contributors propose these emissions be structured in 30 day periods, with rewards distributed daily:
 
 * For the first 30 day period, $CANTO will inflate at a 19.84% APR.
-* For subsequent periods, the Canto DAO will vote to adjust emissions as appropriate.
+* For subsequent periods, governance will vote to adjust emissions as appropriate.
 
 Over time, the inflation of $CANTO should tend to zero.
