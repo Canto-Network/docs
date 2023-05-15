@@ -48,6 +48,7 @@
 
 ## Technical Reference
 
+* [IBC Token Recovery](technical-reference/ibc-token-recovery.md)
 * [Token Economics](technical-reference/token-economics.md)
 * [Architecture & Design](technical-reference/architecture-and-design/README.md)
   * [Gravity Bridge](technical-reference/architecture-and-design/gravity-bridge.md)
