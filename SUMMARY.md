@@ -51,6 +51,7 @@
 * [IBC Token Recovery](technical-reference/ibc-token-recovery.md)
 * [Token Economics](technical-reference/token-economics.md)
 * [Architecture & Design](technical-reference/architecture-and-design/README.md)
+  * [Onboarding Module](technical-reference/architecture-and-design/onboarding-module.md)
   * [Gravity Bridge](technical-reference/architecture-and-design/gravity-bridge.md)
   * [$NOTE Design](technical-reference/architecture-and-design/usdnote-design.md)
   * [Canto Lending Protocol](technical-reference/architecture-and-design/canto-lending-protocol.md)
