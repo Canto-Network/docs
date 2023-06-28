@@ -2,27 +2,28 @@
 
 With the [**canto.io**](https://canto.io/bridge) frontend, you can natively bridge to Canto from Ethereum, Cosmos Hub, and other IBC-enabled chains. Once bridged, you'll be able to move assets to the Canto EVM and begin interacting with Canto's Free Public Infrastructure and DApps.
 
-## From Ethereum
+## Bridge Tokens From Ethereum
 
-At present, the Ethereum bridge supports WETH, USDC, USDT, and wstETH transfers. To bridge assets from the Ethereum network to the Canto network, follow these steps:
+At present, the Ethereum bridge supports WETH, USDC, USDT, and wstETH transfers (via Gravity Bridge) and CANTO transfers (via LayerZero). To bridge assets from the Ethereum network to the Canto network, follow these steps:
 
 1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) and connect your MetaMask wallet on the Ethereum network.
 2. If bridging to Canto for the first time, **generate a Canto public key** by clicking on the red banner at the top of the page and signing the message with your wallet.
 3. Select the token you would like to bridge and input the quantity.
-4. If necessary, click `approve` to approve the token for transfer.
-5. Finally, click `bridge in` and confirm the transaction in your wallet.
+4. Click `bridge in` and confirm the transaction(s) in your wallet. In addition to the bridge transaction, you may need to confirm transactions to wrap ETH and/or approve the token.
 
 <figure><img src="../../.gitbook/assets/bridge-to-canto-v3.JPG" alt=""><figcaption></figcaption></figure>
 
 ### Bridge Queue <a href="#bridge-queue-eth" id="bridge-queue-eth"></a>
 
-Assets bridged from Ethereum to Canto will arrive on the Canto Bridge approximately 20 minutes after the Ethereum transaction is confirmed.
+CANTO bridged to Canto via LayerZero will arrive on the Canto _EVM_ within several minutes.
 
-To finish bridging to the Canto EVM, click the `complete` button next to your bridge transaction under the _Bridge Queue_ section:
+ERC20 assets including WETH, USDC, USDT, and wstETH bridged to Canto via Gravity Bridge will arrive on the Canto _Bridge_ approximately 20 minutes after the Ethereum transaction is confirmed.
+
+To finish bridging ERC20 assets to the Canto EVM, click the `complete` button next to your bridge transaction under the _Bridge Queue_ section:
 
 <figure><img src="../../.gitbook/assets/bridge-queue-eth.JPG" alt=""><figcaption></figcaption></figure>
 
-## From Cosmos Hub and Other IBC Chains
+## Bridge IBC Tokens From Cosmos Chains
 
 IBC transfers can be used to bridge selected assets including ATOM, GRAV, and OSMO to Canto from Cosmos Hub and other IBC-enabled chains.
 

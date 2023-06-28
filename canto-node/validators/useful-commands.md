@@ -2,12 +2,4 @@
 
 Here are some useful commands for node operators:
 
-| Command                                                                  | Description                                                                                     |
-| ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| `cantod keys list`                                                       | Lists the names of keys created on your machine                                                 |
-| `cantod tendermint show-node-id`                                         | Shows your node ID                                                                              |
-| `cantod keys show <keyname> -a --bech val`                               | Gets your valoper address                                                                       |
-| `curl http://localhost:26657/status \| jq .result.sync_info.catching_up` | Checks if your node is catching up (query via the RPC, default port 26657)                      |
-| `query slashing signing-info $(cantod tendermint show-validator)`        | Checks if you are jailed or tombstoned                                                          |
-| `cantod query slashing signing-infos`                                    | Shows blocks your node is missing                                                               |
-| `cantod tendermint show-address`                                         | Shows your Tendermint consensus address for comparison to the list of validators missing blocks |
+<table><thead><tr><th width="375">Command</th><th>Description</th></tr></thead><tbody><tr><td><code>cantod keys list</code></td><td>Lists the names of keys created on your machine</td></tr><tr><td><code>cantod tendermint show-node-id</code></td><td>Shows your node ID</td></tr><tr><td><code>cantod keys show &#x3C;keyname> -a --bech val</code></td><td>Gets your valoper address</td></tr><tr><td><code>curl http://localhost:26657/status | jq .result.sync_info.catching_up</code></td><td>Checks if your node is catching up (query via the RPC, default port 26657) </td></tr><tr><td><code>query slashing signing-info $(cantod tendermint show-validator)</code></td><td>Checks if you are jailed or tombstoned</td></tr><tr><td><code>cantod query slashing signing-infos</code> </td><td>Shows blocks your node is missing</td></tr><tr><td><code>cantod tendermint show-address</code> </td><td>Shows your Tendermint consensus address for comparison to the list of validators missing blocks</td></tr></tbody></table>
