@@ -6,7 +6,7 @@ CSR was added in the Canto v5.0.0 chain upgrade with an initial fee split of 20%
 
 ## Overview
 
-To earn CSR fees, you must register your contracts with the CSR **Turnstile** smart contract deployed on Canto mainnet at [0xEcf044C5B4b867CFda001101c617eCd347095B44](https://evm.explorer.canto.io/address/0xEcf044C5B4b867CFda001101c617eCd347095B44). The source code for Turnstile can be found [here](https://github.com/Canto-Network/Canto/blob/csr/contracts/turnstile.sol).
+To earn CSR fees, you must register your contracts with the CSR **Turnstile** smart contract deployed on Canto mainnet at [0xEcf044C5B4b867CFda001101c617eCd347095B44](https://tuber.build/address/0xEcf044C5B4b867CFda001101c617eCd347095B44). The source code for Turnstile can be found [here](https://github.com/Canto-Network/Canto/blob/csr/contracts/turnstile.sol).
 
 Upon registering a contract, a transferrable NFT representing the right to claim that contract's revenue is minted to an address of your choice. Alternatively, you can assign a contract's revenue to an existing CSR NFT.
 
