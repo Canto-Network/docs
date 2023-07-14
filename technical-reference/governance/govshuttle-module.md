@@ -1,6 +1,10 @@
 # GovShuttle Module
 
-The GovShuttle module is a custom-built governance module that enables network-level governance over applications deployed to the EVM. At the functional level, the module passes information from Cosmos SDK governance proposals to an oracle address on the EVM, which can be read and implemented by Free Public Infrastructure DApps.
+The GovShuttle module is a custom-built governance module that enables network-level governance over applications deployed to the EVM. At the functional level, the module passes information from Cosmos SDK governance proposals to an oracle address (the "Port") on the EVM, which can be read and implemented by Free Public Infrastructure DApps.
+
+{% hint style="info" %}
+Port (mainnet): 0x648a5Aa0C4FbF2C1CF5a3B432c2766EeaF8E402d
+{% endhint %}
 
 ## How GovShuttle Works
 

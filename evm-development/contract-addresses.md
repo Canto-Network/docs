@@ -58,6 +58,12 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | cNoteUSDCLP  | [0xD6a97e43FC885A83E97d599796458A331E580800](https://evm.explorer.canto.io/address/0xD6a97e43FC885A83E97d599796458A331E580800) |
 | cCantoETHLP  | [0xb49A395B39A0b410675406bEE7bD06330CB503E3](https://evm.explorer.canto.io/address/0xb49A395B39A0b410675406bEE7bD06330CB503E3) |
 
+### GovShuttle Module
+
+| Contract | Address                                                                                                              |
+| -------- | -------------------------------------------------------------------------------------------------------------------- |
+| Port     | [0x648a5Aa0C4FbF2C1CF5a3B432c2766EeaF8E402d](https://tuber.build/address/0x648a5Aa0C4FbF2C1CF5a3B432c2766EeaF8E402d) |
+
 ### Contract Secured Revenue (CSR)
 
 | Contract  | Address                                                                                                                        |
