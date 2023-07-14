@@ -14,5 +14,4 @@ For more information about using the frontend, see the following pages:
 Various third-party bridges also support bridging directly to the Canto EVM:
 
 * [Synapse Bridge](synapse.md)
-* [Multichain](multichain.md)
 * [Celer cBridge](celer.md)
