@@ -2,6 +2,9 @@
 
 The contributor-operated block explorer at [https://evm.explorer.canto.io/](https://evm.explorer.canto.io/) supports contract verification, allowing you to share your smart contracts' source code, methods, and ABIs with users and developers through the explorer itself.
 
+Another 3rd-party operated block explorer at [https://canto.dex.guru/](https://canto.dex.guru/) supports smart contract verification with a native UI for Sourcify.
+
+
 ## Verifying with Sourcify
 
 At present, the explorer only supports contract verification via Sourcify. To verify a contract, follow these steps:

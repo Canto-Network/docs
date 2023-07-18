@@ -16,9 +16,26 @@ _Explorer:_ [_https://evm.explorer.canto.io/_](https://evm.explorer.canto.io/)
 
 <summary><strong>Alternative RPC URLs</strong></summary>
 
-* `https://canto.neobase.one/`
-* `https://canto.evm.chandrastation.com/`
-* `https://jsonrpc.canto.nodestake.top`
+* [https://canto.neobase.one](https://canto.neobase.one)
+* [https://canto.evm.chandrastation.com](https://canto.evm.chandrastation.com)
+* [https://jsonrpc.canto.nodestake.top/](https://jsonrpc.canto.nodestake.top/)
+* [https://canto.dexvaults.com/](https://canto.dexvaults.com/)
+
+</details>
+
+<details>
+
+<summary>Alternative Block Explorers</summary>
+
+Canto EVM:
+
+* [https://cantoscan.xyz/](https://cantoscan.xyz/)
+* [https://www.gacanto.com/](https://www.gacanto.com/)
+* [https://canto.dex.guru/](https://canto.dex.guru/)
+
+Canto EVM and Native:
+
+* [https://www.mintscan.io/canto](https://www.mintscan.io/canto)
 
 </details>
 
@@ -29,6 +46,8 @@ _Explorer:_ [_https://evm.explorer.canto.io/_](https://evm.explorer.canto.io/)
 **Chain ID**: **7701**
 
 _Explorer:_ [_https://testnet.tuber.build/_](https://testnet.tuber.build/)
+_Alternative Testnet Explorer URL:_ [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
+
 
 ## Libraries
 
@@ -67,11 +86,11 @@ pragma solidity 0.8.17;
 
 contract Example {
     uint storedData;
-    
+
     function set(uint x) public {
         storedData = x;
     }
-    
+
     function get() public view returns (uint) {
         return storedData;
     }

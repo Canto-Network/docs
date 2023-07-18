@@ -43,6 +43,7 @@ Canto EVM:
 
 * [https://cantoscan.xyz/](https://cantoscan.xyz/)
 * [https://www.gacanto.com/](https://www.gacanto.com/)
+* [https://canto.dex.guru/](https://canto.dex.guru/)
 
 Canto EVM and Native:
 
@@ -59,7 +60,7 @@ Canto EVM and Native:
 **Chain ID:** 7701\
 **Currency Symbol:** CANTO\
 **Block Explorer URL:** [https://testnet.tuber.build/](https://testnet.tuber.build/)
-
+**Alternative Explorer URL:** [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
 </details>
 
 After saving the network, you will be able to connect to it at any time using the dropdown menu.
