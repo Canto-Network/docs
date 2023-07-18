@@ -11,7 +11,7 @@ Canto has a testnet network for development and testing purposes. To connect to 
 **Chain ID:** 7701\
 **Currency Symbol:** CANTO\
 **Block Explorer URL:** [https://testnet.tuber.build/](https://testnet.tuber.build/)
-**Alternative Testnet Explorer URL:** [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
+**Alternative Explorer URL:** [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
 
 ## Faucet
 

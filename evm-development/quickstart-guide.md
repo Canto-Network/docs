@@ -16,7 +16,6 @@ _Explorer:_ [_https://evm.explorer.canto.io/_](https://evm.explorer.canto.io/)
 
 <summary><strong>Alternative RPC URLs</strong></summary>
 
-* [https://canto.slingshot.finance](https://canto.slingshot.finance)
 * [https://canto.neobase.one](https://canto.neobase.one)
 * [https://canto.evm.chandrastation.com](https://canto.evm.chandrastation.com)
 * [https://jsonrpc.canto.nodestake.top/](https://jsonrpc.canto.nodestake.top/)
@@ -47,7 +46,7 @@ Canto EVM and Native:
 **Chain ID**: **7701**
 
 _Explorer:_ [_https://testnet.tuber.build/_](https://testnet.tuber.build/)
-**Alternative Testnet Explorer URL:** [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
+_Alternative Testnet Explorer URL:_ [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
 
 
 ## Libraries
