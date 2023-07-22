@@ -18,7 +18,7 @@ CSR fees for all registered contracts accrue in the Turnstile contract. To withd
 Calling the `register` method from an EOA does not revert and will mint a CSR NFT. However, no fees will be distributed to this NFT when the EOA transacts. **Additionally, any contracts later assigned to this NFT will **_**not**_** generate CSR fees.**
 {% endhint %}
 
-To register a smart contract for CSR, call the `register` method on the [Turnstile contract](https://evm.explorer.canto.io/address/0xEcf044C5B4b867CFda001101c617eCd347095B44) **from the contract you wish to register.**
+To register a smart contract for CSR, call the `register` method on the [Turnstile contract](https://tuber.build/address/0xEcf044C5B4b867CFda001101c617eCd347095B44) **from the contract you wish to register.**
 
 This method takes one parameter: the `address` to which the CSR NFT should be minted. This can be an address that does not exist (i.e. an address that has never transacted before).
 
@@ -44,7 +44,7 @@ The `register` method returns the token ID of the CSR NFT that was minted.
 
 ### Assignment <a href="#assignment" id="assignment"></a>
 
-You can register a smart contract for CSR while assigning its fees to an existing CSR NFT by calling the `assign` method on the [Turnstile contract](https://evm.explorer.canto.io/address/0xEcf044C5B4b867CFda001101c617eCd347095B44). This method also takes one parameter: the `uint256` token ID of the CSR NFT to which fees should be assigned.
+You can register a smart contract for CSR while assigning its fees to an existing CSR NFT by calling the `assign` method on the [Turnstile contract](https://tuber.build/address/0xEcf044C5B4b867CFda001101c617eCd347095B44). This method also takes one parameter: the `uint256` token ID of the CSR NFT to which fees should be assigned.
 
 The same constraints apply:
 

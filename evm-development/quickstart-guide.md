@@ -10,7 +10,7 @@ Smart contracts can be deployed using your Ethereum tooling of choice, including
 
 **Chain ID: 7700**
 
-_Explorer:_ [_https://evm.explorer.canto.io/_](https://evm.explorer.canto.io/)
+_Explorer:_ [_https://tuber.build/_](https://tuber.build/)
 
 <details>
 
