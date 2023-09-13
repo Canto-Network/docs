@@ -115,9 +115,11 @@ State breaking software upgrades took place at blocks:
 * 1231500 (v3.0.0)
 * 1274863 (v4.0.0)
 * 2669495 (v5.0.0)
+* TBD (v6.0.0)
+* TBD (v7.0.0)
 
 {% hint style="warning" %}
-**Important**: v2.0.0 may cause AppHash errors at blocks that contained governance proposals (e.g. 804212). To avoid this, build the patched v2.0.2 binary from the `thomas/archive-patch` branch instead.
+**Important**: v2.0.0 may cause AppHash errors at blocks that contained governance proposals (e.g. 804212). To avoid this, build from the `thomas/archive-patch` branch instead.
 {% endhint %}
 
 Upon reaching these blocks while syncing an archive node, the node will halt and throw an error every time it restarts until you update the binary. To do so, follow these steps:
@@ -127,7 +129,7 @@ Upon reaching these blocks while syncing an archive node, the node will halt and
 sudo systemctl stop cantod
 
 # Delete old binary from path and install new binary (run in /Canto/ folder)
-git checkout v2.0.0
+git checkout thomas/archive-patch # Replace "thomas/archive-patch" with v3/4/5.0.0 as needed
 sudo rm /usr/bin/cantod
 make install
 sudo mv $HOME/go/bin/cantod /usr/bin/
