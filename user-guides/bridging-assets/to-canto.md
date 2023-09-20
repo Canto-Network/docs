@@ -13,15 +13,11 @@ At present, the Ethereum bridge supports WETH, USDC, USDT, and wstETH transfers 
 
 <figure><img src="../../.gitbook/assets/bridge-to-canto-v3.JPG" alt=""><figcaption></figcaption></figure>
 
-### Bridge Queue <a href="#bridge-queue-eth" id="bridge-queue-eth"></a>
+Bridged assets arrive on the Canto EVM after approximately 20 minutes.
 
-CANTO bridged to Canto via LayerZero will arrive on the Canto _EVM_ within several minutes.
-
-ERC20 assets including WETH, USDC, USDT, and wstETH bridged to Canto via Gravity Bridge will arrive on the Canto _Bridge_ approximately 20 minutes after the Ethereum transaction is confirmed.
-
-To finish bridging ERC20 assets to the Canto EVM, click the `complete` button next to your bridge transaction under the _Bridge Queue_ section:
-
-<figure><img src="../../.gitbook/assets/bridge-queue-eth.JPG" alt=""><figcaption></figcaption></figure>
+{% hint style="info" %}
+Since the Canto v7.0.0 upgrade, no additional steps are needed to bridge Ethereum-native assets to Canto.
+{% endhint %}
 
 ## Bridge IBC Tokens From Cosmos Chains
 
