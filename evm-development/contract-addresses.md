@@ -12,38 +12,38 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 
 ### ERC20 Tokens
 
-| Contract | Address                                                                                                                        |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Contract | Address                                                                                                              |
+| -------- | -------------------------------------------------------------------------------------------------------------------- |
 | NOTE     | [0x4e71A2E537B7f9D9413D3991D37958c0b5e1e503](https://tuber.build/address/0x4e71A2E537B7f9D9413D3991D37958c0b5e1e503) |
 | WCANTO   | [0x826551890Dc65655a0Aceca109aB11AbDbD7a07B](https://tuber.build/address/0x826551890Dc65655a0Aceca109aB11AbDbD7a07B) |
-| ETH      | 0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687                                                                                     |
-| USDC     | 0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd                                                                                     |
-| USDT     | 0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75                                                                                     |
-| ATOM     | 0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265                                                                                     |
+| ETH      | 0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687                                                                           |
+| USDC     | 0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd                                                                           |
+| USDT     | 0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75                                                                           |
+| ATOM     | 0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265                                                                           |
 
 ### Accountant
 
-| Contract            | Address                                                                                                                        |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Contract            | Address                                                                                                              |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | AccountantDelegate  | [0xC0ce8477c81A9F6C972976440C7b3305C37432f3](https://tuber.build/address/0xC0ce8477c81A9F6C972976440C7b3305C37432f3) |
 | AccountantDelegator | [0x4F6DCfa2F69AF7350AAc48D3a3d5B8D03b5378AA](https://tuber.build/address/0x4F6DCfa2F69AF7350AAc48D3a3d5B8D03b5378AA) |
 
 ### Canto DEX
 
-| Contract       | Address                                                                                                                        |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| BaseV1Factory  | 0xE387067f12561e579C5f7d4294f51867E0c1cFba                                                                                     |
+| Contract       | Address                                                                                                              |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| BaseV1Factory  | 0xE387067f12561e579C5f7d4294f51867E0c1cFba                                                                           |
 | BaseV1Router01 | [0xa252eEE9BDe830Ca4793F054B506587027825a8e](https://tuber.build/address/0xa252eEE9BDe830Ca4793F054B506587027825a8e) |
-| CantoNoteLP    | 0x1D20635535307208919f0b67c3B2065965A85aA9                                                                                     |
-| CantoAtomLP    | 0x30838619C55B787BafC3A4cD9aEa851C1cfB7b19                                                                                     |
-| NoteUSDTLP     | 0x35DB1f3a6A6F07f82C76fCC415dB6cFB1a7df833                                                                                     |
-| NoteUSDCLP     | 0x9571997a66D63958e1B3De9647C22bD6b9e7228c                                                                                     |
-| CantoETHLP     | 0x216400ba362d8FCE640085755e47075109718C8B                                                                                     |
+| CantoNoteLP    | 0x1D20635535307208919f0b67c3B2065965A85aA9                                                                           |
+| CantoAtomLP    | 0x30838619C55B787BafC3A4cD9aEa851C1cfB7b19                                                                           |
+| NoteUSDTLP     | 0x35DB1f3a6A6F07f82C76fCC415dB6cFB1a7df833                                                                           |
+| NoteUSDCLP     | 0x9571997a66D63958e1B3De9647C22bD6b9e7228c                                                                           |
+| CantoETHLP     | 0x216400ba362d8FCE640085755e47075109718C8B                                                                           |
 
 ### Canto Lending Market
 
-| Contract     | Address                                                                                                                        |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| Contract     | Address                                                                                                              |
+| ------------ | -------------------------------------------------------------------------------------------------------------------- |
 | Unitroller   | [0x5E23dC409Fc2F832f83CEc191E245A191a4bCc5C](https://tuber.build/address/0x5E23dC409Fc2F832f83CEc191E245A191a4bCc5C) |
 | Comptroller  | [0xD5DbF5cd90f158597f916591dBaDDe27E4A4d4Cf](https://tuber.build/address/0xD5DbF5cd90f158597f916591dBaDDe27E4A4d4Cf) |
 | cNOTE        | [0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C](https://tuber.build/address/0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C) |
@@ -66,8 +66,8 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 
 ### Contract Secured Revenue (CSR)
 
-| Contract  | Address                                                                                                                        |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Contract  | Address                                                                                                              |
+| --------- | -------------------------------------------------------------------------------------------------------------------- |
 | Turnstile | [0xEcf044C5B4b867CFda001101c617eCd347095B44](https://tuber.build/address/0xEcf044C5B4b867CFda001101c617eCd347095B44) |
 
 ### Multicall
@@ -119,17 +119,17 @@ These contract addresses are for contracts deployed to the [new Canto testnet](t
 | ------------ | ------------------------------------------ |
 | Unitroller   | 0x9514c07bC6e80B652e4264E64f589C59065C231f |
 | Comptroller  | 0xA51436eF5D46EE56B0906DeC620466153f7fb77e |
-| cNOTE        | 0x11909E7EF7b7F7c15862dB4D4c44a9438bc802Bf |
+| cNOTE        | 0x04E52476d318CdF739C38BD41A922787D441900c |
 | cCANTO       | 0x477eaF5DECf6299EE937954084f0d53EFc57346F |
-| cETH         | 0x3B3353674FE1f9034ee266c26019Dea171A83042 |
-| cUSDC        | 0x18F0CE76bfd2416F57049D2222f980e6062a8531 |
-| cUSDT        | 0xB70Df40aA96b0dab65534FC296255Fdf69705A18 |
-| cATOM        | 0x6718f29DD55F67F4D755be31025237739237187b |
-| cCantoNoteLP | 0x946c5e62be8852BC8d7843AfDEE4BDB73881E256 |
-| cCantoAtomLP | 0xaa12d8cbdC354A4c622F34D9B929A8157F439469 |
-| cNoteUSDTLP  | 0xea34b7E3691845c7B4c9b3C5E6f8838d5023cE42 |
-| cNoteUSDCLP  | 0x20cF7d264793587AD94934b4140413bFf3FF6596 |
-| cCantoETHLP  | 0xB93e08FD2a92231b722E7E7dE297d947df8e15a1 |
+| cETH         | 0x260fCD909ab9dfF97B03591F83BEd5bBfc89A571 |
+| cUSDC        | 0x9160c5760a540cAfA24F90102cAA14C50497d5b7 |
+| cUSDT        | 0x3BEe0A8209e6F8c5c743F21e0cA99F2cb780D0D8 |
+| cATOM        | 0x90FCcb79Ad6f013A4bf62Ad43577eed7a8eb961B |
+| cCantoNoteLP | 0x2fd02CDB9Be9428d4eC2Ae969e52710601E219C6 |
+| cCantoAtomLP | 0x4777Dc2b41f1f2Bd878205A61c1eA2609749928C |
+| cNoteUSDTLP  | 0xBeD263484AEDFD449eE1ed8f0b4799192026E190 |
+| cNoteUSDCLP  | 0xB2C5512a8A70835Cb9aBe830C9e61FBDdcd1dC81 |
+| cCantoETHLP  | 0xf301c9d5804Fab3dd207ef75f78509db6393f37F |
 
 ### Contract Secured Revenue (CSR)
 
