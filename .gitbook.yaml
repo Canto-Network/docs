@@ -2,3 +2,6 @@ redirects:
     user-guides/bridging-assets/ethereum: user-guides/bridging-assets/to-canto.md
     user-guides/converting-assets: user-guides/bridging-assets/to-canto.md
     user-guides/bridging-assets/bridge-vs-evm: user-guides/bridging-assets/to-canto.md
+    overview/canto-unit-of-account-usdnote: /overview/note.md
+    overview/canto-lending-market-clm: /overview/lending-market.md
+    overview/canto-dex: /overview/dex.md
