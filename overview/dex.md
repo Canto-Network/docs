@@ -21,7 +21,7 @@ At launch, Canto supports two types of liquidity pools:&#x20;
 
 In order to participate in Canto liquidity mining, users are able to provide liquidity to the Canto DEX at [canto.io/lp](https://canto.io/lp).&#x20;
 
-Users providing liquidity receive LP tokens that can be supplied in the [Canto Lending Market](canto-lending-market-clm.md). These tokens can be collateralized and borrowed against.
+Users providing liquidity receive LP tokens that can be supplied in the [Canto Lending Market](lending-market.md). These tokens can be collateralized and borrowed against.
 
 ### **Incentivized Pools**
 
