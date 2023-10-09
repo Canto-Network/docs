@@ -115,8 +115,8 @@ State breaking software upgrades took place at blocks:
 * 1231500 (v3.0.0)
 * 1274863 (v4.0.0)
 * 2669495 (v5.0.0)
-* TBD (v6.0.0)
-* TBD (v7.0.0)
+* 5144100 (v6.0.0)
+* 6055770 (v7.0.0)
 
 {% hint style="warning" %}
 **Important**: v2.0.0 may cause AppHash errors at blocks that contained governance proposals (e.g. 804212). To avoid this, build from the `thomas/archive-patch` branch instead.

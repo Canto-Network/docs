@@ -34,7 +34,7 @@ Clone the official repo and install the current binary:
 ```sh
 git clone https://github.com/Canto-Network/Canto.git
 cd Canto
-git checkout v6.0.0
+git checkout v7.0.0
 make install
 sudo mv $HOME/go/bin/cantod /usr/bin/
 ```
@@ -191,7 +191,7 @@ In case of a binary upgrade, you will need to re-fetch the Canto repository and 
 ```sh
 git pull
 
-git checkout v5.0.0
+git checkout v7.0.0
 make install
 
 # Don't forget to move the installed binary to your path

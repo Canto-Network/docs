@@ -31,7 +31,7 @@ You can add script to the cron
 0 0 * * * /bin/bash -c '/root/canto_snapshot.sh'
 ```
 
-
+***
 
 ## Consuming Snapshot
 
@@ -57,3 +57,4 @@ sudo systemctl start cantod
 journalctl -u cantod -f
 ```
 
+***
