@@ -7,9 +7,12 @@ With the [**canto.io**](https://canto.io/bridge) frontend, you can natively brid
 At present, the Ethereum bridge supports WETH, USDC, USDT, and wstETH transfers (via Gravity Bridge) and CANTO transfers (via LayerZero). To bridge assets from the Ethereum network to the Canto network, follow these steps:
 
 1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) and connect your MetaMask wallet on the Ethereum network.
-2. If bridging to Canto for the first time, **generate a Canto public key** by clicking on the red banner at the top of the page and signing the message with your wallet.
-3. Select the token you would like to bridge and input the quantity.
-4. Click `bridge in` and confirm the transaction(s) in your wallet. In addition to the bridge transaction, you may need to confirm transactions to wrap ETH and/or approve the token.
+2. Select the token you would like to bridge and input the quantity.
+3. Click `bridge in` and confirm the transaction(s) in your wallet. In addition to the bridge transaction, you may need to confirm transactions to wrap ETH and/or approve the token.
+
+{% hint style="info" %}
+When bridging to Canto for the first time, you will also be prompted to sign a message in your wallet to generate a public key for the Canto network.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/bridge-to-canto-v3.JPG" alt=""><figcaption></figcaption></figure>
 
