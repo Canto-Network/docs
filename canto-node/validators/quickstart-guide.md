@@ -21,6 +21,10 @@ Once you've set up your node, join the [Canto Network Validator Announcements ch
 Install dependencies (Ubuntu):
 
 ```sh
+# Synchronize package index
+sudo apt-get update
+
+# Install packages
 sudo snap install go --classic
 sudo apt-get install git
 sudo apt-get install gcc
@@ -99,6 +103,15 @@ LimitMEMLOCK=209715200
 [Install]
 WantedBy=multi-user.target
 ```
+
+{% hint style="warning" %}
+If using a non-root user, set the `User` and `WorkingDirectory` parameters accordingly, e.g.:
+
+```
+User=alice
+WorkingDirectory=/home/alice/
+```
+{% endhint %}
 
 ## 6. Start Node
 
