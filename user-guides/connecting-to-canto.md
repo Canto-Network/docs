@@ -18,7 +18,7 @@ Assuming you have already installed and configured [MetaMask](https://metamask.i
 4. Enter the following RPC settings:\
    \
    **Network Name:** CANTO\
-   **New RPC URL:** [https://canto.gravitychain.io](https://canto.gravitychain.io)\
+   **New RPC URL:** [https://canto.slingshot.finance](https://canto.slingshot.finance)\
    **Chain ID:** 7700\
    **Currency Symbol:** CANTO\
    **Block Explorer URL:** [https://tuber.build/](https://tuber.build/)
@@ -27,7 +27,7 @@ Assuming you have already installed and configured [MetaMask](https://metamask.i
 
 <summary>Alternative RPC URLs</summary>
 
-* [https://canto.slingshot.finance](https://canto.slingshot.finance)
+* [https://canto.gravitychain.io](https://canto.gravitychain.io)
 * [https://canto.neobase.one](https://canto.neobase.one)
 * [https://canto.evm.chandrastation.com](https://canto.evm.chandrastation.com)
 * [https://jsonrpc.canto.nodestake.top/](https://jsonrpc.canto.nodestake.top/)
@@ -59,8 +59,8 @@ Canto EVM and Native:
 **New RPC URL:** `https://canto-testnet.plexnode.wtf`\
 **Chain ID:** 7701\
 **Currency Symbol:** CANTO\
-**Block Explorer URL:** [https://testnet.tuber.build/](https://testnet.tuber.build/)
-**Alternative Explorer URL:** [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
+**Block Explorer URL:** [https://testnet.tuber.build/](https://testnet.tuber.build/) **Alternative Explorer URL:** [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
+
 </details>
 
 After saving the network, you will be able to connect to it at any time using the dropdown menu.
