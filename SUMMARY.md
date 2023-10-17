@@ -1,7 +1,7 @@
 # Table of contents
 
 * [What Is Canto?](README.md)
-  * [Free Public Infrastructure (FPI)](readme/free-public-infrastructure-fpi.md)
+* [Free Public Infrastructure](free-public-infrastructure-fpi.md)
 
 ## Overview
 

@@ -1,6 +1,6 @@
-# Canto Unit of Account ($NOTE)
+# $NOTE
 
-$NOTE is the unit of account on Canto. $NOTE is an over-collateralized currency with a value perpetually rebalanced toward $1 through an algorithmic interest rate policy. It is:
+$NOTE is the unit of account on Canto. $NOTE is an over-collateralized currency backed by stablecoins and RWAs, with a value perpetually rebalanced toward $1 through an algorithmic interest rate policy. It is:
 
 * Over-collateralized
 * Capital efficient
@@ -13,9 +13,11 @@ All interest charged by the Accountant is earmarked for funding public goods. It
 
 ### Over-collateralization
 
-$NOTE is a fully immutable ERC-20 token backed by collateral lent to the CLM. It can can only be borrowed by users who post select collateral assets. At this time, eligible collateral assets are $USDC and $USDT.
+$NOTE is a fully immutable ERC-20 token backed by collateral lent to the CLM. It can can only be borrowed by users who post select collateral assets.
 
-As a result, for every $NOTE in circulation, there is more than 1 USD worth of collateral held by the CLM.
+At this time, eligible collateral assets are stablecoins $USDC and $USDT, and $USYC – a tokenized treasury bill issued by [Hashnote](https://www.hashnote.com/).
+
+For every $NOTE in circulation, there is more than 1 USD worth of collateral held by the CLM.
 
 ### Capital efficiency
 
@@ -49,3 +51,7 @@ newInterestRate = max(0,(1-1.04)*0.25+4\%) = 3\%
 $$
 
 If $NOTE is trading above $1, the interest rate is lowered to weaken the $NOTE price. If $NOTE is trading below $1, the interest rate is raised to strengthen the $NOTE price.
+
+## $cNOTE
+
+$cNOTE is the deposit token received when supplying [$NOTE](note.md), Canto's native unit of account, to the [Canto Lending Market](lending-market.md).
