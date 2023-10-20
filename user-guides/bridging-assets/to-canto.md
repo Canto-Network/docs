@@ -33,7 +33,7 @@ IBC transfers can be used to bridge selected assets including ATOM, GRAV, and OS
 3. Select the IBC token you would like to bridge. This will prompt a Keplr popup asking you to unlock your wallet, connect to the token's native network, and add the Canto network (if necessary).
 4. In the IBC transfer modal that appears, enter the amount you would like to bridge, click `IBC IN`, and confirm the transaction in Keplr:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Bridge Queue <a href="#bridge-queue-ibc" id="bridge-queue-ibc"></a>
 

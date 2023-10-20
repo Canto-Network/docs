@@ -1,7 +1,7 @@
-# New Testnet
+# Testnet
 
 {% hint style="info" %}
-Canto is migrating to a new testnet network with chain ID 7701 (previously 740). Information about the new testnet is provided below.
+Canto migrated to a new testnet network with chain ID 7701 (previously 740) in March 2023. Information about the new testnet is provided below.
 {% endhint %}
 
 Canto has a testnet network for development and testing purposes. To connect to and explore the testnet, use these details:
@@ -10,8 +10,7 @@ Canto has a testnet network for development and testing purposes. To connect to 
 **New RPC URL:** `https://canto-testnet.plexnode.wtf`\
 **Chain ID:** 7701\
 **Currency Symbol:** CANTO\
-**Block Explorer URL:** [https://testnet.tuber.build/](https://testnet.tuber.build/)
-**Alternative Explorer URL:** [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
+**Block Explorer URL:** [https://testnet.tuber.build/](https://testnet.tuber.build/) **Alternative Explorer URL:** [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
 
 ## Faucet
 

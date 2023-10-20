@@ -1,13 +1,15 @@
 # Table of contents
 
 * [What Is Canto?](README.md)
-* [Free Public Infrastructure](free-public-infrastructure-fpi.md)
+* [Free Public Infrastructure](free-public-infrastructure-fpi/README.md)
+  * [$NOTE](free-public-infrastructure-fpi/note.md)
+  * [Lending Market](free-public-infrastructure-fpi/lending-market.md)
+  * [Canto DEX](free-public-infrastructure-fpi/dex.md)
 
-## Overview
+## Canto Neofinance <a href="#neofinance" id="neofinance"></a>
 
-* [$NOTE](overview/note.md)
-* [Lending Market](overview/lending-market.md)
-* [Canto DEX](overview/dex.md)
+* [Overview](neofinance/overview.md)
+* [Beta Interface](neofinance/beta-interface.md)
 
 ## User Guides
 
@@ -30,7 +32,7 @@
 * [Contract Secured Revenue (CSR)](evm-development/contract-secured-revenue.md)
 * [Verifying Contracts](evm-development/verifying-contracts.md)
 * [Contract Addresses](evm-development/contract-addresses.md)
-* [New Testnet](evm-development/testnet.md)
+* [Testnet](evm-development/testnet.md)
 
 ## Running a Node <a href="#canto-node" id="canto-node"></a>
 
