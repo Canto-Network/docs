@@ -53,3 +53,15 @@ To provide liquidity for the $cNOTE<>$USDC pair, follow these steps:
 For this pair, the concentrated liquidity range eligible for incentives is automatically selected when providing liquidity.
 
 For all other pairs, which use the Canto DEX, liquidity is provided [without price bounds](../free-public-infrastructure-fpi/dex.md#incentivized-pools).
+
+## Bridging
+
+The bridging interface at [**beta.canto.io/bridge**](https://beta.canto.io/bridge) can be used to bridge assets to and from Canto via Gravity Bridge, LayerZero, and IBC. In addition to assets already supported by the [alpha bridging interface](https://canto.io/bridge), it supports bridging of $cNOTE to Ethereum via LayerZero.
+
+To bridge $cNOTE, follow these steps:
+
+<figure><img src="../.gitbook/assets/bridging-cnote.JPG" alt=""><figcaption></figcaption></figure>
+
+1. Select the `BRIDGE OUT` tab and choose $cNOTE.
+2. Enter an amount and click the `BRIDGE OUT` button.
+3. Confirm the transactions in your wallet to approve $cNOTE for transfer and begin bridging.

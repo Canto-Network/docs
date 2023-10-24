@@ -2,6 +2,10 @@
 
 With the [**canto.io**](https://canto.io/bridge) frontend, you can bridge from Canto to Ethereum or to Cosmos Hub and other IBC-enabled chains. To ensure smooth bridging, assets can only be bridged to their native chains.
 
+{% hint style="info" %}
+cNOTE can also be bridged from Canto via LayerZero using the [beta interface](https://docs.canto.io/neofinance/beta-interface).
+{% endhint %}
+
 ## Bridge Canto to Ethereum (via LayerZero) <a href="#to-ethereum" id="to-ethereum"></a>
 
 CANTO can be bridged directly from Canto to Ethereum via LayerZero. Aside from an Ethereum wallet such as MetaMask, this path requires no additional wallets or tooling.

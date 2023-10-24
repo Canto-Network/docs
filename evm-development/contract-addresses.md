@@ -21,6 +21,13 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | USDT     | 0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75                                                                           |
 | ATOM     | 0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265                                                                           |
 
+### Neofinance
+
+| Contract      | Address                                                                                                              |
+| ------------- | -------------------------------------------------------------------------------------------------------------------- |
+| cNOTE         | [0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C](https://tuber.build/address/0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C) |
+| CNoteProxyOFT | [0xEbe265c9299d0C879bcc2A76948511BA6ED6C36D](https://tuber.build/address/0xEbe265c9299d0C879bcc2A76948511BA6ED6C36D) |
+
 ### Accountant
 
 | Contract            | Address                                                                                                              |
