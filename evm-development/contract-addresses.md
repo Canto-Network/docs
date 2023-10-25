@@ -1,6 +1,6 @@
 # Contract Addresses
 
-This page contains contract addresses for ERC20 tokens and Free Public Infrastructure deployed on Canto mainnet.
+This page contains contract addresses for ERC20 tokens and Free Public Infrastructure deployed on Canto mainnet and testnet.
 
 {% hint style="info" %}
 $CANTO is the native gas token on the Canto EVM and does not have a smart contract. An ERC20 wrapper for $CANTO exists, called $wCANTO.
@@ -46,6 +46,12 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | NoteUSDTLP     | 0x35DB1f3a6A6F07f82C76fCC415dB6cFB1a7df833                                                                           |
 | NoteUSDCLP     | 0x9571997a66D63958e1B3De9647C22bD6b9e7228c                                                                           |
 | CantoETHLP     | 0x216400ba362d8FCE640085755e47075109718C8B                                                                           |
+
+### Ambient Finance
+
+| Contract    | Address                                                                                                              |
+| ----------- | -------------------------------------------------------------------------------------------------------------------- |
+| CrocSwapDex | [0x9290C893ce949FE13EF3355660d07dE0FB793618](https://tuber.build/address/0x9290C893ce949FE13EF3355660d07dE0FB793618) |
 
 ### Canto Lending Market
 
@@ -150,3 +156,16 @@ These contract addresses are for contracts deployed to the [new Canto testnet](t
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | Multicall1 | [0xe536cF7B00069894da25faC787d7aD9D211a2C1A](https://testnet.tuber.build/address/0xe536cF7B00069894da25faC787d7aD9D211a2C1A) |
 | Multicall2 | [0x0e356B86FA2aE1bEB93174C18AD373207a40F2A3](https://testnet.tuber.build/address/0x0e356B86FA2aE1bEB93174C18AD373207a40F2A3) |
+
+## Canto Assets on Ethereum
+
+{% hint style="info" %}
+These contract addresses are for Canto assets bridged to Ethereum via LayerZero.
+{% endhint %}
+
+### Tokens
+
+| Contract  | Address                                                                                                               |
+| --------- | --------------------------------------------------------------------------------------------------------------------- |
+| CANTO OFT | [0x56C03B8C4FA80Ba37F5A7b60CAAAEF749bB5b220](https://etherscan.io/address/0x56c03b8c4fa80ba37f5a7b60caaaef749bb5b220) |
+| CNOTE OFT | [0xEbe265c9299d0C879bcc2A76948511BA6ED6C36D](https://etherscan.io/address/0xebe265c9299d0c879bcc2a76948511ba6ed6c36d) |
