@@ -1,5 +1,9 @@
 # Providing Liquidity
 
+{% hint style="info" %}
+For cNOTE/USDC incentives, see the [Beta Interface](https://docs.canto.io/neofinance/beta-interface#lp-rewards).
+{% endhint %}
+
 The Canto LP interface at [**canto.io/lp**](https://canto.io/lp) allows users to provide liquidity and receive LP tokens. At launch, Canto has five incentivized liquidity pools which can be found on this page:
 
 * CANTO/NOTE

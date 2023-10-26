@@ -1,6 +1,6 @@
 # Lending & Borrowing
 
-The Canto Lending Market at [**canto.io/lending**](https://canto.io/lending) allows users to lend and borrow assets. At this time eligible collateral assets include USDC and USDT, but new collateralization assets such as LP tokens will be added to maximalize capital efficiency.
+The Canto Lending Market at [**canto.io/lending**](https://canto.io/lending) allows users to lend and borrow assets. At this time eligible collateral assets include USDC, USDT, [USYC](https://docs.canto.io/neofinance/overview#rwas), and NOTE. New collateral assets such as LP tokens may be added in the future to maximalize capital efficiency.
 
 <figure><img src="../.gitbook/assets/clm-overview-v2.JPG" alt=""><figcaption></figcaption></figure>
 
