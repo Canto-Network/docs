@@ -25,7 +25,7 @@ Canto Lending Market achieves superior capital efficiency by allowing stablecoin
 
 **Important:** Canto Lending Market will launch with conservative parameters. Over time, governance will be able to raise the capital efficiency of CLM to its full potential.
 
-## Maintaining $NOTE Price Stability
+## Maintaining $NOTE Price Stability <a href="#price-algorithm" id="price-algorithm"></a>
 
 Since $NOTE cannot be created, only borrowed, the Accountant contract utilizes interest rates to manage the circulating supply of $NOTE, and by proxy, its price. The interest rate on $NOTE automatically adjusts up or down every 6 hours based on a TWAP of the market price of $NOTE.
 
@@ -52,6 +52,6 @@ $$
 
 If $NOTE is trading above $1, the interest rate is lowered to weaken the $NOTE price. If $NOTE is trading below $1, the interest rate is raised to strengthen the $NOTE price.
 
-## $cNOTE
+## $cNOTE <a href="#cnote" id="cnote"></a>
 
 $cNOTE is the deposit token received when supplying [$NOTE](note.md), Canto's native unit of account, to the [Canto Lending Market](lending-market.md).

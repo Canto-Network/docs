@@ -2,7 +2,7 @@
 
 Neofinance envisions a new era of financial efficiencies, unlocked at scale, by deploying offchain assets on protocol rails. The Canto neofinance ecosystem consists of several primitives designed to enable transparent, competitive financial terms.
 
-## Real-World Assets (RWAs)
+## Real-World Assets (RWAs) <a href="#rwas" id="rwas"></a>
 
 Neofinance on Canto leverages real-world assets (RWAs). Initially, tokenized treasury bills can be purchased by whitelisted parties in the form of $USYC, a Canto-native token issued by [Hashnote](https://www.hashnote.com/).
 
@@ -16,7 +16,7 @@ $USYC is enabled as collateral in the [Canto Lending Market](../free-public-infr
 
 Other tokens representing a range of RWAs will be deployed on Canto in months to come.
 
-## $cNOTE
+## $cNOTE <a href="#cnote" id="cnote"></a>
 
 $cNOTE is a tokenized deposit of $NOTE, the native unit of account on Canto. Any user can permissionlessly [supply $NOTE](beta-interface.md#supplying-usdnote) to the Canto Lending Market to obtain $cNOTE.
 
