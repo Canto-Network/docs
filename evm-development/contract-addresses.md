@@ -89,6 +89,7 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | ---------- | -------------------------------------------------------------------------------------------------------------------- |
 | Multicall1 | [0x210b88d5Ad4BEbc8FAC4383cC7F84Cd4F03d18c6](https://tuber.build/address/0x210b88d5Ad4BEbc8FAC4383cC7F84Cd4F03d18c6) |
 | Multicall2 | [0x637490E68AA50Ea810688a52D7464E10c25A77c1](https://tuber.build/address/0x637490E68AA50Ea810688a52D7464E10c25A77c1) |
+| Multicall3 | [0xcA11bde05977b3631167028862bE2a173976CA11](https://tuber.build/address/0xcA11bde05977b3631167028862bE2a173976CA11) |
 
 ## Testnet (7701)
 
@@ -156,6 +157,7 @@ These contract addresses are for contracts deployed to the [new Canto testnet](t
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | Multicall1 | [0xe536cF7B00069894da25faC787d7aD9D211a2C1A](https://testnet.tuber.build/address/0xe536cF7B00069894da25faC787d7aD9D211a2C1A) |
 | Multicall2 | [0x0e356B86FA2aE1bEB93174C18AD373207a40F2A3](https://testnet.tuber.build/address/0x0e356B86FA2aE1bEB93174C18AD373207a40F2A3) |
+| Multicall3 | [0xcA11bde05977b3631167028862bE2a173976CA11](https://testnet.tuber.build/address/0xcA11bde05977b3631167028862bE2a173976CA11) |
 
 ## Canto Assets on Ethereum
 
