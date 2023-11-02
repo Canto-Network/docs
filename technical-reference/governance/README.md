@@ -6,4 +6,4 @@ At launch, this means that Canto stakers can participate in governance of the Ca
 
 ## Overview
 
-Canto governance is based on the Cosmos SDK`Governance` module with the addition of a custom-built module, `GovShuttle`. The GovShuttle module is responsible for pushing passed proposal data from the governance module to a storage smart contract in the Canto EVM so that it can be read by DApps.
+Canto governance is based on the Cosmos SDK `x/gov` module with the addition of a custom-built module, `x/govshuttle`. The GovShuttle module is responsible for pushing passed proposal data from the governance module to a storage smart contract in the Canto EVM so that it can be read by DApps.
