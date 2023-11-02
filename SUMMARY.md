@@ -3,7 +3,7 @@
 * [What Is Canto?](README.md)
 * [Free Public Infrastructure](free-public-infrastructure-fpi/README.md)
   * [$NOTE](free-public-infrastructure-fpi/note.md)
-  * [Lending Market](free-public-infrastructure-fpi/lending-market.md)
+  * [Canto Lending Market](free-public-infrastructure-fpi/lending-market.md)
   * [Canto DEX](free-public-infrastructure-fpi/dex.md)
 
 ## Canto Neofinance <a href="#neofinance" id="neofinance"></a>
