@@ -1,5 +1,9 @@
 # Archive Node
 
+{% hint style="warning" %}
+Syncing and operating a Canto archive node is a time-consuming process. For convenience, consider provisioning a dedicated archive node with [Ansybl](https://www.ansybl.io/).
+{% endhint %}
+
 You may wish to archive the entire history of the Canto blockchain in order to index it with a Graph node or to roll your own block explorer. This means spinning up an **archive node**.
 
 Complete step-by-step instructions for launching an archive node are provided below. If you're already comfortable installing and upgrading `cantod`, see step four for archive-specific config details.

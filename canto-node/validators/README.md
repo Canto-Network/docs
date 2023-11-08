@@ -7,3 +7,7 @@ This section contains instructions on how to launch a validator node, as well as
 {% hint style="info" %}
 For community troubleshooting and assistance, see the #validators channel in the [Canto Discord](https://discord.gg/canto).
 {% endhint %}
+
+## Hosted Nodes
+
+As an alternative to setting up and syncing a Canto node independently, dedicated validating nodes can be easily provisioned with [Ansybl](https://www.ansybl.io/).
