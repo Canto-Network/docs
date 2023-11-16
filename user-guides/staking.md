@@ -12,7 +12,7 @@ Staked tokens are subject to a **21 day unbonding period**. If you decide to uns
 
 Follow these steps to stake your $CANTO:
 
-1. Navigate to [**canto.io/staking**](https://canto.io/staking) and connect your wallet.
+1. Navigate to [**v2.canto.io/staking**](https://canto.io/staking) and connect your wallet.
 2.  Click on the "all validators" tab to see a list of network validators:\
 
 
@@ -37,7 +37,7 @@ Note: You must claim rewards separately for every validator you have delegated t
 
 You may wish to move your stake between validators without subjecting yourself to the unbonding period. This can be done by re-delegating your stake:
 
-1. Navigate to [**canto.io/staking**](https://canto.io/staking) and connect your wallet.
+1. Navigate to [**v2.canto.io/staking**](https://canto.io/staking) and connect your wallet.
 2. Click on the delegation you would like to re-delegate.
 3. On the "redelegate" tab, choose the validator you would like to re-delegate to and enter the amount.
 4. Click on "re-delegate" and confirm the transaction in your wallet.
@@ -50,7 +50,7 @@ You can only re-delegate from an account once every 21 days.
 
 Follow these steps to unstake your $CANTO:
 
-1. Navigate to [**canto.io/staking**](https://canto.io/staking) and connect your wallet.
+1. Navigate to [**v2.canto.io/staking**](https://canto.io/staking) and connect your wallet.
 2. Click on the delegation you would like to unstake.
 3. On the "undelegate" tab, enter the amount you would like to undelegate.
 4. Click on "undelegate" and confirm the transaction in your wallet.

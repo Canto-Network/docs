@@ -4,27 +4,19 @@ With the [**canto.io**](https://canto.io/bridge) frontend, you can natively brid
 
 ## Bridge Tokens From Ethereum
 
-At present, the Ethereum bridge supports WETH, USDC, USDT, and wstETH transfers (via Gravity Bridge) and CANTO transfers (via LayerZero). To bridge assets from the Ethereum network to the Canto network, follow these steps:
-
-{% hint style="info" %}
-cNOTE can also be bridged to Canto via LayerZero using the [beta interface](https://docs.canto.io/neofinance/beta-interface).
-{% endhint %}
+At present, the Ethereum bridge supports WETH, USDC, USDT, and wstETH transfers (via Gravity Bridge) as well as CANTO and cNOTE transfers (via LayerZero). To bridge assets from the Ethereum network to the Canto network, follow these steps:
 
 1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) and connect your MetaMask wallet on the Ethereum network.
 2. Select the token you would like to bridge and input the quantity.
-3. Click `bridge in` and confirm the transaction(s) in your wallet. In addition to the bridge transaction, you may need to confirm transactions to wrap ETH and/or approve the token.
+3. Click `BRIDGE IN` and confirm the transaction(s) in your wallet. In addition to the bridge transaction, you may need to confirm transactions to wrap ETH and/or approve the token.
 
 {% hint style="info" %}
 When bridging to Canto for the first time, you will also be prompted to sign a message in your wallet to generate a public key for the Canto network.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/bridge-to-canto-v3.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bridge-in.png" alt=""><figcaption></figcaption></figure>
 
-Bridged assets arrive on the Canto EVM after approximately 20 minutes.
-
-{% hint style="info" %}
-Since the Canto v7.0.0 upgrade, no additional steps are needed to bridge Ethereum-native assets to Canto.
-{% endhint %}
+Assets bridged from Ethereum arrive on the Canto EVM after approximately 20 minutes.
 
 ## Bridge IBC Tokens From Cosmos Chains
 
@@ -33,19 +25,15 @@ IBC transfers can be used to bridge selected assets including ATOM, GRAV, and OS
 **To ensure the assets you bridge in can be used on the Canto EVM, use the** [**canto.io**](https://canto.io/bridge) **frontend to initiate IBC transfers:**
 
 1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) and connect your MetaMask wallet on the Ethereum network.
-2. If bridging to Canto for the first time, **generate a Canto public key** by clicking on the red banner at the top of the page and signing the message with your wallet.
-3. Select the IBC token you would like to bridge. This will prompt a Keplr popup asking you to unlock your wallet, connect to the token's native network, and add the Canto network (if necessary).
-4. In the IBC transfer modal that appears, enter the amount you would like to bridge, click `IBC IN`, and confirm the transaction in Keplr:
+2. Select the IBC token you would like to bridge. This will prompt a Keplr popup asking you to unlock your wallet, connect to the token's native network, and add the Canto network (if necessary).
+3. Input the quantity and click `BRIDGE IN`.
+4. Confirm the transaction in Keplr.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+{% hint style="info" %}
+When bridging to Canto for the first time, you will also be prompted to sign a message in your wallet to generate a public key for the Canto network.
+{% endhint %}
 
-### Bridge Queue <a href="#bridge-queue-ibc" id="bridge-queue-ibc"></a>
-
-Assets bridged from IBC-enabled chains to Canto will arrive on the Canto Bridge several minutes after the IBC transfer is submitted.
-
-To finish bridging to the Canto EVM, click the `complete` button next to your bridge transaction under the _Bridge Queue_ section:
-
-<figure><img src="../../.gitbook/assets/bridge-queue-cosmos.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bridge-in-atom.png" alt=""><figcaption></figcaption></figure>
 
 <details>
 

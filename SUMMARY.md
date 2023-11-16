@@ -9,7 +9,6 @@
 ## Canto Neofinance <a href="#neofinance" id="neofinance"></a>
 
 * [Overview](neofinance/overview.md)
-* [Beta Interface](neofinance/beta-interface.md)
 
 ## User Guides
 

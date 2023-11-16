@@ -1,6 +1,6 @@
 # Governance
 
-The Canto governance page at [**canto.io/governance**](https://canto.io/governance) is a place where all users who have staked Canto can vote on proposals. This allows you to contribute to the blockchain and place votes on changes that will directly impact the Canto community.
+The Canto governance page at [**v2.canto.io/governance**](https://canto.io/governance) is a place where all users who have staked Canto can vote on proposals. This allows you to contribute to the blockchain and place votes on changes that will directly impact the Canto community.
 
 <figure><img src="../.gitbook/assets/governance-v2.JPG" alt=""><figcaption></figcaption></figure>
 
