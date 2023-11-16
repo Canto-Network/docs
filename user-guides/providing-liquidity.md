@@ -23,6 +23,8 @@ In order to add liquidity to a pool using the LP interface:
 2. Enter how much liquidity you wish to provide, and click the `Add Liquidity` button.
 3. Confirm the transactions in your wallet.
 
+Liquidity tokens are automatically deposited to the Canto Lending Market ("staked") to earn liquidity incentives.
+
 ### Remove Liquidity
 
 In order to remove liquidity from a pool using the LP interface:
