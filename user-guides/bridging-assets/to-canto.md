@@ -98,6 +98,4 @@ Advanced users may wish to initiate IBC transfers manually. Before doing so, ens
    * Quicksilver: `channel-24`
 9. Enter the amount you want to transfer and complete the transaction. Your tokens should arrive after a few minutes.
 
-After performing a manual IBC transfer, your assets will arrive on the Canto Bridge. Use the [Bridge Queue](to-canto.md#bridge-queue-ibc) at [**canto.io/bridge**](https://canto.io/bridge) to finish bridging to the Canto EVM.
-
 </details>
