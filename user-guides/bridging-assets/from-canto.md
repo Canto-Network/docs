@@ -14,7 +14,7 @@ To bridge CANTO or cNOTE from Canto to Ethereum, follow these steps:
 
 <figure><img src="../../.gitbook/assets/bridge-out.png" alt=""><figcaption></figcaption></figure>
 
-## Bridge ERC20s To Ethereum (via Gravity Bridge) <a href="#to-ethereum" id="to-ethereum"></a>
+## Bridge ERC20s To Ethereum (via Gravity Bridge) <a href="#to-ethereum-erc20" id="to-ethereum-erc20"></a>
 
 ERC20 tokens like WETH, USDC, and USDT can be bridged from Canto to Ethereum via Gravity Bridge. To do so, you must have an IBC wallet such as Keplr in addition to your Ethereum wallet.
 
@@ -29,7 +29,7 @@ To bridge from Canto to Ethereum, you'll need to move your assets to the Gravity
 
 You can now bridge from Gravity Bridge to Ethereum using the [Gravity Bridge portal](https://bridge.blockscape.network/).
 
-## Bridge IBC Tokens To Cosmos Chains
+## Bridge IBC Tokens To Cosmos Chains <a href="#to-ibc" id="to-ibc"></a>
 
 To bridge from Canto to Cosmos Hub or other IBC chains, you'll need to move your assets to the Canto Bridge first:
 
