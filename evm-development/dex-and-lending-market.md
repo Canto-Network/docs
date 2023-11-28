@@ -1,6 +1,18 @@
-# DEX and Lending Market
+# NOTE, DEX, and Lending Market
 
-In building DApps, you may wish to leverage Canto's Free Public Infrastructure, such as its native DEX or lending market. This page provides an overview of how these primitives are designed and how you can interact with them.&#x20;
+When building DApps, you may wish to leverage Canto's Free Public Infrastructure, such as its native unit of account, DEX, or lending market. This page provides an overview of how these primitives are designed and how you can interact with them.
+
+For mainnet and testnet deployment addresses, refer to the Contract Addresses page:
+
+{% content-ref url="contract-addresses.md" %}
+[contract-addresses.md](contract-addresses.md)
+{% endcontent-ref %}
+
+## NOTE
+
+[NOTE](https://docs.canto.io/free-public-infrastructure-fpi/note) must be borrowed from the Accountant via the Canto Lending Market. The amount of NOTE circulating at any given time (including NOTE that users have supplied back to the Canto Lending Market) is equal to the sum of all NOTE and cNOTE _not_ held by the Accountant.
+
+The NOTE smart contract may be modified and redeployed at a new address in the future. For this reason, DApps should use the `CToken.underlying()` view on the [cNOTE](https://docs.canto.io/evm-development/contract-addresses#neofinance) contract to determine the address for NOTE instead of hardcoding it.
 
 ## Canto DEX
 
@@ -20,7 +32,7 @@ For most use cases, `BaseV1Router01` offers sufficient functionality. Key method
 | `swapExactTokensforTokens`       | Swaps one token for another using a specified route |
 | `getUnderlyingPrice`             | Gets underlying asset price as a mantissa           |
 
-For $CANTO-specific and other methods, refer to the [contract source code](https://github.com/Canto-Network/clm/blob/7a734186ac773a8e53c55c07c5ec32d32a528b4a/src/Swap/BaseV1-periphery.sol#L47).
+For CANTO-specific and other methods, refer to the [contract source code](https://github.com/Canto-Network/clm/blob/7a734186ac773a8e53c55c07c5ec32d32a528b4a/src/Swap/BaseV1-periphery.sol#L47).
 
 ## Canto Lending Market
 
