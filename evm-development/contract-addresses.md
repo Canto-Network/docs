@@ -159,10 +159,10 @@ These contract addresses are for contracts deployed to the [new Canto testnet](t
 | Multicall2 | [0x0e356B86FA2aE1bEB93174C18AD373207a40F2A3](https://testnet.tuber.build/address/0x0e356B86FA2aE1bEB93174C18AD373207a40F2A3) |
 | Multicall3 | [0xcA11bde05977b3631167028862bE2a173976CA11](https://testnet.tuber.build/address/0xcA11bde05977b3631167028862bE2a173976CA11) |
 
-## Canto Assets on Ethereum
+## LayerZero OFTs
 
 {% hint style="info" %}
-These contract addresses are for Canto assets bridged to Ethereum via LayerZero.
+These contract addresses are for LayerZero representations of Canto assets. The deployment addresses (below) for OFTs are **the same on all chains**: Canto, Ethereum, Binance Smart Chain.
 {% endhint %}
 
 ### Tokens
