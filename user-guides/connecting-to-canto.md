@@ -41,8 +41,8 @@ Assuming you have already installed and configured [MetaMask](https://metamask.i
 
 Canto EVM:
 
+* [https://parsec.fi/](https://parsec.fi/)
 * [https://cantoscan.xyz/](https://cantoscan.xyz/)
-* [https://www.gacanto.com/](https://www.gacanto.com/)
 * [https://canto.dex.guru/](https://canto.dex.guru/)
 
 Canto EVM and Native:
