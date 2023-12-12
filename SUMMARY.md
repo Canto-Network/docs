@@ -48,6 +48,11 @@
 
 ## Technical Reference
 
+* [Neofinance Coordinator](technical-reference/neofinance-coordinator/README.md)
+  * [Getting Started](technical-reference/neofinance-coordinator/getting-started.md)
+  * [VotingEscrow](technical-reference/neofinance-coordinator/votingescrow.md)
+  * [GaugeController](technical-reference/neofinance-coordinator/gaugecontroller.md)
+  * [LendingLedger](technical-reference/neofinance-coordinator/lendingledger.md)
 * [IBC Token Recovery](technical-reference/ibc-token-recovery.md)
 * [Token Economics](technical-reference/token-economics.md)
 * [Architecture & Design](technical-reference/architecture-and-design/README.md)
