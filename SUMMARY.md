@@ -49,7 +49,6 @@
 ## Technical Reference
 
 * [Neofinance Coordinator](technical-reference/neofinance-coordinator/README.md)
-  * [Getting Started](technical-reference/neofinance-coordinator/getting-started.md)
   * [VotingEscrow](technical-reference/neofinance-coordinator/votingescrow.md)
   * [GaugeController](technical-reference/neofinance-coordinator/gaugecontroller.md)
   * [LendingLedger](technical-reference/neofinance-coordinator/lendingledger.md)
