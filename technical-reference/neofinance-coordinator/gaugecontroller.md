@@ -1,6 +1,6 @@
 # GaugeController
 
-Lockers vote on gauges using the `GaugeController` contract. Gauges represent $cNOTE liquidity pairs on whitelisted third-party lending markets.
+Lockers vote on gauges using the [`GaugeController`](https://tuber.build/address/0x46970b45d114420A71A3d76AA6c398173118C2b8) contract. Gauges represent $cNOTE liquidity pairs on whitelisted third-party lending markets.
 
 Voting takes place during one week epochs.
 

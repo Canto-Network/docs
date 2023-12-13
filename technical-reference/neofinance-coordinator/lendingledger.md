@@ -1,6 +1,6 @@
 # LendingLedger
 
-Third-party lending markets call `sync_ledger` on `LendingLedger` every time a user deposits or withdraws $cNOTE. This enables Neofinance Coordinator to continuously track lending balances and allocate incentives accordingly.
+Third-party lending markets call `sync_ledger` on [`LendingLedger`](https://tuber.build/address/0x85156B45B3C0F40f724637ebfEB035aFB29BD083) every time a user deposits or withdraws $cNOTE. This enables Neofinance Coordinator to continuously track lending balances and allocate incentives accordingly.
 
 Additionally, users claim incentives from `LendingLedger`. This should be facilitated by a claiming interface on the lending market.
 

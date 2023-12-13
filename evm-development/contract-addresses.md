@@ -24,11 +24,11 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 
 ### Neofinance Coordinator
 
-| Contract        | Address                                    |
-| --------------- | ------------------------------------------ |
-| VotingEscrow    | 0x2fed02d6d50a8786D53F308024400fDAD275F57C |
-| GaugeController | 0x46970b45d114420A71A3d76AA6c398173118C2b8 |
-| LendingLedger   | 0x85156B45B3C0F40f724637ebfEB035aFB29BD083 |
+| Contract        | Address                                                                                                              |
+| --------------- | -------------------------------------------------------------------------------------------------------------------- |
+| VotingEscrow    | [0x2fed02d6d50a8786D53F308024400fDAD275F57C](https://tuber.build/address/0x2fed02d6d50a8786D53F308024400fDAD275F57C) |
+| GaugeController | [0x46970b45d114420A71A3d76AA6c398173118C2b8](https://tuber.build/address/0x46970b45d114420A71A3d76AA6c398173118C2b8) |
+| LendingLedger   | [0x85156B45B3C0F40f724637ebfEB035aFB29BD083](https://tuber.build/address/0x85156B45B3C0F40f724637ebfEB035aFB29BD083) |
 
 ### Accountant
 
