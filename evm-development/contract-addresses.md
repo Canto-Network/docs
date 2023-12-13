@@ -20,13 +20,15 @@ $ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | USDC     | 0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd                                                                           |
 | USDT     | 0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75                                                                           |
 | ATOM     | 0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265                                                                           |
+| cNOTE    | [0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C](https://tuber.build/address/0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C) |
 
-### Neofinance
+### Neofinance Coordinator
 
-| Contract      | Address                                                                                                              |
-| ------------- | -------------------------------------------------------------------------------------------------------------------- |
-| cNOTE         | [0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C](https://tuber.build/address/0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C) |
-| CNoteProxyOFT | [0xEbe265c9299d0C879bcc2A76948511BA6ED6C36D](https://tuber.build/address/0xEbe265c9299d0C879bcc2A76948511BA6ED6C36D) |
+| Contract        | Address                                    |
+| --------------- | ------------------------------------------ |
+| VotingEscrow    | 0x2fed02d6d50a8786D53F308024400fDAD275F57C |
+| GaugeController | 0x46970b45d114420A71A3d76AA6c398173118C2b8 |
+| LendingLedger   | 0x85156B45B3C0F40f724637ebfEB035aFB29BD083 |
 
 ### Accountant
 
@@ -107,6 +109,14 @@ These contract addresses are for contracts deployed to the [new Canto testnet](t
 | USDC     | 0xc51534568489f47949A828C8e3BF68463bdF3566 |
 | USDT     | 0x4fC30060226c45D8948718C95a78dFB237e88b40 |
 | ATOM     | 0x40E41DC5845619E7Ba73957449b31DFbfB9678b2 |
+
+### Neofinance Coordinator
+
+| Contract        | Address                                    |
+| --------------- | ------------------------------------------ |
+| VotingEscrow    | 0x0C6CC7BB309639B720BCbcC7bFea48Ed4A39F43C |
+| GaugeController | 0xc0395538ee9144a2A3acc2C9AD6329bFFe12AF22 |
+| LendingLedger   | 0x94D288543c566Fc20d46A26be9c94Da79ebbcecD |
 
 ### Accountant
 

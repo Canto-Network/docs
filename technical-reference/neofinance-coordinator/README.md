@@ -1,5 +1,9 @@
 # Neofinance Coordinator
 
+{% hint style="info" %}
+This protocol does not have a user interface. To be eligible for and claim incentives, supply cNOTE to whitelisted third-party lending markets such as [Vivacity Finance](https://vivacity.finance/).
+{% endhint %}
+
 Neofinance Coordinator is a minimal protocol which incentivizes supplying $cNOTE on third-party lending markets on the Canto blockchain. Within the protocol, $CANTO is sourced from chain governance and distributed according to a vote locking mechanism.
 
 ## Architecture <a href="#architecture" id="architecture"></a>
