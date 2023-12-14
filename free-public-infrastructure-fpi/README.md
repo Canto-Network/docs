@@ -18,6 +18,6 @@ For [Canto’s decentralized exchange](dex.md), the protocol cannot be upgraded 
 
 For the [Canto Lending Market](lending-market.md), governance is controlled by Canto stakers. Canto stakers have broad interests in the growth of the ecosystem and fostering the best environment for both developers and DeFi users. As such, they have no incentive to extract rent at the application layer.
 
-For [$NOTE](note.md), the unit of account token, the interest charged to stabilize its price will be contributed toward funding public goods. The algorithm responsible for adjusting this interest rate is designed to change the interest rate in order to promote a less volatile value as opposed to maximizing revenue. All interest paid by borrowers will be distributed to lenders, with no fees extracted at the protocol layer.
+For [NOTE](note.md), the unit of account token, the interest charged to stabilize its price will be contributed toward funding public goods. The algorithm responsible for adjusting this interest rate is designed to change the interest rate in order to promote a less volatile value as opposed to maximizing revenue. All interest paid by borrowers will be distributed to lenders, with no fees extracted at the protocol layer.
 
 By giving governance powers to the chain, we expect the operation of the primitives to naturally align with the public interest, resulting in a healthy and robust ecosystem free from zero-sum games that have since come to dominate the once egalitarian system of decentralized finance.

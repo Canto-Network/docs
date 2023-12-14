@@ -1,4 +1,4 @@
-# $NOTE Design
+# NOTE Design
 
 Since Note cannot be created, only borrowed, and the Supply rate is the same as the Borrow rate, a new mechanism was necessary to keep track of how much of the interest paid by to borrow Note goes to the Accountant (and ultimately the Community Treasury) versus how much is paid to external suppliers of Note.
 

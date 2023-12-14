@@ -2,7 +2,7 @@
 
 * [What Is Canto?](README.md)
 * [Free Public Infrastructure](free-public-infrastructure-fpi/README.md)
-  * [$NOTE](free-public-infrastructure-fpi/note.md)
+  * [NOTE](free-public-infrastructure-fpi/note.md)
   * [Canto Lending Market](free-public-infrastructure-fpi/lending-market.md)
   * [Canto DEX](free-public-infrastructure-fpi/dex.md)
 
@@ -57,7 +57,7 @@
 * [Architecture & Design](technical-reference/architecture-and-design/README.md)
   * [Onboarding Module](technical-reference/architecture-and-design/onboarding-module.md)
   * [Gravity Bridge](technical-reference/architecture-and-design/gravity-bridge.md)
-  * [$NOTE Design](technical-reference/architecture-and-design/usdnote-design.md)
+  * [NOTE Design](technical-reference/architecture-and-design/usdnote-design.md)
   * [Canto Lending Protocol](technical-reference/architecture-and-design/canto-lending-protocol.md)
 * [Governance](technical-reference/governance/README.md)
   * [Governance Module](technical-reference/governance/governance-module.md)

@@ -1,16 +1,16 @@
 # Staking
 
-Staking, also known as delegating, is the process of locking up your $CANTO tokens for a period of time to contribute to the security of the Canto network.
+Staking, also known as delegating, is the process of locking up your CANTO tokens for a period of time to contribute to the security of the Canto network.
 
-In exchange for locking up your tokens, you'll earn rewards in the form of additional $CANTO, as well as voting power for governance proposals.
+In exchange for locking up your tokens, you'll earn rewards in the form of additional CANTO, as well as voting power for governance proposals.
 
 {% hint style="warning" %}
-Staked tokens are subject to a **21 day unbonding period**. If you decide to unstake $CANTO, you will have to wait 21 days before it returns to your wallet.
+Staked tokens are subject to a **21 day unbonding period**. If you decide to unstake CANTO, you will have to wait 21 days before it returns to your wallet.
 {% endhint %}
 
 ## How to Stake
 
-Follow these steps to stake your $CANTO:
+Follow these steps to stake your CANTO:
 
 1. Navigate to [**v2.canto.io/staking**](https://canto.io/staking) and connect your wallet.
 2.  Click on the "all validators" tab to see a list of network validators:\
@@ -21,7 +21,7 @@ Follow these steps to stake your $CANTO:
 
 
     <figure><img src="../.gitbook/assets/delegate-modal-v2.JPG" alt=""><figcaption></figcaption></figure>
-4. Enter the amount of $CANTO you would like to stake and click "delegate".
+4. Enter the amount of CANTO you would like to stake and click "delegate".
 5. Confirm the transaction in your wallet.
 
 ## Claiming Rewards
@@ -48,7 +48,7 @@ You can only re-delegate from an account once every 21 days.
 
 ## How to Unstake
 
-Follow these steps to unstake your $CANTO:
+Follow these steps to unstake your CANTO:
 
 1. Navigate to [**v2.canto.io/staking**](https://canto.io/staking) and connect your wallet.
 2. Click on the delegation you would like to unstake.
@@ -63,7 +63,7 @@ When you unstake tokens, they will be subject to a 21 day unbonding period. You 
 
 ## Risks (Slashing)
 
-Staking $CANTO is not without risk. By delegating tokens to a validator, you assume some responsibility for their behavior, proportionally to the size of your stake.
+Staking CANTO is not without risk. By delegating tokens to a validator, you assume some responsibility for their behavior, proportionally to the size of your stake.
 
 If a validator misbehaves, any tokens delegated to them will be [slashed](https://docs.canto.io/technical-reference/validators/slashing) by:
 

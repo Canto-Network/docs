@@ -1,6 +1,6 @@
 # Governance Module
 
-Canto's on-chain governance system leverages the Cosmos SDK `x/gov` module. In this system, $CANTO stakers can vote on proposals with votes weighted proportionally to their stake.
+Canto's on-chain governance system leverages the Cosmos SDK `x/gov` module. In this system, CANTO stakers can vote on proposals with votes weighted proportionally to their stake.
 
 The module supports the following basic features:
 
@@ -37,14 +37,14 @@ When a proposal is finalized, the coins from the deposit are either refunded or 
 
 ### Participants <a href="#participants" id="participants"></a>
 
-_Participants_ are users that have the right to vote on proposals. On Canto, participants are bonded $CANTO holders. Unbonded $CANTO holders and other users do not get the right to participate in governance. However, they can submit and deposit on proposals.
+_Participants_ are users that have the right to vote on proposals. On Canto, participants are bonded CANTO holders. Unbonded CANTO holders and other users do not get the right to participate in governance. However, they can submit and deposit on proposals.
 
 Note that some _participants_ can be forbidden to vote on a proposal under a certain validator if:
 
-* The _participant_ bonded or unbonded $CANTO to said validator after the proposal entered voting period.
+* The _participant_ bonded or unbonded CANTO to said validator after the proposal entered voting period.
 * The _participant_ became a validator after the proposal entered voting period.
 
-This does not prevent _participants_ from voting with $CANTO bonded to other validators. For example, if a _participant_ bonds some $CANTO to Validator A before a proposal entered voting period, and bonds more $CANTO to Validator B after a proposal entered voting period, only the vote bonded to Validator B will be forbidden.
+This does not prevent _participants_ from voting with CANTO bonded to other validators. For example, if a _participant_ bonds some CANTO to Validator A before a proposal entered voting period, and bonds more CANTO to Validator B after a proposal entered voting period, only the vote bonded to Validator B will be forbidden.
 
 ### Voting period <a href="#voting-period" id="voting-period"></a>
 

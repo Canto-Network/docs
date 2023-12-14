@@ -11,7 +11,7 @@ To create a lock, call the `createLock(uint256 _value)` payable method. The call
 **ethers.js**
 
 ```
-amount = ethers.utils.parseEther("100") // 100 $CANTO
+amount = ethers.utils.parseEther("100") // 100 CANTO
 await VotingEscrow.createLock(amount, { value: amount })
 ```
 
@@ -28,7 +28,7 @@ To add to your existing lock, call the `increaseAmount(uint256 _value)` payable 
 **ethers.js**
 
 ```
-amount = ethers.utils.parseEther("100") // 100 $CANTO
+amount = ethers.utils.parseEther("100") // 100 CANTO
 await VotingEscrow.increaseAmount(amount, { value: amount })
 ```
 
