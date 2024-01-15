@@ -15,15 +15,15 @@ All interest charged by the Accountant is earmarked for funding public goods. It
 
 NOTE is a fully immutable ERC-20 token backed by collateral lent to the CLM. It can can only be borrowed by users who post select collateral assets.
 
-At this time, eligible collateral assets are stablecoins USDC and USDT, and USYC – a tokenized treasury bill issued by [Hashnote](https://www.hashnote.com/).
+At this time, eligible collateral assets are short-term US treasury bill tokens USYC, fBILL, and ifBILL:
+
+| Token  | Issuer                                  |
+| ------ | --------------------------------------- |
+| USYC   | [Hashnote](https://www.hashnote.com/)   |
+| fBILL  | [FortunaFi](https://www.fortunafi.com/) |
+| ifBILL | [FortunaFi](https://www.fortunafi.com/) |
 
 For every NOTE in circulation, there is more than 1 USD worth of collateral held by the CLM.
-
-### Capital efficiency
-
-Canto Lending Market achieves superior capital efficiency by allowing stablecoin collateral backing NOTE to be lent out to other participants. For example, a DeFi participant can lend USDC to Canto Lending Market and then borrow NOTE. If the borrow rate for NOTE is less than the supply rate for USDC, that DeFi participant will be getting paid to hold NOTE on Canto.
-
-**Important:** Canto Lending Market will launch with conservative parameters. Over time, governance will be able to raise the capital efficiency of CLM to its full potential.
 
 ## Maintaining NOTE Price Stability <a href="#price-algorithm" id="price-algorithm"></a>
 
