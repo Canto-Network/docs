@@ -2,7 +2,7 @@
 
 With the [**canto.io**](https://canto.io/bridge) frontend, you can natively bridge to Canto from Ethereum, Cosmos Hub, and other IBC-enabled chains. Once bridged, you'll be able to move assets to the Canto EVM and begin interacting with Canto's Free Public Infrastructure and DApps.
 
-## Bridge Tokens From Ethereum
+## Bridge Tokens From Ethereum <a href="#from-ethereum" id="from-ethereum"></a>
 
 At present, the Ethereum bridge supports WETH, USDC, USDT, and wstETH transfers (via Gravity Bridge) as well as CANTO and cNOTE transfers (via LayerZero). To bridge assets from the Ethereum network to the Canto network, follow these steps:
 
@@ -18,7 +18,7 @@ When bridging to Canto for the first time, you will also be prompted to sign a m
 
 Assets bridged from Ethereum arrive on the Canto EVM after approximately 20 minutes.
 
-## Bridge IBC Tokens From Cosmos Chains
+## Bridge IBC Tokens From Cosmos Chains <a href="#from-cosmos" id="from-cosmos"></a>
 
 IBC transfers can be used to bridge selected assets including ATOM, GRAV, and OSMO to Canto from Cosmos Hub and other IBC-enabled chains.
 
