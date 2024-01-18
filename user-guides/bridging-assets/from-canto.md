@@ -14,6 +14,7 @@ ERC20 tokens like WETH, USDC, and USDT can be bridged from Canto to Ethereum via
 2. Select the Ethereum-native asset you wish to bridge and input the quantity.
 3. Choose a bridging speed and click `BRIDGE OUT`.
 4. Sign the messages in your Ethereum wallet.
+5. Between signing messages, accept the prompts to switch networks to Gravity Bridge and then back to Canto as they appear.
 
 <figure><img src="../../.gitbook/assets/bridge-out-v3.JPG" alt=""><figcaption></figcaption></figure>
 
