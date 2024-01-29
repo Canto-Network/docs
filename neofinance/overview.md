@@ -18,7 +18,7 @@ Purchasers of tokenized treasury bills can supply these assets to the [Canto Len
 
 cNOTE is a tokenized deposit of NOTE, and the primary productive asset in the Canto neofinance ecosystem. Any user can permissionlessly [supply NOTE](../user-guides/lending-and-borrowing.md#supplying-tokens) to the Canto Lending Market to obtain cNOTE.
 
-To ensure deep liquidity, liquidity mining incentives for a cNOTE <> USDC concentrated trading pool on Ambient Finance are [funded by Canto governance](https://canto.io/governance/proposal/121).
+To ensure deep liquidity, liquidity mining incentives are in place for cNOTE/USDC and NOTE/USDC concentrated trading pools on Ambient Finance, [funded by Canto governance](https://canto.io/governance/proposal/121).
 
 ## Neofinance Coordinator
 
