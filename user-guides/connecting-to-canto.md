@@ -21,7 +21,7 @@ Assuming you have already installed and configured [MetaMask](https://metamask.i
    **New RPC URL:** [https://canto.slingshot.finance](https://canto.slingshot.finance)\
    **Chain ID:** 7700\
    **Currency Symbol:** CANTO\
-   **Block Explorer URL:** [https://tuber.build/](https://tuber.build/)
+   **Block Explorer URL:** [https://www.oklink.com/canto](https://www.oklink.com/canto)
 
 <details>
 

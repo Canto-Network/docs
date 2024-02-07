@@ -10,7 +10,8 @@ Canto has a testnet network for development and testing purposes. To connect to 
 **New RPC URL:** `https://canto-testnet.plexnode.wtf`\
 **Chain ID:** 7701\
 **Currency Symbol:** CANTO\
-**Block Explorer URL:** [https://testnet.tuber.build/](https://testnet.tuber.build/) **Alternative Explorer URL:** [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
+**Block Explorer URL:** [https://testnet.tuber.build/](https://testnet.tuber.build/)\
+**Alternative Explorer URL:** [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
 
 ## Faucet
 

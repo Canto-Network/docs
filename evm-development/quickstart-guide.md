@@ -10,7 +10,7 @@ Smart contracts can be deployed using your Ethereum tooling of choice, including
 
 **Chain ID: 7700**
 
-_Explorer:_ [_https://tuber.build/_](https://tuber.build/)
+_Explorer:_ [_https://www.oklink.com/canto_](https://www.oklink.com/canto)
 
 <details>
 
@@ -45,9 +45,7 @@ Canto EVM and Native:
 
 **Chain ID**: **7701**
 
-_Explorer:_ [_https://testnet.tuber.build/_](https://testnet.tuber.build/)
-_Alternative Testnet Explorer URL:_ [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
-
+_Explorer:_ [_https://testnet.tuber.build/_](https://testnet.tuber.build/) _Alternative Testnet Explorer URL:_ [https://canto-test.dex.guru/](https://canto-test.dex.guru/)
 
 ## Libraries
 
