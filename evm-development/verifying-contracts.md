@@ -1,6 +1,6 @@
 # Verifying Contracts
 
-The contributor-operated block explorer at [https://tuber.build/](https://tuber.build/) supports contract verification, allowing you to share your smart contracts' source code, methods, and ABIs with users and developers through the explorer itself.
+The contributor-operated block explorer at [https://oklink.com/canto/](https://oklink.com/canto/) supports contract verification, allowing you to share your smart contracts' source code, methods, and ABIs with users and developers through the explorer itself.
 
 Another 3rd-party operated block explorer at [https://canto.dex.guru/](https://canto.dex.guru/) supports smart contract verification with a native UI for Sourcify.
 

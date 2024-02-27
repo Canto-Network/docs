@@ -18,9 +18,9 @@ The Celer bridging process is identical regardless of whether you are bridging t
 
 Celer supports the following assets on Canto:
 
-* [BNB](https://tuber.build/address/0xFb7F77faaA3b69ef4C15d6305C79AD92B387C89F)
-* [BUSD](https://tuber.build/address/0x381Ea7A7EE6a1e2982e01E7b6837f775a1a4B07F)
-* [WBTC](https://tuber.build/address/0x08638a74A8134c747Dce29B57472cc2B57F35653)
-* [IBEX](https://tuber.build/address/0xFbdd194376de19a88118e84E279b977f165d01b8)
+* [BNB](https://oklink.com/canto/address/0xFb7F77faaA3b69ef4C15d6305C79AD92B387C89F)
+* [BUSD](https://oklink.com/canto/address/0x381Ea7A7EE6a1e2982e01E7b6837f775a1a4B07F)
+* [WBTC](https://oklink.com/canto/address/0x08638a74A8134c747Dce29B57472cc2B57F35653)
+* [IBEX](https://oklink.com/canto/address/0xFbdd194376de19a88118e84E279b977f165d01b8)
 
 Liquidity for these tokens can be found within third-party DApps such as [Velocimeter](https://www.velocimeter.xyz/).
