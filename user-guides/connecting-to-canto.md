@@ -27,11 +27,8 @@ Assuming you have already installed and configured [MetaMask](https://metamask.i
 
 <summary>Alternative RPC URLs</summary>
 
+* [https://canto-rpc.ansybl.io](https://canto-rpc.ansybl.io)
 * [https://canto.gravitychain.io](https://canto.gravitychain.io)
-* [https://canto.neobase.one](https://canto.neobase.one)
-* [https://canto.evm.chandrastation.com](https://canto.evm.chandrastation.com)
-* [https://jsonrpc.canto.nodestake.top/](https://jsonrpc.canto.nodestake.top/)
-* [https://canto.dexvaults.com/](https://canto.dexvaults.com/)
 
 </details>
 
