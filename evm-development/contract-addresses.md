@@ -12,59 +12,59 @@ ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 
 ### ERC20 Tokens
 
-| Contract | Address                                                                                                              |
-| -------- | -------------------------------------------------------------------------------------------------------------------- |
+| Contract | Address                                                                                                                   |
+| -------- | ------------------------------------------------------------------------------------------------------------------------- |
 | NOTE     | [0x4e71A2E537B7f9D9413D3991D37958c0b5e1e503](https://oklink.com/canto/address/0x4e71A2E537B7f9D9413D3991D37958c0b5e1e503) |
 | WCANTO   | [0x826551890Dc65655a0Aceca109aB11AbDbD7a07B](https://oklink.com/canto/address/0x826551890Dc65655a0Aceca109aB11AbDbD7a07B) |
-| ETH      | 0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687                                                                           |
-| USDC     | 0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd                                                                           |
-| USDT     | 0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75                                                                           |
-| ATOM     | 0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265                                                                           |
-| USYC     | 0xFb8255f0De21AcEBf490F1DF6F0BDd48CC1df03B                                                                           |
-| fBILL    | 0x79ECCE8E2D17603877Ff15BC29804CbCB590EC08                                                                           |
-| ifBILL   | 0x45bafad5a6a531Bc18Cf6CE5B02C58eA4D20589b                                                                           |
+| ETH      | 0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687                                                                                |
+| USDC     | 0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd                                                                                |
+| USDT     | 0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75                                                                                |
+| ATOM     | 0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265                                                                                |
+| USYC     | 0xFb8255f0De21AcEBf490F1DF6F0BDd48CC1df03B                                                                                |
+| fBILL    | 0x79ECCE8E2D17603877Ff15BC29804CbCB590EC08                                                                                |
+| ifBILL   | 0x45bafad5a6a531Bc18Cf6CE5B02C58eA4D20589b                                                                                |
 
 ### Neofinance Coordinator
 
-| Contract        | Address                                                                                                              |
-| --------------- | -------------------------------------------------------------------------------------------------------------------- |
-| VotingEscrow    | [0x2fed02d6d50a8786D53F308024400fDAD275F57C](https://oklink.com/canto/address/0x2fed02d6d50a8786D53F308024400fDAD275F57C) |
-| GaugeController | [0x46970b45d114420A71A3d76AA6c398173118C2b8](https://oklink.com/canto/address/0x46970b45d114420A71A3d76AA6c398173118C2b8) |
-| LendingLedger   | [0x85156B45B3C0F40f724637ebfEB035aFB29BD083](https://oklink.com/canto/address/0x85156B45B3C0F40f724637ebfEB035aFB29BD083) |
+| Contract        | Address                                                                                                                       |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| VotingEscrow    | [0x2fed02d6d50a8786D53F308024400fDAD275F57C](https://oklink.com/canto/address/0x2fed02d6d50a8786D53F308024400fDAD275F57C)     |
+| GaugeController | [0x46970b45d114420A71A3d76AA6c398173118C2b8](https://oklink.com/canto/address/0x46970b45d114420A71A3d76AA6c398173118C2b8)     |
+| LendingLedger   | [0x831F746D3b0137B0F3311013e95842cf60Fa44Ed](https://www.oklink.com/canto/address/0x46970b45d114420a71a3d76aa6c398173118c2b8) |
 
 ### Accountant
 
-| Contract            | Address                                                                                                              |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Contract            | Address                                                                                                                   |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | AccountantDelegate  | [0xC0ce8477c81A9F6C972976440C7b3305C37432f3](https://oklink.com/canto/address/0xC0ce8477c81A9F6C972976440C7b3305C37432f3) |
 | AccountantDelegator | [0x4F6DCfa2F69AF7350AAc48D3a3d5B8D03b5378AA](https://oklink.com/canto/address/0x4F6DCfa2F69AF7350AAc48D3a3d5B8D03b5378AA) |
 
 ### Canto DEX
 
-| Contract       | Address                                                                                                              |
-| -------------- | -------------------------------------------------------------------------------------------------------------------- |
-| BaseV1Factory  | 0xE387067f12561e579C5f7d4294f51867E0c1cFba                                                                           |
+| Contract       | Address                                                                                                                   |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| BaseV1Factory  | 0xE387067f12561e579C5f7d4294f51867E0c1cFba                                                                                |
 | BaseV1Router01 | [0xa252eEE9BDe830Ca4793F054B506587027825a8e](https://oklink.com/canto/address/0xa252eEE9BDe830Ca4793F054B506587027825a8e) |
-| CantoNoteLP    | 0x1D20635535307208919f0b67c3B2065965A85aA9                                                                           |
-| CantoAtomLP    | 0x30838619C55B787BafC3A4cD9aEa851C1cfB7b19                                                                           |
-| NoteUSDTLP     | 0x35DB1f3a6A6F07f82C76fCC415dB6cFB1a7df833                                                                           |
-| NoteUSDCLP     | 0x9571997a66D63958e1B3De9647C22bD6b9e7228c                                                                           |
-| CantoETHLP     | 0x216400ba362d8FCE640085755e47075109718C8B                                                                           |
+| CantoNoteLP    | 0x1D20635535307208919f0b67c3B2065965A85aA9                                                                                |
+| CantoAtomLP    | 0x30838619C55B787BafC3A4cD9aEa851C1cfB7b19                                                                                |
+| NoteUSDTLP     | 0x35DB1f3a6A6F07f82C76fCC415dB6cFB1a7df833                                                                                |
+| NoteUSDCLP     | 0x9571997a66D63958e1B3De9647C22bD6b9e7228c                                                                                |
+| CantoETHLP     | 0x216400ba362d8FCE640085755e47075109718C8B                                                                                |
 
 ### Ambient Finance
 
-| Contract    | Address                                                                                                              |
-| ----------- | -------------------------------------------------------------------------------------------------------------------- |
+| Contract    | Address                                                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------- |
 | CrocSwapDex | [0x9290C893ce949FE13EF3355660d07dE0FB793618](https://oklink.com/canto/address/0x9290C893ce949FE13EF3355660d07dE0FB793618) |
 
 ### Canto Lending Market
 
-| Contract     | Address                                                                                                              |
-| ------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Contract     | Address                                                                                                                   |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------- |
 | Unitroller   | [0x5E23dC409Fc2F832f83CEc191E245A191a4bCc5C](https://oklink.com/canto/address/0x5E23dC409Fc2F832f83CEc191E245A191a4bCc5C) |
 | Comptroller  | [0xD5DbF5cd90f158597f916591dBaDDe27E4A4d4Cf](https://oklink.com/canto/address/0xD5DbF5cd90f158597f916591dBaDDe27E4A4d4Cf) |
-| cUSYC        | [0x0355E393cF0cf5486D9CAefB64407b7B1033C2f1](https://oklink.com/canto/address/0x0355E393cF0cf5486D9CAefB64407b7B1033C2f1)   |
-| cfBILL       | [0xF1F89dF149bc5f2b6B29783915D1F9FE2d24459c](https://oklink.com/canto/address/0xF1F89dF149bc5f2b6B29783915D1F9FE2d24459c)   |
+| cUSYC        | [0x0355E393cF0cf5486D9CAefB64407b7B1033C2f1](https://oklink.com/canto/address/0x0355E393cF0cf5486D9CAefB64407b7B1033C2f1) |
+| cfBILL       | [0xF1F89dF149bc5f2b6B29783915D1F9FE2d24459c](https://oklink.com/canto/address/0xF1F89dF149bc5f2b6B29783915D1F9FE2d24459c) |
 | cifBILL      | [0x897709FC83ba7a4271d22Ed4C01278cc1Da8d6F8](https://oklink.com/canto/address/0x897709FC83ba7a4271d22Ed4C01278cc1Da8d6F8) |
 | cNOTE        | [0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C](https://oklink.com/canto/address/0xEe602429Ef7eCe0a13e4FfE8dBC16e101049504C) |
 | cCANTO       | [0xB65Ec550ff356EcA6150F733bA9B954b2e0Ca488](https://oklink.com/canto/address/0xB65Ec550ff356EcA6150F733bA9B954b2e0Ca488) |
@@ -80,20 +80,20 @@ ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 
 ### GovShuttle Module
 
-| Contract | Address                                                                                                              |
-| -------- | -------------------------------------------------------------------------------------------------------------------- |
+| Contract | Address                                                                                                                   |
+| -------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Port     | [0x648a5Aa0C4FbF2C1CF5a3B432c2766EeaF8E402d](https://oklink.com/canto/address/0x648a5Aa0C4FbF2C1CF5a3B432c2766EeaF8E402d) |
 
 ### Contract Secured Revenue (CSR)
 
-| Contract  | Address                                                                                                              |
-| --------- | -------------------------------------------------------------------------------------------------------------------- |
+| Contract  | Address                                                                                                                   |
+| --------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Turnstile | [0xEcf044C5B4b867CFda001101c617eCd347095B44](https://oklink.com/canto/address/0xEcf044C5B4b867CFda001101c617eCd347095B44) |
 
 ### Multicall
 
-| Contract   | Address                                                                                                              |
-| ---------- | -------------------------------------------------------------------------------------------------------------------- |
+| Contract   | Address                                                                                                                   |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Multicall1 | [0x210b88d5Ad4BEbc8FAC4383cC7F84Cd4F03d18c6](https://oklink.com/canto/address/0x210b88d5Ad4BEbc8FAC4383cC7F84Cd4F03d18c6) |
 | Multicall2 | [0x637490E68AA50Ea810688a52D7464E10c25A77c1](https://oklink.com/canto/address/0x637490E68AA50Ea810688a52D7464E10c25A77c1) |
 | Multicall3 | [0xcA11bde05977b3631167028862bE2a173976CA11](https://oklink.com/canto/address/0xcA11bde05977b3631167028862bE2a173976CA11) |
@@ -168,8 +168,8 @@ These contract addresses are for contracts deployed to the [new Canto testnet](t
 
 ### Multicall
 
-| Contract   | Address                                                                                                                      |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Contract   | Address                                                                                                                           |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Multicall1 | [0xe536cF7B00069894da25faC787d7aD9D211a2C1A](https://testnet.oklink.com/canto/address/0xe536cF7B00069894da25faC787d7aD9D211a2C1A) |
 | Multicall2 | [0x0e356B86FA2aE1bEB93174C18AD373207a40F2A3](https://testnet.oklink.com/canto/address/0x0e356B86FA2aE1bEB93174C18AD373207a40F2A3) |
 | Multicall3 | [0xcA11bde05977b3631167028862bE2a173976CA11](https://testnet.oklink.com/canto/address/0xcA11bde05977b3631167028862bE2a173976CA11) |
