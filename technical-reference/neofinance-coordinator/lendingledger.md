@@ -24,16 +24,22 @@ cast send --ledger 0x... "sync_ledger(address,int256)" 0x... 1000000000000000000
 
 ### Claiming <a href="#claiming" id="claiming"></a>
 
-To claim incentives, call the `claim(address _market, uint256 _claimFromTimestamp, uint256 _claimUpToTimestamp)` method. The address is that of the market and the two uint256 parameters represent from and to timestamps.
+To claim incentives, call the `claim(address _market)` method. Previously, incentives could only be claimed for past epochs; however, incentives are now claimed for all epochs including partial incentives for the current epoch.
 
 **ethers.js**
 
 ```
-await LendingLedger.claim(0x..., 0, ethers.constants.MaxUint256) // Claim all incentives
+await LendingLedger.claim(0x...) // Claim all incentives
 ```
 
 **foundry**
 
 ```
-cast send --ledger 0x... "claim(address,uint256,uint256)" 0x... 0 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+cast send --ledger 0x... "claim(address)" 0x...
 ```
+
+### Secondary Rewards
+
+Third-party lending markets can use `LendingLedger`'s deposit tracking to implement secondary token rewards, e.g. lending market governance tokens.
+
+Within the`userInfo` mapping, lending market addresses map to user addresses, which in turn map to `UserInfo` structs. `UserInfo.secRewardDebt` is the amount of secondary rewards the user is entitled to.

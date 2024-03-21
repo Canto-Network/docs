@@ -30,6 +30,8 @@ Mainnet deployment
 
 Holds incentives received from Canto governance and continuously tracks balances on whitelisted third-party lending markets, allowing liquidity providers to claim incentives proportionally to their balance at a given epoch.
 
+Additionally, implements a view third-party lending markets can use to distribute secondary token rewards.
+
 {% embed url="https://www.oklink.com/canto/address/0x831f746d3b0137b0f3311013e95842cf60fa44ed" %}
 Mainnet deployment
 {% endembed %}
