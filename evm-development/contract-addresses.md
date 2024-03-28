@@ -30,7 +30,7 @@ ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | VotingEscrow    | [0x2fed02d6d50a8786D53F308024400fDAD275F57C](https://oklink.com/canto/address/0x2fed02d6d50a8786D53F308024400fDAD275F57C)     |
 | GaugeController | [0x46970b45d114420A71A3d76AA6c398173118C2b8](https://oklink.com/canto/address/0x46970b45d114420A71A3d76AA6c398173118C2b8)     |
-| LendingLedger   | [0x831F746D3b0137B0F3311013e95842cf60Fa44Ed](https://www.oklink.com/canto/address/0x46970b45d114420a71a3d76aa6c398173118c2b8) |
+| LendingLedger   | [0x831F746D3b0137B0F3311013e95842cf60Fa44Ed](https://www.oklink.com/canto/address/0x831f746d3b0137b0f3311013e95842cf60fa44ed) |
 
 ### Accountant
 
