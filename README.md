@@ -8,7 +8,7 @@ At launch, Canto provides an EVM execution layer via [Ethermint](https://docs.et
 * [Canto Lending Market (CLM)](free-public-infrastructure-fpi/lending-market.md) — a pooled lending Compound v2 fork
 * [NOTE](free-public-infrastructure-fpi/note.md) — a fully collateralized unit of account token issued by the CLM which also serves the ecosystem as a USDC/USDT soft-pegged stablecoin
 
-**Over time we expect this stack to change significantly and new financial primitives to be added to best fulfil the Canto mission.**
+**Over time we expect this stack to change significantly and new financial primitives to be added to best fulfill the Canto mission.**
 
 ## Core Tenets
 
