@@ -5,7 +5,7 @@ Anyone can become a validator on Canto. In exchange for securing the network, va
 This section contains instructions on how to launch a validator node, as well as information and best practices on troubleshooting, slashing, and ensuring node uptime.
 
 {% hint style="info" %}
-For community troubleshooting and assistance, see the #validators channel in the [Canto Discord](https://discord.gg/canto).
+For community troubleshooting and assistance, see the #builders-chat channel in the [Canto Discord](https://discord.gg/canto).
 {% endhint %}
 
 ## Hosted Nodes

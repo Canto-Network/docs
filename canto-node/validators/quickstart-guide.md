@@ -2,7 +2,7 @@
 
 This page contains step-by-step instructions for launching a Canto validator node.
 
-Once you've set up your node, join the [Canto Network Validator Announcements channel](https://discord.com/channels/993968517906960445/995469213080752159/1071089114503462982) on Telegram to stay up-to-date with chain upgrades and other governance proposals.
+Once you've set up your node, join the [Canto Network Validator Announcements channel](https://t.me/+9J0at4wgRw1lMzAx) on Telegram to stay up-to-date with chain upgrades and other governance proposals.
 
 <details>
 
@@ -192,7 +192,7 @@ cantod tx staking create-validator \
 Your validator wallet must contain a non-zero amount of native CANTO in order to send the validator transaction. To get some, follow these steps:
 
 1. Run `cantod debug addr $(cantod keys show <key_name> -a)` to see your validator's Bech32 and 0x addresses.
-2. Send funds from a Canto EVM wallet to the 0x address shown, or request funds to that address from a faucet such as the #social-faucet in the [Canto Discord](https://discord.gg/canto).
+2. Send funds from a Canto EVM wallet to the 0x address shown
 3. Alternatively, ask a validator who already has native CANTO to send funds to the Bech32 Acc address.
 
 ## 9. Update Binary
