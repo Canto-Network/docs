@@ -49,7 +49,10 @@
 
 ## Technical Reference
 
-* [Application Specific Dollar](technical-reference/application-specific-dollar.md)
+* [Application Specific Dollar](technical-reference/application-specific-dollar/README.md)
+  * [asdOFT](technical-reference/application-specific-dollar/asdoft.md)
+  * [asdRouter](technical-reference/application-specific-dollar/asdrouter.md)
+  * [asdUSDC](technical-reference/application-specific-dollar/asdusdc.md)
 * [Neofinance Coordinator](technical-reference/neofinance-coordinator/README.md)
   * [VotingEscrow](technical-reference/neofinance-coordinator/votingescrow.md)
   * [GaugeController](technical-reference/neofinance-coordinator/gaugecontroller.md)
