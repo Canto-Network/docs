@@ -4,10 +4,10 @@ IBC tokens from Cosmos SDK chains such as ATOM, GRAV, and OSMO can only be bridg
 
 To retrieve these assets, use the IBC token recovery tool:
 
-<figure><img src="../.gitbook/assets/recovery.JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/recovery.JPG" alt=""><figcaption></figcaption></figure>
 
 1. Navigate to [**canto.io/bridge**](https://canto.io/bridge) and select the `recovery` tab. **This tab will only be visible if the connected wallet contains assets not supported by the Canto EVM.**
 2. Click the `recover` button next to the asset you would like to retrieve. Optionally, users can override which network the asset will be sent to, although this is not advised.
 3. In the modal that appears, enter your address on the receiving network and click `confirm`:
 
-<figure><img src="../.gitbook/assets/recovery-confirmation (2).JPG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/recovery-confirmation (2).JPG" alt=""><figcaption></figcaption></figure>

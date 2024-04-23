@@ -1,4 +1,4 @@
-# Token Economics
+# Tokenomics
 
 CANTO is the native token of the Canto network. It is used to pay gas fees for transactions and can also be [staked with validators](../user-guides/staking.md) to help secure the network.
 
@@ -11,7 +11,7 @@ The initial circulating supply of CANTO tokens is allocated as follows:
 * **130,000,000 CANTO (13%) for initial contributors**
 * **20,000,000 CANTO (2%)** **for Settlers of Canto** who took part in the launch of the testnet
 
-The remaining total supply of CANTO is allocated as follows, pursuant to governance votes by the Canto DAO:
+The remaining total supply of CANTO is allocated as follows, pursuant to governance votes:
 
 * **450,000,000 CANTO (45%) for long-term liquidity mining** to be distributed over the next 5-10 years
 * **350,000,000 CANTO (35%) for medium-term liquidity mining** to be distributed over the upcoming months and years

@@ -9,6 +9,7 @@
 ## Canto Neofinance <a href="#neofinance" id="neofinance"></a>
 
 * [Overview](neofinance/overview.md)
+* [Application Specific Dollar](neofinance/application-specific-dollar.md)
 
 ## User Guides
 
@@ -48,19 +49,20 @@
 
 ## Technical Reference
 
+* [Application Specific Dollar](technical-reference/application-specific-dollar.md)
 * [Neofinance Coordinator](technical-reference/neofinance-coordinator/README.md)
   * [VotingEscrow](technical-reference/neofinance-coordinator/votingescrow.md)
   * [GaugeController](technical-reference/neofinance-coordinator/gaugecontroller.md)
   * [LendingLedger](technical-reference/neofinance-coordinator/lendingledger.md)
-* [IBC Token Recovery](technical-reference/ibc-token-recovery.md)
-* [Token Economics](technical-reference/token-economics.md)
 * [Architecture & Design](technical-reference/architecture-and-design/README.md)
   * [Onboarding Module](technical-reference/architecture-and-design/onboarding-module.md)
   * [Gravity Bridge](technical-reference/architecture-and-design/gravity-bridge.md)
   * [NOTE Design](technical-reference/architecture-and-design/usdnote-design.md)
   * [Canto Lending Protocol](technical-reference/architecture-and-design/canto-lending-protocol.md)
+  * [IBC Token Recovery](technical-reference/architecture-and-design/ibc-token-recovery.md)
 * [Governance](technical-reference/governance/README.md)
   * [Governance Module](technical-reference/governance/governance-module.md)
   * [GovShuttle Module](technical-reference/governance/govshuttle-module.md)
   * [Lending Market Governance](technical-reference/governance/lending-market-governance.md)
+* [Tokenomics](technical-reference/token-economics.md)
 * [Audits](technical-reference/audits.md)
