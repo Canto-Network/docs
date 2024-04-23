@@ -16,10 +16,15 @@ The [`asdOFT` ](https://github.com/Plex-Engineer/ASD-V2/blob/main/contracts/asd/
 
 While asD tokens are native to Canto and can only be minted in exchange for NOTE, the [`asdRouter` ](https://github.com/Plex-Engineer/ASD-V2/blob/main/contracts/asd/asdRouter.sol)helper contract enables asD tokens to be minted from other chains with USDC deposits. This contract:
 
-* Receives bridged USDC
-* Wraps it into asdUSDC
-* Swaps for NOTE
-* Mints asD tokens on Canto
-* Sends them to a specified destination
+1. Wraps bridged USDC as asdUSDC
+2. Swaps asdUSDC for NOTE on Ambient
+3. Mints the specified asD token on Canto
+4. Sends the asD token to the destination chain and address
 
 The [`asdUSDC` ](https://github.com/Plex-Engineer/ASD-V2/blob/main/contracts/asd/asdUSDC.sol)wrapper contract is used to wrap whitelisted representations of USDC into a single Canto-native token, which has deep swap liquidity with NOTE. This enables compatibility with various representations of USDC, such as USDC.e.
+
+## Technical Reference
+
+{% content-ref url="../technical-reference/application-specific-dollar/" %}
+[application-specific-dollar](../technical-reference/application-specific-dollar/)
+{% endcontent-ref %}

@@ -1,6 +1,6 @@
 # asdOFT
 
-`asdOFT` is the standard contract for all asD tokens. It utilizes LayerZero's Omnichain Fungible Token (OFT) standard to enable bridging across supported networks.
+[`asdOFT`](https://github.com/Plex-Engineer/ASD-V2/blob/main/contracts/asd/asdOFT.sol) is the standard contract for all asD tokens. It utilizes LayerZero's Omnichain Fungible Token (OFT) standard to enable bridging across supported networks.
 
 ## Deployment
 
@@ -16,18 +16,14 @@ In order to deploy an asD token, simply deploy a new instance of `asdOFT` on Can
 
 ### `mint`
 
-The `mint(uint256)` method allows users to permisionlessly mint an asD token by depositing NOTE, which is automatically supplied to the Canto Lending Market.
+The `mint(uint256 _amount)` method allows users to permisionlessly mint an asD token by depositing NOTE, which is automatically supplied to the Canto Lending Market.
 
-The `uint256` parameter is the amount of tokens to mint. Before calling this method, a user must first approve the asD instance on the NOTE contract.
+Before calling this method, a user must first approve the contract to spend their NOTE.
 
 ### `burn`
 
-The `burn(uint256)` method allows holders of an asD token to burn the asD token, thereby withdrawing the underlying NOTE from the Canto Lending Market and returning it to the user.
-
-The `uint256` parameter is the amount of tokens to burn.
+The `burn(uint256 _amount)` method allows holders of an asD token to burn the asD token, thereby withdrawing the underlying NOTE from the Canto Lending Market and returning it to the user.
 
 ### `withdrawCarry`
 
-The `withdrawCarry(uint256)` method allows the owner of an asD token to withdraw carry (accrued interest) earned on NOTE backing that has been supplied to the Canto Lending Market. It ensures that a 1:1 NOTE:asD exchange rate is maintained after withdrawal.
-
-The `uint256` parameter is the amount of NOTE interest to withdraw.
+The `withdrawCarry(uint256 _amount)` method allows the owner of an asD token to withdraw carry (accrued interest) earned on NOTE backing that has been supplied to the Canto Lending Market. It ensures that a 1:1 NOTE:asD exchange rate is maintained after withdrawal.
