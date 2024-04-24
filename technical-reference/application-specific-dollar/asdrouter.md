@@ -6,7 +6,7 @@
 
 ## Minting
 
-To mint asD tokens from another network, the user should send USDC to the LayerZero endpoint on that network. The `_message` must be formatted as bytes with the form of the OFTComposeMessage struct:
+To mint asD tokens from another network, a user should first obtain a whitelisted USDC OFT on the origin network (by wrapping or swapping). Then call the [LayerZero `send` method](https://docs.layerzero.network/v2/developers/evm/oft/composing#sending-token) on the OFT passing the following struct (encoded as bytes) in the [`composeMsg` parameter](asdrouter.md#minting):
 
 ```solidity
 struct OftComposeMessage {
@@ -24,7 +24,7 @@ struct OftComposeMessage {
 
 ### `lzCompose`
 
-The `lzCompose(...)` method is called by the LayerZero executor when minting is initiated on another network. The calldata for this method is determined by the message sent on the origin chain, as described above.
+The `lzCompose(...)` method is called by the LayerZero executor when minting is initiated on another network. The calldata for this method is determined by the `composeMsg` parameter sent on the origin chain when USDC is sent, as described above.
 
 This method:
 

@@ -10,11 +10,18 @@
 
 To create an asD token, [deploy the `asdOFT` contract](asdoft.md#deployment) using your development tool of choice.
 
+To enable bridging of an asD token to other networks:
+
+* Deploy a [generic OFT](https://github.com/Plex-Engineer/ASD-V2/blob/main/contracts/asd/OFT.sol) on each network you wish to support.
+* [Call `setPeer` on all OFT deployments](https://docs.layerzero.network/v2/developers/evm/oft/quickstart#setting-trusted-peers) (including the asD token on Canto) to link them.
+
 ### Minting
 
 To mint an asD token, call the [mint](asdoft.md#mint) method on the asD token contract.
 
-To mint by depositing USDC from another network, [send USDC to the LayerZero endpoint](asdrouter.md#minting) on that network with the correct message.
+To mint by depositing USDC from another network, first obtain a whitelisted USDC OFT on the origin network (by wrapping or swapping). Then call the [LayerZero `send` method](https://docs.layerzero.network/v2/developers/evm/oft/composing#sending-token) on the OFT passing the [`composeMsg` paramater](asdrouter.md#minting).
+
+The `asdRouter` contract handles swapping USDC for NOTE, minting the asD token, and bridging it back to the specified network and address.
 
 ### Withdrawals
 
