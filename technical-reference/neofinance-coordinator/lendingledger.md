@@ -1,14 +1,17 @@
 # LendingLedger
 
-Third-party lending markets call `sync_ledger` on [`LendingLedger`](https://oklink.com/canto/address/0x85156B45B3C0F40f724637ebfEB035aFB29BD083) every time a user deposits or withdraws cNOTE. This enables Neofinance Coordinator to continuously track lending balances and allocate incentives accordingly.
+LP tokens on the Canto DEX and cNOTE deposits on third-party lending markets are continuously tracked by [`LendingLedger`](https://oklink.com/canto/address/0x85156B45B3C0F40f724637ebfEB035aFB29BD083).
 
-Additionally, users claim incentives from `LendingLedger`. This should be facilitated by a claiming interface on the lending market.
+* In the case of cNOTE deposits, third-party lending markets call `sync_ledger` every time a user deposits or withdraws cNOTE.
+* In the case of LP tokens, tokens should be wrapped in a [`LiquidityGauge`](https://docs.canto.io/technical-reference/neofinance-coordinator/liquiditygauge), which calls `sync_ledger` in the `_afterTokenTransfer` hook.
+
+Additionally, users claim incentives from `LendingLedger`.
 
 ### Syncing Ledger <a href="#syncing-ledger" id="syncing-ledger"></a>
 
-To sync the ledger, call the `sync_ledger(address _lender, int256 _delta)` method. The address is that of the user (liquidity provider) and the int256 is the amount of cNOTE deposited (positive) or withdrawn (negative) with 18 decimal places of precision.
+To sync the ledger, call the `sync_ledger(address _lender, int256 _delta)` method. The address is that of the user (liquidity provider) and the int256 is the amount of tokens deposited/received (positive) or withdrawn/sent (negative) with 18 decimal places of precision.
 
-**Important:** The `sync_ledger` method reverts if the caller is not a whitelisted lending market. As a result, this method should be wrapped in a try-catch block to ensure liquidity providers can still deposit/withdraw if a market is removed from the whitelist.
+**Important:** The `sync_ledger` method reverts if the caller is not a whitelisted lending market or `LiquidityGauge`. As a result, lending markets integrating Liquidity Coordinator should wrap this method in a try-catch block to ensure liquidity providers can still deposit/withdraw if their market is removed from the whitelist.
 
 **ethers.js**
 
@@ -40,6 +43,6 @@ cast send --ledger 0x... "claim(address)" 0x...
 
 ### Secondary Rewards
 
-Third-party lending markets can use `LendingLedger`'s deposit tracking to implement secondary token rewards, e.g. lending market governance tokens.
+Third-party protocols can use `LendingLedger`'s deposit tracking to implement secondary token rewards, e.g. lending market governance tokens.
 
 Within the`userInfo` mapping, lending market addresses map to user addresses, which in turn map to `UserInfo` structs. `UserInfo.secRewardDebt` is the amount of secondary rewards the user is entitled to.

@@ -1,14 +1,15 @@
-# Neofinance Coordinator
+# Liquidity Coordinator
 
-{% hint style="info" %}
-This protocol does not have a user interface. To be eligible for and claim incentives, supply cNOTE to whitelisted third-party lending markets such as [Vivacity Finance](https://vivacity.finance/).
-{% endhint %}
+Liquidity Coordinator, formerly Neofinance Coordinator, is a minimal protocol which incentivizes providing liquidity to Canto neofinance primitives.
 
-Neofinance Coordinator is a minimal protocol which incentivizes supplying cNOTE on third-party lending markets on the Canto blockchain. Within the protocol, CANTO is sourced from chain governance and distributed according to a vote locking mechanism.
+Rewards are sourced from network governance in the form of CANTO and distributed according to a vote locking mechanism to the following liquidity providers:
+
+* Suppliers of [cNOTE](../../neofinance/overview.md#cnote) on third-party lending markets (such as [Vivacity Finance](https://vivacity.finance/))
+* LPs of TOKEN/WCANTO pairs on the [Canto DEX](../../free-public-infrastructure-fpi/dex.md)&#x20;
 
 ## Architecture <a href="#architecture" id="architecture"></a>
 
-Neofinance Coordinator consists of three smart contracts:
+Liquidity Coordinator consists of four smart contracts:
 
 ### [`VotingEscrow`](votingescrow.md) <a href="#votingescrow" id="votingescrow"></a>
 
@@ -20,7 +21,9 @@ Mainnet deployment
 
 ### [`GaugeController`](./#gaugecontroller) <a href="#gaugecontroller" id="gaugecontroller"></a>
 
-Allows lockers to vote on gauges, which are liquidity pairs on Canto’s third-party lending markets. Voting takes place during one week epochs, after which CANTO incentives are allocated to pairs proportionally to votes.
+Allows lockers to vote on gauges, which represent LP tokens on the Canto DEX and/or cNOTE deposits on third-party lending markets. Voting takes place during one week epochs.
+
+Incentives are weighted by gauge types (as determined by governance) and subsequently allocated proportionally to votes.
 
 {% embed url="https://oklink.com/canto/address/0x46970b45d114420A71A3d76AA6c398173118C2b8" %}
 Mainnet deployment
@@ -28,10 +31,14 @@ Mainnet deployment
 
 ### [`LendingLedger`](./#lendingledger) <a href="#lendingledger" id="lendingledger"></a>
 
-Holds incentives received from Canto governance and continuously tracks balances on whitelisted third-party lending markets, allowing liquidity providers to claim incentives proportionally to their balance at a given epoch.
+Holds incentives received from Canto governance and continuously tracks balances of eligible LP tokens and cNOTE deposits, allowing liquidity providers to claim incentives proportionally to their balance at a given epoch.
 
 Additionally, implements a view third-party lending markets can use to distribute secondary token rewards.
 
 {% embed url="https://www.oklink.com/canto/address/0x831f746d3b0137b0f3311013e95842cf60fa44ed" %}
 Mainnet deployment
 {% endembed %}
+
+### [`LiquidityGauge`](https://docs.canto.io/technical-reference/neofinance-coordinator/liquiditygauge)
+
+Wraps LP tokens 1:1 to ensure balances can be tracked by `LendingLedger`.

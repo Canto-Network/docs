@@ -1,6 +1,6 @@
 # GaugeController
 
-Lockers vote on gauges using the [`GaugeController`](https://oklink.com/canto/address/0x46970b45d114420A71A3d76AA6c398173118C2b8) contract. Gauges represent cNOTE liquidity pairs on whitelisted third-party lending markets.
+Lockers vote on gauges using the [`GaugeController`](https://oklink.com/canto/address/0x46970b45d114420A71A3d76AA6c398173118C2b8) contract. Gauges represent LP tokens on the Canto DEX and/or cNOTE deposits on third-party lending markets.&#x20;
 
 Voting takes place during one week epochs.
 
