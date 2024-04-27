@@ -1,10 +1,10 @@
 # Table of contents
 
 * [What Is Canto?](README.md)
-* [Free Public Infrastructure](free-public-infrastructure-fpi/README.md)
-  * [NOTE](free-public-infrastructure-fpi/note.md)
-  * [Canto Lending Market](free-public-infrastructure-fpi/lending-market.md)
-  * [Canto DEX](free-public-infrastructure-fpi/dex.md)
+* [Free Public Infrastructure](free-public-infrastructure/README.md)
+  * [NOTE](free-public-infrastructure/note.md)
+  * [Canto Lending Market](free-public-infrastructure/lending-market.md)
+  * [Canto DEX](free-public-infrastructure/dex.md)
 
 ## Canto Neofinance <a href="#neofinance" id="neofinance"></a>
 

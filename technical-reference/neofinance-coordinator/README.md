@@ -5,7 +5,7 @@ Liquidity Coordinator, formerly Neofinance Coordinator, is a minimal protocol wh
 Rewards are sourced from network governance in the form of CANTO and distributed according to a vote locking mechanism to the following liquidity providers:
 
 * Suppliers of [cNOTE](../../neofinance/overview.md#cnote) on third-party lending markets (such as [Vivacity Finance](https://vivacity.finance/))
-* LPs of TOKEN/WCANTO pairs on the [Canto DEX](../../free-public-infrastructure-fpi/dex.md)&#x20;
+* LPs of TOKEN/WCANTO pairs on the [Canto DEX](../../free-public-infrastructure/dex.md)&#x20;
 
 ## Architecture <a href="#architecture" id="architecture"></a>
 

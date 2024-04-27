@@ -12,7 +12,7 @@ Neofinance on Canto revolves around a decentralized unit of account – NOTE –
 | fBILL  | [FortunaFi](https://www.fortunafi.com/) |
 | ifBILL | [FortunaFi](https://www.fortunafi.com/) |
 
-Purchasers of tokenized treasury bills can supply these assets to the [Canto Lending Market](../free-public-infrastructure-fpi/lending-market.md) and borrow NOTE against them, allowing them to achieve superior capital efficiency.
+Purchasers of tokenized treasury bills can supply these assets to the [Canto Lending Market](../free-public-infrastructure/lending-market.md) and borrow NOTE against them, allowing them to achieve superior capital efficiency.
 
 ## cNOTE <a href="#cnote" id="cnote"></a>
 

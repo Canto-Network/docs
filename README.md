@@ -4,9 +4,9 @@
 
 At launch, Canto provides an EVM execution layer via [Ethermint](https://docs.ethermint.zone/), secured by a Proof of Stake Cosmos SDK consensus layer, in addition to core [Free Public Infrastructure (FPI)](https://canto.gitbook.io/canto/welcome/how-does-canto-work/free-public-infrastructure-fpi) primitives. These primitives include:
 
-* [Canto DEX](free-public-infrastructure-fpi/dex.md) — a zero-fee DEX for liquidity providers
-* [Canto Lending Market (CLM)](free-public-infrastructure-fpi/lending-market.md) — a pooled lending Compound v2 fork
-* [NOTE](free-public-infrastructure-fpi/note.md) — a fully collateralized unit of account token issued by the CLM which also serves the ecosystem as a USDC/USDT soft-pegged stablecoin
+* [Canto DEX](free-public-infrastructure/dex.md) — a zero-fee DEX for liquidity providers
+* [Canto Lending Market (CLM)](free-public-infrastructure/lending-market.md) — a pooled lending Compound v2 fork
+* [NOTE](free-public-infrastructure/note.md) — a fully collateralized unit of account token issued by the CLM which also serves the ecosystem as a USDC/USDT soft-pegged stablecoin
 
 **Over time we expect this stack to change significantly and new financial primitives to be added to best fulfill the Canto mission.**
 
