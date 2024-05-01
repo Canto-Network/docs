@@ -84,7 +84,7 @@ ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 | -------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Port     | [0x648a5Aa0C4FbF2C1CF5a3B432c2766EeaF8E402d](https://oklink.com/canto/address/0x648a5Aa0C4FbF2C1CF5a3B432c2766EeaF8E402d) |
 
-### Contract Secured Revenue (CSR)
+### Contract Secured Revenue (CSR) <a href="#csr" id="csr"></a>
 
 | Contract  | Address                                                                                                                   |
 | --------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -104,7 +104,7 @@ ETH is an ERC20 token on the Canto EVM, so a wrapper is not needed.
 These contract addresses are for contracts deployed to the [new Canto testnet](testnet.md).
 {% endhint %}
 
-### ERC20 Tokens
+### ERC20 Tokens <a href="#testnet-erc20-tokens" id="testnet-erc20-tokens"></a>
 
 | Contract | Address                                    |
 | -------- | ------------------------------------------ |
@@ -115,7 +115,7 @@ These contract addresses are for contracts deployed to the [new Canto testnet](t
 | USDT     | 0x4fC30060226c45D8948718C95a78dFB237e88b40 |
 | ATOM     | 0x40E41DC5845619E7Ba73957449b31DFbfB9678b2 |
 
-### Neofinance Coordinator
+### Neofinance Coordinator <a href="#testnet-neofinance-coordinator" id="testnet-neofinance-coordinator"></a>
 
 | Contract        | Address                                    |
 | --------------- | ------------------------------------------ |
@@ -123,14 +123,14 @@ These contract addresses are for contracts deployed to the [new Canto testnet](t
 | GaugeController | 0xc0395538ee9144a2A3acc2C9AD6329bFFe12AF22 |
 | LendingLedger   | 0x94D288543c566Fc20d46A26be9c94Da79ebbcecD |
 
-### Accountant
+### Accountant <a href="#testnet-accountant" id="testnet-accountant"></a>
 
 | Contract            | Address                                    |
 | ------------------- | ------------------------------------------ |
 | AccountantDelegate  | 0x63c8FEb024D7aAf02c2DC21708f0E17EB0b03F67 |
 | AccountantDelegator | 0xdb91f7127Aa66855845696db77c37d1b6bEAd2db |
 
-### Canto DEX
+### Canto DEX <a href="#testnet-canto-dex" id="testnet-canto-dex"></a>
 
 | Contract       | Address                                    |
 | -------------- | ------------------------------------------ |
@@ -142,7 +142,7 @@ These contract addresses are for contracts deployed to the [new Canto testnet](t
 | NoteUSDCLP     | 0x2db30A39Ec88247da8906506DB8E9dd933A5C775 |
 | CantoETHLP     | 0x905D3d7F4C892d535160f1E2BA55f23Cd306718b |
 
-### Canto Lending Market
+### Canto Lending Market <a href="#testnet-canto-lending-market" id="testnet-canto-lending-market"></a>
 
 | Contract     | Address                                    |
 | ------------ | ------------------------------------------ |
@@ -160,13 +160,19 @@ These contract addresses are for contracts deployed to the [new Canto testnet](t
 | cNoteUSDCLP  | 0xB2C5512a8A70835Cb9aBe830C9e61FBDdcd1dC81 |
 | cCantoETHLP  | 0xf301c9d5804Fab3dd207ef75f78509db6393f37F |
 
-### Contract Secured Revenue (CSR)
+### GovShuttle Module <a href="#testnet-govshuttle-module" id="testnet-govshuttle-module"></a>
+
+| Contract | Address                                                                                                                   |
+| -------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Port     | [0x648a5Aa0C4FbF2C1CF5a3B432c2766EeaF8E402d](https://oklink.com/canto/address/0x648a5Aa0C4FbF2C1CF5a3B432c2766EeaF8E402d) |
+
+### Contract Secured Revenue (CSR) <a href="#testnet-csr" id="testnet-csr"></a>
 
 | Contract  | Address                                    |
 | --------- | ------------------------------------------ |
 | Turnstile | 0xEcf044C5B4b867CFda001101c617eCd347095B44 |
 
-### Multicall
+### Multicall <a href="#testnet-multicall" id="testnet-multicall"></a>
 
 | Contract   | Address                                                                                                                           |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
