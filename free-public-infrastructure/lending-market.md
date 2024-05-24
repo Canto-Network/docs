@@ -6,7 +6,7 @@ As long as liquidity mining incentives are provided to Canto stakers, CLM will a
 
 ## Using Canto Lending Market
 
-A user interface for supplying assets to and borrowing assets from the Canto Lending Market is available at [canto.io/lending](https://canto.io/lending), although the underlying contracts can easily be integrated with other frontends and smart contract protocols.
+A user interface for supplying assets to and borrowing assets from the Canto Lending Market is available at [app.canto.io/lending](https://app.canto.io/lending), although the underlying contracts can easily be integrated with other frontends and smart contract protocols.
 
 In addition to supporting Canto's [neofinance](../neofinance/overview.md) ecosystem by supplying RWAs and/or cNOTE, users can deposit LP tokens to the lending market to earn incentives.
 

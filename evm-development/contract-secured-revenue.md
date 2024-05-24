@@ -2,7 +2,7 @@
 
 Canto implements a fee split model called Contract Secured Revenue, or CSR, by means of the [`x/CSR`](https://github.com/Canto-Network/Canto/tree/csr/x/csr) module. CSR allows you to claim a percentage of all transaction fees paid by users when interacting with your smart contracts.
 
-CSR was added in the Canto v5.0.0 chain upgrade with an initial fee split of 20%, following a successful [governance proposal](https://canto.io/governance/proposal/41).
+CSR was added in the Canto v5.0.0 chain upgrade with an initial fee split of 20%, following a successful [governance proposal](https://app.canto.io/governance/proposal/41).
 
 ## Overview
 

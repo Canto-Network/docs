@@ -1,12 +1,12 @@
 # Lending & Borrowing
 
-The Canto Lending Market at [**canto.io/lending**](https://canto.io/lending) allows users to lend and borrow assets. Currently, USDC, USDT, and NOTE can be supplied to and borrowed from the Canto Lending Market. Additionally, [USYC](https://docs.canto.io/neofinance/overview#rwas) can be supplied.
+The Canto Lending Market at [**app.canto.io/lending**](https://app.canto.io/lending) allows users to lend and borrow assets. Currently, USDC, USDT, and NOTE can be supplied to and borrowed from the Canto Lending Market. Additionally, [USYC](https://docs.canto.io/neofinance/overview#rwas) can be supplied.
 
 ## Supplying Tokens
 
 To supply an asset to the Canto Lending Market, follow these steps:
 
-1. On the [**canto.io/lending**](https://canto.io/lending) homepage, click `SUPPLY NOTE`. For other assets, click `Supply` in the `RWAs` or `Stablecoins` tab.
+1. On the [**app.canto.io/lending**](https://app.canto.io/lending) homepage, click `SUPPLY NOTE`. For other assets, click `Supply` in the `RWAs` or `Stablecoins` tab.
 2. Enter the quantity of the asset. If necessary, approve the token's transfer.
 3. Click `Confirm` and confirm the transaction in your wallet.
 
@@ -18,7 +18,7 @@ Once the transaction has been mined, asset-specific cTokens will be minted to yo
 
 To withdraw a supplied asset from the Canto Lending Market, follow these steps:
 
-1. On the [**canto.io/lending**](https://canto.io/lending) homepage, click `SUPPLY NOTE`. For other assets, click `Supply` in the `RWAs` or `Stablecoins` tab.
+1. On the [**app.canto.io/lending**](https://app.canto.io/lending) homepage, click `SUPPLY NOTE`. For other assets, click `Supply` in the `RWAs` or `Stablecoins` tab.
 2. Switch to the `Withdraw` tab and enter the quantity of the asset you wish to withdraw.
 3. Click `Confirm` and confirm the transaction in your wallet.
 
@@ -28,7 +28,7 @@ If you have open borrow positions, note that you will not be able to withdraw if
 
 In order to borrow an asset, there must be enough supply in the Canto Lending Market to borrow against. To do so, follow these steps:
 
-1. On the [**canto.io/lending**](https://canto.io/lending) homepage, click `BORROW NOTE`. For other assets, click `Borrow` in the `Stablecoins` tab.
+1. On the [**app.canto.io/lending**](https://app.canto.io/lending) homepage, click `BORROW NOTE`. For other assets, click `Borrow` in the `Stablecoins` tab.
 2. Enter the quantity of the asset you wish to borrow.
 3. Click `Confirm` and confirm the transaction in your wallet.
 
@@ -40,6 +40,6 @@ Note that it is possible to manually enter a borrow amount whereby the `borrow l
 
 To repay a borrowed asset, follow these steps:
 
-1. On the [**canto.io/lending**](https://canto.io/lending) homepage, click `BORROW NOTE`. For other assets, click `Borrow` in the `Stablecoins` tab.
+1. On the [**app.canto.io/lending**](https://app.canto.io/lending) homepage, click `BORROW NOTE`. For other assets, click `Borrow` in the `Stablecoins` tab.
 2. Switch to the `Repay` tab and enter the quantity of the asset you wish to repay.
 3. Click `Confirm` and confirm the transaction in your wallet.

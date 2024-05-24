@@ -3,7 +3,7 @@
 **As an EVM-compatible chain, you can connect to the Canto network using any Ethereum wallet.**
 
 {% hint style="info" %}
-While Canto itself is compatible with all Ethereum wallets, the [**canto.io**](https://canto.io/) interface is only compatible with injected wallets such as MetaMask and others listed on this page.
+While Canto itself is compatible with all Ethereum wallets, the [**app.canto.io**](https://app.canto.io/) interface is only compatible with injected wallets such as MetaMask and others listed on this page.
 {% endhint %}
 
 ## With MetaMask
@@ -62,11 +62,11 @@ Canto EVM and Native:
 
 After saving the network, you will be able to connect to it at any time using the dropdown menu.
 
-If you skip this step and attempt to connect to applications on [**canto.io**](https://canto.io/), a MetaMask prompt will appear allowing you to add the network with a single click.
+If you skip this step and attempt to connect to applications on [**app.canto.io**](https://app.canto.io/), a MetaMask prompt will appear allowing you to add the network with a single click.
 
 ## Other Wallets
 
-The Canto network and [**canto.io**](https://canto.io/) interface are compatible with other injected wallets, such as the following:
+The Canto network and [**app.canto.io**](https://app.canto.io/) interface are compatible with other injected wallets, such as the following:
 
 ### Enkrypt
 

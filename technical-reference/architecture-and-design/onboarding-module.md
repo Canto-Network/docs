@@ -2,7 +2,7 @@
 
 The `x/onboarding` module is a custom Canto module that automatically swaps a small amount of bridged IBC tokens for CANTO, and converts the remaining IBC tokens into their corresponding ERC20 tokens on the Canto EVM.
 
-It was proposed in [CPIP-002](https://github.com/Canto-Network/CIPs/blob/main/CPIPS/CPIP-002.md) in order to improve the Canto onboarding UX from Ethereum, and later implemented in [Canto v7.0.0](https://canto.io/governance/proposal/113).
+It was proposed in [CPIP-002](https://github.com/Canto-Network/CIPs/blob/main/CPIPS/CPIP-002.md) in order to improve the Canto onboarding UX from Ethereum, and later implemented in [Canto v7.0.0](https://app.canto.io/governance/proposal/113).
 
 ### Overview
 

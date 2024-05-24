@@ -2,7 +2,7 @@
 
 ## Canto.io
 
-The [**canto.io/bridge**](https://canto.io/bridge) frontend allows you to bridge assets in and out of Canto from Ethereum, Cosmos Hub, and other IBC-enabled chains. Under the hood, it is powered by Gravity Bridge, LayerZero, and IBC, depending on the asset being bridged.
+The [**canto.io/bridge**](https://app.canto.io/bridge) frontend allows you to bridge assets in and out of Canto from Ethereum, Cosmos Hub, and other IBC-enabled chains. Under the hood, it is powered by Gravity Bridge, LayerZero, and IBC, depending on the asset being bridged.
 
 For more information about using the frontend, see the following pages:
 

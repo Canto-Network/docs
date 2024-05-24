@@ -1,15 +1,15 @@
 # Providing Liquidity
 
-The [**canto.io**](https://canto.io/) frontend offers two interfaces for providing liquidity on the Canto DEX and Ambient:
+The [**app.canto.io**](https://app.canto.io/) frontend offers two interfaces for providing liquidity on the Canto DEX and Ambient:
 
-* [**canto.io/lp**](https://canto.io/lp) – for incentivized pairs
+* [**app.canto.io/lp**](https://app.canto.io/lp) – for incentivized pairs
 * [**pools.canto.io**](https://pools.canto.io/) – for all other pairs
 
 {% hint style="info" %}
 To swap tokens through the Canto DEX or Ambient, use a third-party frontend or aggregator such as [Slingshot](https://app.slingshot.finance/trade/ETH).
 {% endhint %}
 
-## [canto.io/lp](https://canto.io/lp)
+## [app.canto.io/lp](https://app.canto.io/lp)
 
 This interface is used to provide liquidity to any of Canto's incentivized liquidity pools. At the time of writing, these include the following:
 
