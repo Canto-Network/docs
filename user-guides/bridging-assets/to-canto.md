@@ -1,6 +1,6 @@
 # Bridging to Canto
 
-With the [**canto.io**](https://app.canto.io/bridge) frontend, you can natively bridge to Canto from Ethereum, Cosmos Hub, and other IBC-enabled chains. Once bridged, you'll be able to move assets to the Canto EVM and begin interacting with Canto's Free Public Infrastructure and DApps.
+With the [**app.canto.io**](https://app.canto.io/bridge) frontend, you can natively bridge to Canto from Ethereum, Cosmos Hub, and other IBC-enabled chains. Once bridged, you'll be able to move assets to the Canto EVM and begin interacting with Canto's Free Public Infrastructure and DApps.
 
 ## Bridge Tokens From Ethereum <a href="#from-ethereum" id="from-ethereum"></a>
 
@@ -22,7 +22,7 @@ Assets bridged from Ethereum arrive on the Canto EVM after approximately 20 minu
 
 IBC transfers can be used to bridge selected assets including ATOM, GRAV, and OSMO to Canto from Cosmos Hub and other IBC-enabled chains.
 
-**To ensure the assets you bridge in can be used on the Canto EVM, use the** [**canto.io**](https://app.canto.io/bridge) **frontend to initiate IBC transfers:**
+**To ensure the assets you bridge in can be used on the Canto EVM, use the** [**app.canto.io**](https://app.canto.io/bridge) **frontend to initiate IBC transfers:**
 
 1. Navigate to [**app.canto.io/bridge**](https://app.canto.io/bridge) and connect your MetaMask wallet on the Ethereum network.
 2. Select the IBC token you would like to bridge. This will prompt a Keplr popup asking you to unlock your wallet, connect to the token's native network, and add the Canto network (if necessary).
