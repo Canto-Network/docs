@@ -70,3 +70,5 @@
   * [Lending Market Governance](technical-reference/governance/lending-market-governance.md)
 * [Tokenomics](technical-reference/token-economics.md)
 * [Audits](technical-reference/audits.md)
+* [Indexers](technical-reference/indexers/README.md)
+  * [SubQuery](technical-reference/indexers/subquery.md)
